@@ -1,0 +1,6 @@
+sku_id,beer,pack,units,litres_per_unit,abv,net_price_per_hl,unit_cost,carton_cost,bulk_litres_case,hl_case,dmc_case
+SKU1,Kestrel Lager,12 x 650 ml bottle,12,0.65,5.3,12600,18.0,30.0,7.8,0.078,982.8
+SKU2,Kestrel Lager,24 x 330 ml bottle,24,0.33,5.3,12600,10.8,35.0,7.92,0.0792,997.92
+SKU3,Kestrel Lager,24 x 330 ml can,24,0.33,5.3,12600,12.6,20.0,7.92,0.0792,997.92
+SKU4,Kestrel Stout,12 x 650 ml bottle,12,0.65,5.7,15300,18.0,30.0,7.8,0.078,1193.4
+SKU5,Kestrel Pale Ale,12 x 650 ml bottle,12,0.65,5.8,16200,18.0,30.0,7.8,0.078,1263.6

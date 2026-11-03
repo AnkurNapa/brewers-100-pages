@@ -1,0 +1,7 @@
+sop_id,section,title,text
+CIP-01,2,Fermenter CIP,"Caustic at 1.5 percent and 70 C for 30 minutes, then rinse and acid at 1.0 percent."
+CIP-01,3,Fermenter CIP,"Verify the return temperature reaches 68 C. If not, rerun the caustic step and log it."
+YST-02,1,Yeast pitching,Pitch at 10 million cells per mL at 12 P. Check viability above 90 percent before pitching.
+PKG-04,2,Filler start up,Check fill heights on every head in the first ten minutes. Lower limit 495 ml for a 500 ml pack.
+SAF-01,1,Confined space,A fermenter is a confined space. Entry only under a permit to work with a standby person.
+QA-07,1,Batch release,Release is a decision by the quality lead on lab results. No tool or assistant releases a batch.

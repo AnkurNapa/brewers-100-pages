@@ -1,0 +1,189 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>No. 04 The Brewer&#x27;s Chart Field Guide</title><style>
+body { margin: 0; font: 17px/1.55 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; color: #161616; background: #f7f4ec; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+h1, h2, h3 { font-family: 'DIN Condensed', Impact, sans-serif; letter-spacing: .5px; line-height: 1.05; }
+h1 { font-size: 46px; margin: 0 0 8px; } h2 { font-size: 28px; margin-top: 32px; }
+a { color: inherit; } code, pre { font: 14px Menlo, monospace; } pre { overflow-x: auto; background: #fff; padding: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; } th, td { border-bottom: 1px solid #ccc; padding: 6px; text-align: left; }
+.band { color: #fff; padding: 28px 20px; } .band main { padding: 0 20px; }
+.shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; padding: 0; list-style: none; }
+.shelf a { display: block; padding: 18px; min-height: 150px; text-decoration: none; color: #fff; }
+.shelf b { display: block; font: 30px/1 'DIN Condensed', Impact, sans-serif; margin: 6px 0; }
+.small { font-size: 14px; color: #555; }
+</style></head><body><div class="band" style="background:#0062b8"><main><div class="small" style="color:#fff">THE BREWER'S 100 PAGES</div><h1>No. 04 The Brewer&#x27;s Chart Field Guide</h1></main></div><main><p><a href="../">All seven books</a> / <a href="errata.html">Errata</a> / <a href="../rates.html">Exchange rates</a> / <a href="PROMISES.md">What the book promises, file by file</a></p><h1>The Brewer's Chart Field Guide: companion files</h1>
+<p>The working files for <em>The Brewer's Chart Field Guide</em>. Every figure is Kestrel Brewing, the synthetic brewery of the series. No real plant numbers, no client names and no vendor prices appear.</p>
+<h2>How to run it</h2>
+<pre><code>pip install -r requirements.txt
+python3 make_data.py
+python3 check_numbers.py
+</code></pre>
+<p><code>make_data.py</code> writes every CSV in <code>data/</code> from fixed seeds. <code>check_numbers.py</code> asserts the numbers the book prints from this data (110 checks); it also rebuilds the DAX known answers of Appendix B and the KQL golden band in pandas.</p>
+<p>Open the notebooks in Jupyter from the <code>notebooks/</code> folder; they read <code>../data/</code>.</p>
+<h2>Chapter by chapter</h2>
+<table>
+<thead>
+<tr>
+<th>Chapter</th>
+<th>File</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td><code>notebooks/ch02-three-ways.ipynb</code></td>
+<td>"Is tank F07 behaving?" drawn by calendar date, by batch hour and as small multiples (matplotlib and pandas plotting)</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>notebooks/ch03-seven-lies.ipynb</code></td>
+<td>The seven lies drawn before and after</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>notebooks/ch04-row-counts.ipynb</code></td>
+<td>Row count, key and key check of every table, then a repeat made on purpose</td>
+</tr>
+<tr>
+<td>5, B.2, B.12</td>
+<td><code>data/Fill.csv</code>, <code>data/HourlyGravity.csv</code>, <code>data/Readings.csv</code></td>
+<td>The twelve pale ale fills: the band at hour 72 is 3.30 to 3.86 with a median of 3.60</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>notebooks/ch06-control-chart.ipynb</code></td>
+<td>The individuals chart, CUSUM and EWMA on the forty lager fills, plus Cp, Cpk, Pp and Ppk</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>notebooks/ch07-loss-waterfall.ipynb</code></td>
+<td>The stage table, the waterfall from cast to dispatch, the reconcile check, the Pareto and brewhouse yield</td>
+</tr>
+<tr>
+<td>8, B.6</td>
+<td><code>data/Run.csv</code>, <code>data/Stop.csv</code></td>
+<td>Ten four hour runs on the can line: OEE 73.7 percent; small stops by hour into the run</td>
+</tr>
+<tr>
+<td>9, B.9</td>
+<td><code>data/Sales.csv</code>, <code>data/Sku.csv</code>, <code>data/Depletions.csv</code></td>
+<td>March and April by SKU, account and channel; the margin bridge from 666,300 to 667,200</td>
+</tr>
+<tr>
+<td>11, 15</td>
+<td><code>data/Fill.csv</code></td>
+<td>The 2026 fill schedule: 174 fills, 4,653 of 5,475 tank days (85 percent)</td>
+</tr>
+<tr>
+<td>12, B.10</td>
+<td><code>data/Link.csv</code>, <code>data/Lab.csv</code></td>
+<td>The genealogy of F07-26-034 and F09-26-036 into two bright tanks and two pack lots</td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>notebooks/ch13-limits-reconcile.ipynb</code></td>
+<td>Mean FG at fill 5 and fill 35, the flat limits and the 370 hL reconcile</td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>notebooks/ch14-visual-lint.ipynb</code></td>
+<td>Reads a report definition and lists visuals without a title or an axis unit</td>
+</tr>
+<tr>
+<td>15</td>
+<td><code>notebooks/ch15-trust-checks.ipynb</code></td>
+<td>The four Kestrel trust checks, printed PASS or FAIL; the F11 dropout fails on purpose</td>
+</tr>
+<tr>
+<td>Appendix B</td>
+<td><code>dax/*.dax</code>, <code>kql/*.kql</code></td>
+<td>The ten DAX patterns and two KQL queries, exactly as the book prints them</td>
+</tr>
+</tbody>
+</table>
+<h2>The tables</h2>
+<p>Names follow Appendix B.1. Chapter 12 calls the same data by role; the map is below.</p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>One row is</th>
+<th>Chapter 12 role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Readings.csv</code></td>
+<td>one tag reading on one tank (gravity every 10 minutes on the reference fills; temperature every minute on 14 April 2026)</td>
+<td>fact_sensor</td>
+</tr>
+<tr>
+<td><code>Lab.csv</code></td>
+<td>one result for one analyte on one sample</td>
+<td>fact_lab</td>
+</tr>
+<tr>
+<td><code>Brew.csv</code>, <code>Fill.csv</code>, <code>Link.csv</code></td>
+<td>one brew, one fill, one parent to child link</td>
+<td>fact_batch_step</td>
+</tr>
+<tr>
+<td><code>Run.csv</code>, <code>Stop.csv</code></td>
+<td>one packaging run, one stop</td>
+<td>fact_pack</td>
+</tr>
+<tr>
+<td><code>Sales.csv</code></td>
+<td>one SKU, account and month</td>
+<td>fact_sales</td>
+</tr>
+<tr>
+<td><code>Batch.csv</code>, <code>BatchAfterFix.csv</code></td>
+<td>one lager fill on the chapter 6 chart, then 20 fills after the fix</td>
+<td>quality view of fill</td>
+</tr>
+<tr>
+<td><code>HourlyGravity.csv</code></td>
+<td>one fill, one whole hour from hour zero</td>
+<td>resampled sensor fact</td>
+</tr>
+<tr>
+<td><code>Volume.csv</code>, <code>Stage.csv</code>, <code>Daily.csv</code></td>
+<td>one month of cast and dispatch, one loss stage in one month, one day of dispatch</td>
+<td>summaries</td>
+</tr>
+<tr>
+<td><code>Depletions.csv</code></td>
+<td>one distributor month of the chapter 9 soft quarter</td>
+<td>distributor feed</td>
+</tr>
+<tr>
+<td><code>Tank.csv</code>, <code>Sku.csv</code>, <code>Date.csv</code>, <code>AsOf.csv</code></td>
+<td>one fermenter, one SKU, one day, one moment</td>
+<td>dimensions</td>
+</tr>
+</tbody>
+</table>
+<p>A few choices to know:</p>
+<ul>
+<li>March 2026 is "the Kestrel month": 8,700 hL cast, 8,330 dispatched, stage losses of 209, 52, 87 and 22 hL. Other months vary around it. February carries the 2.2 percent cellar loss of chapter 3.</li>
+<li>The twelve fills of chapter 5 ran in October 2025 (IDs such as F07-25-302), so they sit outside the 2026 schedule. F09 holds the stalled fill.</li>
+<li>Fill IDs in 2026 count plant wide: fill 34 is F07-26-034 and holds brews B26-0067 and B26-0068.</li>
+<li>The bright tank IDs (BT03-26-071, BT04-26-072) follow the fill pattern; the series fixes no format for them. The chain's pack lots are L260416-C1-1 and L260416-C1-2, because F09-26-036 ends its 30 days on 14 April. The book's L260412-C1-1 is an example of the format.</li>
+<li><code>Lab.csv</code> holds more than one analyte. Filter <code>Analyte</code> before pattern 9 or pattern 10, or the average mixes pH with gravity.</li>
+<li>Lies 2, 4 and 5 of chapter 3 use the chapter's own worked numbers inside the notebook. The dataset holds no sales against temperature series and no week of filler oxygen.</li>
+<li>The chapter 14 sample report in <code>report/</code> is synthetic and hand written in the PBIR folder format (one <code>visual.json</code> per visual). It was not exported from Power BI Desktop, so check the notebook against one of your own exports.</li>
+</ul>
+<h2>Loading it into Power BI, Fabric or an Eventhouse</h2>
+<p>No Power BI file (PBIX or PBIP) ships here; the book does not promise one. To build the model yourself:</p>
+<ol>
+<li><strong>Power BI Desktop.</strong> Use Get data then Text/CSV to load every file in <code>data/</code> except <code>Readings.csv</code> and <code>Depletions.csv</code>. Set <code>HourZero</code>, <code>FillEnd</code>, <code>SampledAt</code>, <code>EnteredAt</code> and <code>Moment</code> to Date/Time and every <code>Date</code> or <code>Month</code> column to Date.</li>
+<li><strong>Relationships</strong>, all many to one, single direction: <code>HourlyGravity[FillId]</code> to <code>Fill[FillId]</code>; <code>Fill[Tank]</code> to <code>Tank[Tank]</code>; <code>Batch[FillId]</code> to <code>Fill[FillId]</code>; <code>Sales[Sku]</code> to <code>Sku[Sku]</code>; <code>Sales[Date]</code>, <code>Daily[Date]</code>, <code>Volume[Month]</code> and <code>Stage[Month]</code> to <code>Date[Date]</code>. Mark <code>Date</code> as the date table. Leave <code>Link</code>, <code>Lab</code>, <code>Run</code> and <code>AsOf</code> unrelated; patterns 9 and 10 use TREATAS and a disconnected table.</li>
+<li><strong>Measures.</strong> Paste each <code>dax/pattern-NN-*.dax</code> file into a measures table. Pattern 4 reads <code>Brew[ExtractKg]</code> and <code>Brew[TheoreticalKg]</code>.</li>
+<li><strong>Known answers.</strong> Check each pattern against the line printed in Appendix B. <code>check_numbers.py</code> prints the same values from pandas, so a mismatch points at the model, not the data.</li>
+<li><strong>Fabric lakehouse.</strong> Upload the CSVs to the Files area, load each to a Delta table with the same name and build a Direct Lake or import model on top with the steps above.</li>
+<li><strong>Eventhouse.</strong> Create two tables, <code>Readings (Tank:string, Tag:string, Time:datetime, Value:real)</code> and <code>Fills (FillId:string, Tank:string, Brand:string, HourZero:datetime, FillEnd:datetime, IsReference:bool)</code>. Ingest <code>Readings.csv</code> into the first. Ingest <code>Fill.csv</code> into the second, keeping those six columns. Run <code>kql/kql-1-golden-band.kql</code>: hour 72 reads 3.30, 3.60 and 3.86. With eleven fills the Eventhouse percentile and the DAX one give the same values. <code>kql-2-live-tile.kql</code> looks back 15 minutes from now, so on this static data it returns rows only if you shift <code>Time</code> to the present.</li>
+</ol>
+<p>None of the DAX, the KQL or the PBIR sample has been run inside Power BI, Fabric or an Eventhouse for this release; the pandas twins in <code>check_numbers.py</code> have.</p>
+<h2>Licence</h2>
+<p>Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Synthetic data only; no real brewery's numbers.</p><p class="small">Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Every figure is synthetic: Kestrel Brewing is an invented plant.</p></main></body></html>

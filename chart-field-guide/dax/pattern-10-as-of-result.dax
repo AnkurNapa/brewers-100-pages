@@ -1,0 +1,10 @@
+As Of Result =
+VAR _asOf = MAX ( AsOf[Moment] )
+VAR _latest =
+    CALCULATE ( MAX ( Lab[SampledAt] ), Lab[EnteredAt] <= _asOf )
+RETURN
+    CALCULATE (
+        AVERAGE ( Lab[Value] ),
+        Lab[EnteredAt] <= _asOf,
+        Lab[SampledAt] = _latest
+    )

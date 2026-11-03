@@ -1,0 +1,21 @@
+row,fault
+5,exact duplicate
+11,text value
+12,no batch key
+13,superseded retest
+14,no batch key
+18,exact duplicate
+21,blank unit
+27,exact duplicate
+28,entered before sampled
+29,no batch key
+30,superseded retest
+31,no batch key
+37,range: 4.1 against a 0.5 limit
+42,ID not padded
+43,ID not padded
+46,text value
+50,no batch key
+51,no batch key
+52,superseded retest
+55,exact duplicate

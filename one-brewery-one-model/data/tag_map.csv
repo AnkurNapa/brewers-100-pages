@@ -1,0 +1,9 @@
+tag,vessel,measurement,unit,interval,valid_from,valid_to
+CEL.FV07.TT01.PV,FV07,Beer temperature,degrees C,1 min,2024-03-01,
+CEL.FV07.LT01.PV,FV07,Liquid level,hL,1 min,2024-03-01,
+CEL.FV07.PT01.PV,FV07,Head pressure,bar,1 min,2024-03-01,
+CEL.FV07.XV01.PV,FV07,Inlet valve open,state,1 min,2024-03-01,
+CEL.FV07.XV02.PV,FV07,Outlet valve open,state,1 min,2024-03-01,
+CEL.FV07.CT01.PV,FV07,Return line conductivity,mS/cm,1 min,2024-03-01,
+BRH.KT01.TT02.PV,Kettle 1,Wort temperature,degrees C,10 s,2023-06-15,2025-09-30
+BRH.WL01.DT01.PV,Wort line,Wort gravity (inline meter),degrees Plato,1 min,2024-03-01,

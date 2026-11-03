@@ -1,0 +1,5 @@
+equipment_key,equipment_code,equipment_type,site_key,valid_from,valid_to
+1,C1,can line filler,1,2020-01-01,
+2,B1,bottle line filler,1,2020-01-01,
+3,FLT01,filter,1,2020-01-01,
+4,CEN01,centrifuge,1,2020-01-01,

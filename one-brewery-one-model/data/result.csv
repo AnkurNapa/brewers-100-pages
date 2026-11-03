@@ -1,0 +1,35 @@
+result_key,sample_key,test_code,method,value,unit,analyst,instrument,sampled_at_utc,entered_at_utc,status,is_current,retest_reason,spec_key,in_spec_flag,reading_source
+1,1,OG,"density meter, lab",12.0,degrees Plato,PM,DMA-LAB-1,2026-03-12 01:30:00,2026-03-12 10:10:00,approved,1,,2,1,lab (rank 1); inline meter 12.3; brew sheet 12.0
+2,1,PH,pH electrode,5.2,pH,PM,PH-LAB-2,2026-03-12 01:30:00,2026-03-12 10:10:00,approved,1,,,,lab
+3,2,OG,"density meter, lab",12.1,degrees Plato,RK,DMA-LAB-1,2026-03-12 07:50:00,2026-03-12 13:50:00,approved,1,,2,1,lab (rank 1); inline meter 12.2; brew sheet 12.0
+4,2,PH,pH electrode,5.2,pH,RK,PH-LAB-2,2026-03-12 07:50:00,2026-03-12 13:50:00,approved,1,,,,lab
+5,3,OG,"density meter, lab",12.0,degrees Plato,AS,DMA-LAB-1,2026-03-13 01:30:00,2026-03-13 07:30:00,approved,1,,2,1,lab (rank 1); inline meter 12.1; brew sheet 12.0
+6,3,PH,pH electrode,5.2,pH,AS,PH-LAB-2,2026-03-13 01:30:00,2026-03-13 07:30:00,approved,1,,,,lab
+7,4,OG,"density meter, lab",11.9,degrees Plato,PM,DMA-LAB-1,2026-03-13 07:50:00,2026-03-13 13:50:00,approved,1,,2,1,lab (rank 1); inline meter 12.0; brew sheet 12.0
+8,4,PH,pH electrode,5.2,pH,PM,PH-LAB-2,2026-03-13 07:50:00,2026-03-13 13:50:00,approved,1,,,,lab
+9,5,OG,"density meter, lab",13.5,degrees Plato,RK,DMA-LAB-1,2026-03-14 01:30:00,2026-03-14 07:30:00,approved,1,,8,1,lab (rank 1); inline meter 13.6; brew sheet 13.5
+10,5,PH,pH electrode,5.2,pH,RK,PH-LAB-2,2026-03-14 01:30:00,2026-03-14 07:30:00,approved,1,,,,lab
+11,6,OG,"density meter, lab",13.6,degrees Plato,AS,DMA-LAB-1,2026-03-14 20:20:00,2026-03-15 02:20:00,approved,1,,8,1,lab (rank 1); inline meter 13.7; brew sheet 13.5
+12,6,PH,pH electrode,5.2,pH,AS,PH-LAB-2,2026-03-14 20:20:00,2026-03-15 02:20:00,approved,1,,,,lab
+13,7,AE,"density meter, lab",2.3,degrees Plato,PM,DMA-LAB-1,2026-03-23 08:35:00,2026-03-23 14:35:00,approved,1,,3,1,lab
+14,7,PH,pH electrode,4.4,pH,PM,PH-LAB-2,2026-03-23 08:35:00,2026-03-23 14:35:00,approved,1,,6,1,lab
+15,7,DO,optical DO,20.0,ppb,PM,DO-LAB-1,2026-03-23 08:35:00,2026-03-23 14:35:00,approved,1,,7,1,lab
+16,8,AE,"density meter, lab",2.25,degrees Plato,RK,DMA-LAB-1,2026-03-25 01:10:00,2026-03-25 05:45:00,approved,1,,3,1,lab
+17,9,AE,"density meter, lab",2.2,degrees Plato,AS,DMA-LAB-1,2026-04-01 03:30:00,2026-04-01 09:30:00,approved,1,,3,1,lab
+18,10,AE,"density meter, lab",2.3,degrees Plato,PM,DMA-LAB-1,2026-04-02 03:30:00,2026-04-02 09:30:00,approved,1,,3,1,lab
+19,11,PH,pH electrode,4.3,pH,RK,PH-LAB-2,2026-03-26 03:30:00,2026-03-26 09:30:00,approved,1,,12,1,lab
+20,12,PH,pH electrode,4.5,pH,AS,PH-LAB-2,2026-03-20 06:30:00,2026-03-20 12:30:00,approved,1,,6,1,lab
+21,13,PH,pH electrode,6.9,pH,PM,PH-LAB-2,2026-03-18 04:30:00,2026-03-18 10:30:00,approved,1,,,,lab
+22,14,IBU,spectrophotometer,18.2,IBU,RK,UV-LAB-1,2026-04-10 07:30:00,2026-04-10 12:30:00,approved,1,,4,1,lab
+23,14,EBC,spectrophotometer,7.1,EBC,RK,UV-LAB-1,2026-04-10 07:30:00,2026-04-10 12:30:00,approved,1,,5,1,lab
+24,14,PH,pH electrode,4.35,pH,RK,PH-LAB-2,2026-04-10 07:30:00,2026-04-10 12:30:00,approved,1,,6,1,lab
+25,14,DO,optical DO,28.0,ppb,RK,DO-LAB-1,2026-04-10 07:30:00,2026-04-10 12:30:00,approved,1,,7,1,lab
+26,15,IBU,spectrophotometer,15.6,IBU,AS,UV-LAB-1,2026-04-11 07:30:00,2026-04-11 12:30:00,approved,0,,4,0,lab
+27,15,EBC,spectrophotometer,6.8,EBC,AS,UV-LAB-1,2026-04-11 07:30:00,2026-04-11 12:30:00,approved,1,,5,1,lab
+28,15,PH,pH electrode,4.38,pH,AS,PH-LAB-2,2026-04-11 07:30:00,2026-04-11 12:30:00,approved,1,,6,1,lab
+29,15,DO,optical DO,31.0,ppb,AS,DO-LAB-1,2026-04-11 07:30:00,2026-04-11 12:30:00,approved,1,,7,1,lab
+30,15,IBU,spectrophotometer,16.8,IBU,AS,UV-LAB-1,2026-04-11 07:30:00,2026-04-11 16:30:00,approved,1,sample warmed before analysis; repeat on retained sample,4,1,lab
+31,16,IBU,spectrophotometer,37.5,IBU,PM,UV-LAB-1,2026-03-28 07:30:00,2026-03-28 12:30:00,approved,1,,10,1,lab
+32,16,EBC,spectrophotometer,14.2,EBC,PM,UV-LAB-1,2026-03-28 07:30:00,2026-03-29 13:30:00,approved,1,,11,1,lab
+33,16,PH,pH electrode,4.3,pH,PM,PH-LAB-2,2026-03-28 07:30:00,2026-03-28 12:30:00,approved,1,,12,1,lab
+34,16,DO,optical DO,32.0,ppb,PM,DO-LAB-1,2026-03-28 07:30:00,2026-03-28 12:30:00,approved,1,,13,1,lab

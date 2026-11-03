@@ -1,0 +1,30 @@
+test_code,method,version,unit,instrument_id,stream
+OG,M-DEN-01,4,degrees Plato,DM-01,density
+AE,M-DEN-02,4,degrees Plato,DM-01,density
+ABV,M-ALC-01,2,percent,BA-01,density
+IBU,M-IBU-01,3,IBU,SP-01,other chemistry
+COLOUR,M-COL-01,2,EBC,SP-01,other chemistry
+PH,M-PH-01,5,pH,PH-02,pH
+CO2,M-CO2-01,2,g/L,CO2-01,other chemistry
+VDK,M-VDK-01,2,mg/L,GC-01,other chemistry
+DO,M-DO-01,3,ppb,DO-01,dissolved oxygen
+TPO,M-DO-02,3,ppb,DO-02,dissolved oxygen
+HAZE90,M-HAZ-01,3,EBC,HZ-01,haze
+HAZE25,M-HAZ-01,3,EBC,HZ-01,haze
+FAHAZE,M-HAZ-03,1,EBC,HZ-01,haze
+ALK,M-WAT-01,1,mg/L CaCO3,TI-01,other chemistry
+CL2,M-WAT-02,1,mg/L,PHO-01,other chemistry
+CO2PUR,M-GAS-01,1,percent,GA-01,other chemistry
+MOIST,M-RAW-01,2,percent,NIR-01,other chemistry
+CELLS,M-YST-01,2,million/mL,CC-01,other chemistry
+MIC_MEM,M-MIC-01,3,CFU/100 mL,INC-01,micro
+MIC_PLATE,M-MIC-02,3,CFU/mL,INC-02,micro
+MIC_RINSE,M-MIC-03,2,CFU/100 mL,INC-01,micro
+ATP,M-HYG-01,2,RLU,ATP-01,micro
+TTT,M-SEN-01,2,votes not TTT,PANEL,sensory
+EXTR,M-RAW-02,1,percent,MASH-01,other chemistry
+VIAB,M-YST-02,1,percent,CC-01,other chemistry
+TEMPCHK,M-FER-01,1,degrees C,TH-03,other chemistry
+YSUSP,M-YST-03,1,million/mL,CC-01,other chemistry
+FILL,M-PKG-01,1,mL,BAL-02,other chemistry
+PU,M-PKG-02,1,PU,PU-01,other chemistry

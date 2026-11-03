@@ -1,0 +1,6 @@
+Dispatched hL = SUM ( Daily[DispatchedHL] )
+Rolling 28 Day Average =
+AVERAGEX (
+    DATESINPERIOD ( 'Date'[Date], MAX ( 'Date'[Date] ), -28, DAY ),
+    [Dispatched hL]
+)

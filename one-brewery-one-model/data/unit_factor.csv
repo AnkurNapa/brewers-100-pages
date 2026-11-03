@@ -1,0 +1,11 @@
+from_unit,to_base_unit,factor,intercept
+kg,kg,1.0,0.0
+t,kg,1000.0,0.0
+bag50,kg,50.0,0.0
+lb,kg,0.45359237,0.0
+hL,hL,1.0,0.0
+L,hL,0.01,0.0
+bbl_us,hL,1.17348,0.0
+can330,hL,0.0033,0.0
+degF,degC,0.5555555555555556,-17.77777777777778
+degC,degC,1.0,0.0

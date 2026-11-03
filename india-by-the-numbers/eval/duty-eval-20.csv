@@ -1,0 +1,21 @@
+id,question,answer,rate_version,trap,chapter
+Q01,"Duty on one case of Kestrel Lager, 5.3 percent ABV, DMC 982.80, dispatched 15 July 2026?",1081.08,S-STRONG-2026-04,no,5.2.1
+Q02,"Duty on the same case brewed at exactly 5.0 percent ABV, dispatched 15 July 2026?",786.24,S-MILD-2026-04,yes: exactly 5.0 percent is mild,5.3
+Q03,Below what DMC a case does the strong floor set the duty?,354.55,S-STRONG-2026-04,no,5.2.3
+Q04,"Landed price a case at 110 percent, dispatched 15 July 2026?",2079.48,S-STRONG-2026-04,no,6.4
+Q05,"MRP a bottle for a case dispatched 15 October 2026, under the table with the 1 October change?",230.0,S-STRONG-2026-10,no,14.2
+Q06,Duty on a case of Kestrel Lager dispatched 15 March 2026?,REFUSE,none: no row before 1 April 2026,yes: no rate row for the date,14.5
+Q07,Duty a case under design B at INR 140 a bulk litre?,1092.0,SB-2026-04,no,5.2.2
+Q08,"Duty a case under design B2 at INR 2,650 a litre of alcohol?",1095.51,SB2-2026-04,no,5.2.2
+Q09,"Transport pass fee on one case, dispatched 15 July 2026?",15.6,S-FEE-PASS-2026-04,no,5.5
+Q10,Wholesaler's price a case on Route A?,2245.84,S-STRONG-2026-04,no,6.4
+Q11,MRP a bottle on Route A?,220.0,S-STRONG-2026-04,no,6.4
+Q12,Price before rounding a bottle on Route C (10 percent corporation margin)?,219.21,S-STRONG-2026-04,no,7.5
+Q13,Highest DMC a case that still gives an MRP of INR 220 on Route A?,1004.76,S-STRONG-2026-04,no,6.2
+Q14,"Excise plus pass fee on one case, dispatched 15 July 2026?",1096.68,S-STRONG-2026-04,no,6.4
+Q15,"Duty on 10 cases of 12 x 650 ml plus 10 cases of 24 x 330 ml Kestrel Lager, both dispatched 15 July 2026?",21787.9,S-STRONG-2026-04,yes: mixes a 650 ml case with a 330 ml case,9.1
+Q16,"Duty on 1,000 cases of Kestrel Lager in one month, dispatched July 2026?",1081080.0,S-STRONG-2026-04,no,13.3
+Q17,"Using the 110 percent row, what is the duty on a lager case dispatched 15 October 2026?",1179.36,S-STRONG-2026-10,yes: the 110 percent row expired on 30 September,13.1
+Q18,A pass of 200 cases of Kestrel Lager was charged at the mild rate. How much duty is short?,58968.0,S-STRONG-2026-04,no,14.4
+Q19,"MRP a bottle of Kestrel Stout, 5.7 percent ABV, DMC 1,193.40?",265.0,S-STRONG-2026-04,no,12.1
+Q20,Duty on a case of Kestrel Lager dispatched 30 September 2026 under the table with the 1 October change?,1081.08,S-STRONG-2026-04,no,13.1

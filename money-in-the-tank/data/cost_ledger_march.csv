@@ -1,0 +1,9 @@
+line,cost_centre,in_cogs,usd_march
+Materials,Lager,yes,105000
+Materials,Pale ale,yes,47000
+Packaging,Bottle and keg store,yes,164000
+Packaging,Can line,yes,84000
+Direct labour,Plant,yes,48000
+Utilities,Plant,yes,56000
+Overhead,Plant,yes,176000
+Freight,Plant,"no, cost to serve",56000

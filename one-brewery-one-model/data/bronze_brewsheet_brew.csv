@@ -1,0 +1,7 @@
+brew_id,brew_date_ist,recipe,recipe_version,fill_id,planned_wort_hl,actual_wort_hl,malt_name,actual_grist_t,start_ist,end_ist,gravity_plato,brewer
+B26-0068,2026-03-12,LAG,3,F07-26-034,300,300,Pilsner,5.3,02:50,07:35,12.0,GN
+B26-0069,2026-03-12,LAG,3,F07-26-034,300,300,Pilsner,5.3,09:10,13:55,12.0,GN
+B26-0070,2026-03-13,LAG,3,F08-26-035,300,300,Pilsner,5.3,02:50,07:35,12.0,GN
+B26-0071,2026-03-13,LAG,3,F08-26-035,300,300,Pilsner,5.3,09:10,13:55,12.0,GN
+B26-0072,2026-03-14,PA,2,F09-26-036,300,300,Pale ale malt,6.0,02:50,07:35,13.5,SK
+B26-0073,2026-03-14,PA,2,F09-26-036,300,300,Pale,6.04,21:40,02:25,13.5,SK

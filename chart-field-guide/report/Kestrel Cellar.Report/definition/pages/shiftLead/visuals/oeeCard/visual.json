@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "oeeCard",
+  "position": {
+    "x": 24,
+    "y": 72,
+    "z": 0,
+    "width": 296,
+    "height": 100
+  },
+  "visual": {
+    "visualType": "card",
+    "objects": {}
+  },
+  "visualContainerObjects": {
+    "title": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'OEE, can line, last four weeks'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

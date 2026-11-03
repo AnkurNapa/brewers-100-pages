@@ -1,0 +1,19 @@
+Spec Upper = 2.6
+Spec Lower = 1.8
+Sigma Within = DIVIDE ( [Mean MR], 1.128 )
+Sigma Overall =
+CALCULATE (
+    STDEV.S ( Batch[FinalGravity] ),
+    REMOVEFILTERS ( Batch[FillSequence] ),
+    Batch[IsBaseline] = TRUE ()
+)
+Cpk =
+DIVIDE (
+    MIN ( [Spec Upper] - [Mean FG], [Mean FG] - [Spec Lower] ),
+    3 * [Sigma Within]
+)
+Ppk =
+DIVIDE (
+    MIN ( [Spec Upper] - [Mean FG], [Mean FG] - [Spec Lower] ),
+    3 * [Sigma Overall]
+)

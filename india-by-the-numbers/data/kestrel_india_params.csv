@@ -1,0 +1,20 @@
+name,value,unit,note
+book_rate_inr_per_usd,90.0,INR,"planning rate, not a market one"
+cost_of_capital,0.12,a year,"carrying cost, NPV, capital charge"
+beer_to_bright_per_hl,2880.0,INR a hL,USD 32 x 90
+wort_cost_per_hl,2160.0,INR a hL,"malt 1,431 + other 729"
+malt_per_kg,81.0,INR a kg,USD 0.90 x 90
+malt_kg_per_brew,5300.0,kg,300 hL brew
+brew_hl,300.0,hL,
+other_wort_cost_per_hl,729.0,INR a hL,"hops, water, energy, brewhouse labour; not split"
+overhead_per_hl,1890.0,INR a hL,typical month
+freight_per_hl,630.0,INR a hL,outbound
+blended_packaging_per_hl,2790.0,INR a hL,USD 31 x 90
+blended_cogs_ex_works_per_hl,7560.0,INR a hL,USD 84 x 90
+net_price_blended_per_hl,13500.0,INR a hL,USD 150 x 90
+annual_volume_hl,100000.0,hL a year,Kestrel plant
+wholesaler_margin_route_a,0.08,of landed price,pays 30 days after dispatch
+corporation_margin_route_c,0.1,of landed price,pays 60 days after depot receipt
+retailer_margin,0.15,of buyer's price,
+mrp_rounding_step,5.0,INR a bottle,round up; retailer keeps it
+popular_anchor_mrp,190.0,INR a 650 ml bottle,synthetic State S anchor for price bands

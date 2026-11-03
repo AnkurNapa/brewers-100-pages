@@ -1,0 +1,6 @@
+line,method,beer_hl,malt_usd_hl,energy_usd_hl,other_usd_hl,can_material_usd,base_usd
+Extract,malt_only,,,,,0,10836.0
+Cellar,beer,500.0,15.9,4.0,10.1,0,
+Filtration,beer,157.0,15.9,4.0,12.1,0,
+Can line,beer,704.0,15.9,4.0,12.1,11879,
+Cash in tank days,follows_carried_cost,,15.9,4.0,7.1,0,1545.0

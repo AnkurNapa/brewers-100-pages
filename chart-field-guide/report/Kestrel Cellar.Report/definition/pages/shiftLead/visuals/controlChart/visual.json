@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "controlChart",
+  "position": {
+    "x": 24,
+    "y": 188,
+    "z": 0,
+    "width": 600,
+    "height": 240
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "objects": {
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Final gravity (degrees Plato)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "visualContainerObjects": {
+    "title": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Final gravity by fill, Kestrel Lager, degrees Plato'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

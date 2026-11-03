@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "bridge",
+  "position": {
+    "x": 640,
+    "y": 72,
+    "z": 0,
+    "width": 616,
+    "height": 300
+  },
+  "visual": {
+    "visualType": "waterfallChart",
+    "objects": {
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Contribution (USD)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "visualContainerObjects": {
+    "title": [
+      {
+        "properties": {
+          "show": {
+            "expr": {
+              "Literal": {
+                "Value": "true"
+              }
+            }
+          },
+          "text": {
+            "expr": {
+              "Literal": {
+                "Value": "'Contribution bridge, March to April, USD'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

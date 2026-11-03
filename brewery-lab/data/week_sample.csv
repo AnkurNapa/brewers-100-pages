@@ -1,0 +1,421 @@
+sample_id,stage,sample_point,sampled_at,sampler,beer,fill_id,brew_id,lot_id,equipment_id,link_method
+S261028-001,water,UTL.CO2,2026-10-28 06:58,AN1,,,,,UTL.CO2,equipment
+S261028-002,process micro,CEL.INLET,2026-10-28 07:13,AN1,Kestrel Lager,,,,,none
+S261028-003,hygiene,HYG.FIL07,2026-10-28 07:30,AN1,,,,,HYG.FIL07,equipment
+S261028-004,maturation,CEL.FV07,2026-10-28 07:31,AN1,Kestrel Lager,F07-26-030,,,,derived
+S261028-005,hygiene,CIP.RINSE02,2026-10-28 07:32,AN1,,,,,CIP.RINSE02,equipment
+S261028-006,hygiene,CIP.RINSE04,2026-10-28 08:38,AN2,,,,,CIP.RINSE04,equipment
+S261028-007,yeast,YST.TK01,2026-10-28 08:40,AN2,Kestrel Lager,F07-26-030,,,,typed
+S261028-008,hygiene,HYG.FIL09,2026-10-28 09:08,AN2,,,,,HYG.FIL09,equipment
+S261028-009,process micro,PKG.C1,2026-10-28 09:14,AN2,Kestrel Pale Ale,,,L261028-C1-2,,typed
+S261028-010,hygiene,CIP.RINSE01,2026-10-28 10:04,AN2,,,,,CIP.RINSE01,equipment
+S261028-011,wort,BRW.KET01,2026-10-28 10:09,AN2,Kestrel Lager,,B26-0061,,,typed
+S261028-012,process micro,CEL.FV03,2026-10-28 10:45,AN2,Kestrel Lager,F03-26-035,,,,typed
+S261028-013,fermentation,CEL.FV05,2026-10-28 11:06,AN2,Kestrel Lager,F05-26-032,,,,typed
+S261028-014,hygiene,HYG.FIL03,2026-10-28 11:07,AN2,,,,,HYG.FIL03,equipment
+S261028-015,process micro,BBT.BT05,2026-10-28 11:16,AN2,Kestrel Lager,F07-26-034,,,,derived
+S261028-016,packaging,PKG.C1,2026-10-28 11:25,AN2,Kestrel Stout,,,L261028-C1-1,,typed
+S261028-017,fermentation,CEL.FV01,2026-10-28 11:26,AN2,Kestrel Lager,F01-26-030,,,,derived
+S261028-018,fermentation,CEL.FV06,2026-10-28 11:27,AN2,Kestrel Stout,F06-26-035,,,,typed
+S261028-019,raw material,RAW.MALT,2026-10-28 11:58,AN2,,,,M-26-0180,,typed
+S261028-020,packaging,PKG.B1,2026-10-28 12:34,AN2,Kestrel Lager,,,L261028-B1-2,,typed
+S261028-021,hygiene,HYG.FIL04,2026-10-28 12:55,AN2,,,,,HYG.FIL04,equipment
+S261028-022,maturation,CEL.FV09,2026-10-28 13:53,AN2,Kestrel Pale Ale,F09-26-031,,,,typed
+S261028-023,shelf life,QA.RETAIN,2026-10-28 14:15,AN2,Kestrel Lager,,,L261028-B1-1,,derived
+S261028-024,hygiene,HYG.FIL08,2026-10-28 14:18,AN2,,,,,HYG.FIL08,equipment
+S261028-025,process micro,BBT.BT03,2026-10-28 14:27,AN2,Kestrel Pale Ale,F07-26-035,,,,derived
+S261028-026,packaging,PKG.B1,2026-10-28 14:40,AN2,Kestrel Stout,,,L261028-B1-2,,typed
+S261028-027,wort,CEL.INLET,2026-10-28 14:40,AN2,Kestrel Stout,,B26-0061,,,typed
+S261028-028,process micro,CEL.INLET,2026-10-28 15:04,AN2,Kestrel Lager,,,,,none
+S261028-029,process micro,CEL.FV03,2026-10-28 15:05,AN2,Kestrel Lager,F03-26-033,,,,derived
+S261028-030,packaging,PKG.C1,2026-10-28 15:05,AN2,Kestrel Pale Ale,,,L261028-B1-1,,typed
+S261028-031,hygiene,HYG.FIL01,2026-10-28 15:12,AN2,,,,,HYG.FIL01,equipment
+S261028-032,process micro,BBT.BT05,2026-10-28 15:19,AN2,Kestrel Lager,F07-26-034,,,,derived
+S261028-033,sensory,QA.PANEL,2026-10-28 15:20,AN2,Kestrel Stout,,,L261028-C1-2,,derived
+S261028-034,process micro,PKG.B1,2026-10-28 15:42,AN2,Kestrel Lager,,,L261028-B1-1,,typed
+S261028-035,hygiene,HYG.FIL10,2026-10-28 16:36,AN3,,,,,HYG.FIL10,equipment
+S261028-036,hygiene,HYG.FIL06,2026-10-28 16:37,AN3,,,,,HYG.FIL06,equipment
+S261028-037,hygiene,HYG.FIL05,2026-10-28 16:41,AN3,,,,,HYG.FIL05,equipment
+S261028-038,filtration and bright beer,FIL.OUT01,2026-10-28 17:27,AN3,Kestrel Lager,F07-26-031,,,,derived
+S261028-039,process micro,BBT.BT03,2026-10-28 17:37,AN3,Kestrel Lager,F07-26-035,,,,derived
+S261028-040,sensory,QA.COMPLAINT,2026-10-28 17:53,AN3,Kestrel Stout,,,L261028-B1-2,,typed
+S261028-041,packaging,PKG.B1,2026-10-28 18:15,AN3,Kestrel Stout,,,L261028-B1-1,,typed
+S261028-042,maturation,CEL.FV08,2026-10-28 18:22,AN3,Kestrel Pale Ale,F08-26-033,,,,derived
+S261028-043,hygiene,CIP.RINSE03,2026-10-28 18:28,AN3,,,,,CIP.RINSE03,equipment
+S261028-044,hygiene,HYG.FIL02,2026-10-28 18:40,AN3,,,,,HYG.FIL02,equipment
+S261028-045,packaging,PKG.B1,2026-10-28 18:45,AN3,Kestrel Lager,,,L261028-B1-2,,typed
+S261028-046,water,BRW.LIQ01,2026-10-28 19:31,AN3,,,,,BRW.LIQ01,equipment
+S261028-047,sensory,QA.PANEL,2026-10-28 19:36,AN3,Kestrel Lager,,,L261028-B1-1,,typed
+S261028-048,process micro,PKG.B1,2026-10-28 19:41,AN3,Kestrel Lager,,,L261028-B1-2,,typed
+S261028-049,shelf life,QA.RETAIN,2026-10-28 19:54,AN3,Kestrel Lager,,,L261028-C1-1,,typed
+S261028-050,filtration and bright beer,FIL.OUT01,2026-10-28 21:02,AN3,Kestrel Pale Ale,F07-26-034,,,,derived
+S261028-051,fermentation,CEL.FV03,2026-10-28 21:12,AN3,Kestrel Lager,F03-26-034,,,,typed
+S261028-052,process micro,PKG.C1,2026-10-28 21:20,AN3,Kestrel Pale Ale,,,L261028-B1-2,,typed
+S261028-053,filtration and bright beer,BBT.BT03,2026-10-28 21:51,AN3,Kestrel Lager,F07-26-032,,,,derived
+S261028-054,filtration and bright beer,BBT.BT05,2026-10-28 23:40,AN3,Kestrel Lager,F07-26-034,,,,derived
+S261028-055,packaging,PKG.C1,2026-10-29 01:35,AN1,Kestrel Lager,,,L261028-B1-1,,typed
+S261028-056,fermentation,CEL.FV02,2026-10-29 02:13,AN1,Kestrel Lager,F02-26-035,,,,typed
+S261028-057,water,DAW.TK01,2026-10-29 03:09,AN1,,,,,DAW.TK01,equipment
+S261028-058,water,BRW.LIQ01,2026-10-29 03:14,AN1,,,,,BRW.LIQ01,equipment
+S261028-059,fermentation,CEL.FV04,2026-10-29 03:35,AN1,Kestrel Lager,F04-26-031,,,,typed
+S261028-060,packaging,PKG.C1,2026-10-29 05:24,AN1,Kestrel Pale Ale,,,L261028-B1-2,,typed
+S261029-001,filtration and bright beer,BBT.BT03,2026-10-29 06:00,AN2,Kestrel Stout,F07-26-034,,,,derived
+S261029-002,maturation,CEL.FV08,2026-10-29 06:08,AN2,Kestrel Lager,F08-26-035,,,,typed
+S261029-003,hygiene,HYG.FIL04,2026-10-29 07:14,AN2,,,,,HYG.FIL04,equipment
+S261029-004,hygiene,HYG.FIL06,2026-10-29 07:31,AN2,,,,,HYG.FIL06,equipment
+S261029-005,sensory,QA.PANEL,2026-10-29 07:57,AN2,Kestrel Pale Ale,,,L261029-B1-1,,typed
+S261029-006,process micro,BBT.BT05,2026-10-29 09:59,AN3,Kestrel Lager,F07-26-030,,,,derived
+S261029-007,process micro,BBT.BT05,2026-10-29 10:05,AN3,Kestrel Stout,F07-26-031,,,,derived
+S261029-008,hygiene,HYG.FIL08,2026-10-29 10:30,AN3,,,,,HYG.FIL08,equipment
+S261029-009,process micro,BBT.BT03,2026-10-29 10:31,AN3,Kestrel Lager,F07-26-033,,,,derived
+S261029-010,sensory,QA.PANEL,2026-10-29 10:52,AN3,Kestrel Lager,,,L261029-B1-2,,typed
+S261029-011,process micro,CEL.INLET,2026-10-29 12:19,AN3,Kestrel Lager,,,,,none
+S261029-012,process micro,PKG.B1,2026-10-29 12:30,AN3,Kestrel Pale Ale,,,L261029-B1-1,,typed
+S261029-013,hygiene,HYG.FIL05,2026-10-29 12:34,AN3,,,,,HYG.FIL05,equipment
+S261029-014,sensory,QA.COMPLAINT,2026-10-29 12:37,AN3,Kestrel Lager,,,L261029-C1-2,,typed
+S261029-015,process micro,CEL.INLET,2026-10-29 13:07,AN3,Kestrel Lager,,,,,none
+S261029-016,hygiene,HYG.FIL01,2026-10-29 13:14,AN3,,,,,HYG.FIL01,equipment
+S261029-017,process micro,PKG.B1,2026-10-29 13:38,AN3,Kestrel Lager,,,L261029-B1-1,,typed
+S261029-018,hygiene,CIP.RINSE02,2026-10-29 13:53,AN3,,,,,CIP.RINSE02,equipment
+S261029-019,hygiene,HYG.FIL03,2026-10-29 13:58,AN3,,,,,HYG.FIL03,equipment
+S261029-020,process micro,CEL.FV03,2026-10-29 14:08,AN3,Kestrel Stout,F03-26-032,,,,typed
+S261029-021,yeast,YST.TK01,2026-10-29 14:36,AN3,Kestrel Lager,F07-26-035,,,,typed
+S261029-022,hygiene,HYG.FIL09,2026-10-29 14:39,AN3,,,,,HYG.FIL09,equipment
+S261029-023,hygiene,CIP.RINSE03,2026-10-29 14:45,AN3,,,,,CIP.RINSE03,equipment
+S261029-024,maturation,CEL.FV07,2026-10-29 14:59,AN3,Kestrel Lager,F07-26-033,,,,typed
+S261029-025,packaging,PKG.B1,2026-10-29 15:04,AN3,Kestrel Lager,,,L261029-B1-2,,typed
+S261029-026,hygiene,CIP.RINSE04,2026-10-29 15:11,AN3,,,,,CIP.RINSE04,equipment
+S261029-027,hygiene,HYG.FIL02,2026-10-29 15:59,AN3,,,,,HYG.FIL02,equipment
+S261029-028,maturation,CEL.FV09,2026-10-29 16:13,AN4,Kestrel Pale Ale,F09-26-030,,,,typed
+S261029-029,hygiene,HYG.FIL10,2026-10-29 16:14,AN4,,,,,HYG.FIL10,equipment
+S261029-030,filtration and bright beer,BBT.BT05,2026-10-29 16:28,AN4,Kestrel Pale Ale,F07-26-035,,,,derived
+S261029-031,process micro,PKG.C1,2026-10-29 16:44,AN4,Kestrel Pale Ale,,,L261029-C1-1,,typed
+S261029-032,process micro,BBT.BT03,2026-10-29 17:59,AN4,Kestrel Lager,F07-26-030,,,,derived
+S261029-033,packaging,PKG.B1,2026-10-29 18:14,AN4,Kestrel Pale Ale,,,L261029-B1-2,,typed
+S261029-034,hygiene,CIP.RINSE01,2026-10-29 18:36,AN4,,,,,CIP.RINSE01,equipment
+S261029-035,wort,BRW.KET01,2026-10-29 18:42,AN4,Kestrel Pale Ale,,B26-0062,,,typed
+S261029-036,shelf life,QA.RETAIN,2026-10-29 19:02,AN4,Kestrel Stout,,,L261029-B1-1,,typed
+S261029-037,fermentation,CEL.FV02,2026-10-29 19:13,AN4,Kestrel Lager,F02-26-035,,,,typed
+S261029-038,raw material,RAW.MALT,2026-10-29 19:22,AN4,,,,M-26-0181,,typed
+S261029-039,fermentation,CEL.FV05,2026-10-29 19:32,AN4,Kestrel Pale Ale,F05-26-031,,,,typed
+S261029-040,water,DAW.TK01,2026-10-29 19:51,AN4,,,,,DAW.TK01,equipment
+S261029-041,process micro,PKG.C1,2026-10-29 20:04,AN4,Kestrel Lager,,,L261029-B1-2,,typed
+S261029-042,process micro,CEL.FV03,2026-10-29 20:16,AN4,Kestrel Lager,F03-26-035,,,,typed
+S261029-043,filtration and bright beer,FIL.OUT01,2026-10-29 20:33,AN4,Kestrel Lager,F07-26-032,,,,derived
+S261029-044,packaging,PKG.C1,2026-10-29 20:44,AN4,Kestrel Lager,,,L261029-B1-1,,typed
+S261029-045,hygiene,HYG.FIL07,2026-10-29 21:11,AN4,,,,,HYG.FIL07,equipment
+S261029-046,filtration and bright beer,FIL.OUT01,2026-10-29 21:23,AN4,Kestrel Pale Ale,F07-26-030,,,,derived
+S261029-047,packaging,PKG.B1,2026-10-29 21:47,AN4,Kestrel Pale Ale,,,L261029-B1-2,,typed
+S261029-048,fermentation,CEL.FV01,2026-10-29 21:48,AN4,Kestrel Lager,F01-26-033,,,,typed
+S261029-049,fermentation,CEL.FV04,2026-10-29 22:19,AN4,Kestrel Stout,F04-26-032,,,,derived
+S261029-050,water,UTL.CO2,2026-10-29 22:36,AN4,,,,,UTL.CO2,equipment
+S261029-051,water,BRW.LIQ01,2026-10-29 22:49,AN4,,,,,BRW.LIQ01,equipment
+S261029-052,fermentation,CEL.FV06,2026-10-29 23:32,AN4,Kestrel Lager,F06-26-032,,,,typed
+S261029-053,packaging,PKG.B1,2026-10-30 01:24,AN2,Kestrel Lager,,,L261029-B1-1,,typed
+S261029-054,fermentation,CEL.FV03,2026-10-30 02:06,AN2,Kestrel Lager,F03-26-034,,,,typed
+S261029-055,wort,CEL.INLET,2026-10-30 04:38,AN2,Kestrel Lager,,B26-0062,,,typed
+S261029-056,water,BRW.LIQ01,2026-10-30 04:43,AN2,,,,,BRW.LIQ01,equipment
+S261029-057,packaging,PKG.C1,2026-10-30 04:45,AN2,Kestrel Lager,,,L261029-C1-2,,typed
+S261029-058,packaging,PKG.C1,2026-10-30 04:49,AN2,Kestrel Lager,,,L261029-C1-1,,typed
+S261029-059,packaging,PKG.C1,2026-10-30 04:59,AN2,Kestrel Lager,,,L261029-B1-2,,typed
+S261029-060,shelf life,QA.RETAIN,2026-10-30 05:28,AN2,Kestrel Pale Ale,,,L261029-B1-1,,typed
+S261030-001,fermentation,CEL.FV03,2026-10-30 07:06,AN3,Kestrel Lager,F03-26-034,,,,derived
+S261030-002,hygiene,HYG.FIL01,2026-10-30 07:07,AN3,,,,,HYG.FIL01,equipment
+S261030-003,process micro,BBT.BT03,2026-10-30 07:15,AN3,Kestrel Lager,F07-26-032,,,,derived
+S261030-004,process micro,PKG.C1,2026-10-30 07:38,AN3,Kestrel Lager,,,L261030-C1-2,,typed
+S261030-005,process micro,PKG.B1,2026-10-30 07:38,AN3,Kestrel Lager,,,L261030-B1-1,,typed
+S261030-006,sensory,QA.PANEL,2026-10-30 08:16,AN4,Kestrel Lager,,,L261030-B1-2,,typed
+S261030-007,packaging,PKG.C1,2026-10-30 08:48,AN4,Kestrel Stout,,,L261030-B1-1,,typed
+S261030-008,process micro,CEL.INLET,2026-10-30 08:58,AN4,Kestrel Lager,,,,,none
+S261030-009,hygiene,HYG.FIL10,2026-10-30 09:01,AN4,,,,,HYG.FIL10,equipment
+S261030-010,yeast,YST.TK01,2026-10-30 09:02,AN4,Kestrel Lager,F07-26-035,,,,typed
+S261030-011,process micro,CEL.FV03,2026-10-30 09:28,AN4,Kestrel Lager,F03-26-030,,,,typed
+S261030-012,filtration and bright beer,BBT.BT05,2026-10-30 09:38,AN4,Kestrel Pale Ale,F07-26-033,,,,derived
+S261030-013,process micro,PKG.C1,2026-10-30 09:55,AN4,Kestrel Stout,,,L261030-C1-2,,typed
+S261030-014,raw material,RAW.MALT,2026-10-30 09:58,AN4,,,,M-26-0182,,typed
+S261030-015,hygiene,HYG.FIL09,2026-10-30 10:05,AN4,,,,,HYG.FIL09,equipment
+S261030-016,hygiene,CIP.RINSE02,2026-10-30 10:11,AN4,,,,,CIP.RINSE02,equipment
+S261030-017,hygiene,HYG.FIL08,2026-10-30 10:35,AN4,,,,,HYG.FIL08,equipment
+S261030-018,packaging,PKG.B1,2026-10-30 10:44,AN4,Kestrel Lager,,,L261030-B1-1,,typed
+S261030-019,process micro,BBT.BT05,2026-10-30 10:52,AN4,Kestrel Lager,F07-26-032,,,,derived
+S261030-020,water,UTL.CO2,2026-10-30 12:35,AN4,,,,,UTL.CO2,equipment
+S261030-021,filtration and bright beer,FIL.OUT01,2026-10-30 12:49,AN4,Kestrel Lager,F07-26-032,,,,derived
+S261030-022,hygiene,CIP.RINSE04,2026-10-30 13:28,AN4,,,,,CIP.RINSE04,equipment
+S261030-023,hygiene,HYG.FIL06,2026-10-30 13:47,AN4,,,,,HYG.FIL06,equipment
+S261030-024,fermentation,CEL.FV02,2026-10-30 14:23,AN4,Kestrel Lager,F02-26-031,,,,typed
+S261030-025,process micro,CEL.INLET,2026-10-30 15:22,AN4,Kestrel Pale Ale,,,,,none
+S261030-026,filtration and bright beer,BBT.BT03,2026-10-30 15:30,AN4,Kestrel Lager,F07-26-034,,,,derived
+S261030-027,maturation,CEL.FV09,2026-10-30 15:56,AN4,Kestrel Lager,F09-26-034,,,,derived
+S261030-028,process micro,BBT.BT05,2026-10-30 15:56,AN4,Kestrel Lager,F07-26-035,,,,derived
+S261030-029,packaging,PKG.B1,2026-10-30 16:02,AN1,Kestrel Pale Ale,,,L261030-B1-2,,typed
+S261030-030,sensory,QA.COMPLAINT,2026-10-30 16:08,AN1,Kestrel Lager,,,L261030-C1-1,,derived
+S261030-031,process micro,BBT.BT03,2026-10-30 16:18,AN1,Kestrel Pale Ale,F07-26-032,,,,derived
+S261030-032,fermentation,CEL.FV04,2026-10-30 16:30,AN1,Kestrel Lager,F04-26-030,,,,typed
+S261030-033,process micro,PKG.B1,2026-10-30 16:31,AN1,Kestrel Lager,,,L261030-B1-2,,typed
+S261030-034,shelf life,QA.RETAIN,2026-10-30 16:34,AN1,Kestrel Lager,,,L261030-C1-1,,typed
+S261030-035,packaging,PKG.B1,2026-10-30 17:05,AN1,Kestrel Lager,,,L261030-B1-2,,typed
+S261030-036,hygiene,HYG.FIL07,2026-10-30 17:10,AN1,,,,,HYG.FIL07,equipment
+S261030-037,water,BRW.LIQ01,2026-10-30 17:20,AN1,,,,,BRW.LIQ01,equipment
+S261030-038,process micro,CEL.FV03,2026-10-30 18:23,AN1,Kestrel Pale Ale,F03-26-030,,,,typed
+S261030-039,hygiene,HYG.FIL02,2026-10-30 18:38,AN1,,,,,HYG.FIL02,equipment
+S261030-040,hygiene,CIP.RINSE01,2026-10-30 19:05,AN1,,,,,CIP.RINSE01,equipment
+S261030-041,water,DAW.TK01,2026-10-30 19:21,AN1,,,,,DAW.TK01,equipment
+S261030-042,sensory,QA.PANEL,2026-10-30 19:30,AN1,Kestrel Pale Ale,,,L261030-C1-1,,typed
+S261030-043,hygiene,HYG.FIL04,2026-10-30 19:31,AN1,,,,,HYG.FIL04,equipment
+S261030-044,hygiene,HYG.FIL03,2026-10-30 20:35,AN1,,,,,HYG.FIL03,equipment
+S261030-045,hygiene,CIP.RINSE03,2026-10-30 20:37,AN1,,,,,CIP.RINSE03,equipment
+S261030-046,hygiene,HYG.FIL05,2026-10-30 20:48,AN1,,,,,HYG.FIL05,equipment
+S261030-047,fermentation,CEL.FV05,2026-10-30 21:51,AN1,Kestrel Lager,F05-26-030,,,,derived
+S261030-048,fermentation,CEL.FV01,2026-10-30 22:01,AN1,Kestrel Lager,F01-26-032,,,,typed
+S261030-049,maturation,CEL.FV07,2026-10-30 22:38,AN1,Kestrel Lager,F07-26-031,,,,typed
+S261030-050,wort,BRW.KET01,2026-10-30 22:40,AN1,Kestrel Pale Ale,,B26-0063,,,typed
+S261030-051,fermentation,CEL.FV06,2026-10-30 22:55,AN1,Kestrel Pale Ale,F06-26-034,,,,typed
+S261030-052,packaging,PKG.C1,2026-10-30 23:57,AN1,Kestrel Lager,,,L261030-C1-2,,typed
+S261030-053,packaging,PKG.B1,2026-10-31 01:25,AN3,Kestrel Lager,,,L261030-B1-1,,typed
+S261030-054,packaging,PKG.C1,2026-10-31 01:55,AN3,Kestrel Lager,,,L261030-B1-2,,typed
+S261030-055,shelf life,QA.RETAIN,2026-10-31 03:16,AN3,Kestrel Pale Ale,,,L261030-B1-1,,typed
+S261030-056,water,BRW.LIQ01,2026-10-31 03:36,AN3,,,,,BRW.LIQ01,equipment
+S261030-057,maturation,CEL.FV08,2026-10-31 04:00,AN3,Kestrel Pale Ale,F08-26-034,,,,typed
+S261030-058,packaging,PKG.C1,2026-10-31 04:03,AN3,Kestrel Lager,,,L261030-B1-2,,typed
+S261030-059,filtration and bright beer,FIL.OUT01,2026-10-31 04:51,AN3,Kestrel Lager,F07-26-031,,,,derived
+S261030-060,wort,CEL.INLET,2026-10-31 05:01,AN3,Kestrel Lager,,B26-0063,,,typed
+S261031-001,hygiene,CIP.RINSE01,2026-10-31 08:09,AN1,,,,,CIP.RINSE01,equipment
+S261031-002,packaging,PKG.B1,2026-10-31 08:32,AN1,Kestrel Pale Ale,,,L261031-B1-1,,typed
+S261031-003,process micro,CEL.INLET,2026-10-31 09:03,AN1,Kestrel Lager,,,,,none
+S261031-004,hygiene,CIP.RINSE02,2026-10-31 09:04,AN1,,,,,CIP.RINSE02,equipment
+S261031-005,process micro,PKG.B1,2026-10-31 08:53,AN1,Kestrel Lager,,,L261031-B1-2,,typed
+S261031-006,hygiene,HYG.FIL07,2026-10-31 08:54,AN1,,,,,HYG.FIL07,equipment
+S261031-007,hygiene,HYG.FIL09,2026-10-31 08:55,AN1,,,,,HYG.FIL09,equipment
+S261031-008,filtration and bright beer,BBT.BT03,2026-10-31 08:56,AN1,Kestrel Pale Ale,F07-26-031,,,,derived
+S261031-009,sensory,QA.PANEL,2026-10-31 08:57,AN1,Kestrel Lager,,,L261031-B1-1,,typed
+S261031-010,filtration and bright beer,BBT.BT05,2026-10-31 08:58,AN1,Kestrel Lager,F07-26-030,,,,derived
+S261031-011,hygiene,CIP.RINSE04,2026-10-31 08:59,AN1,,,,,CIP.RINSE04,equipment
+S261031-012,process micro,BBT.BT03,2026-10-31 09:00,AN1,Kestrel Lager,F07-26-035,,,,derived
+S261031-013,hygiene,HYG.FIL06,2026-10-31 09:01,AN1,,,,,HYG.FIL06,equipment
+S261031-014,hygiene,CIP.RINSE03,2026-10-31 09:02,AN1,,,,,CIP.RINSE03,equipment
+S261031-015,process micro,PKG.B1,2026-10-31 09:03,AN1,Kestrel Lager,,,L261031-B1-2,,typed
+S261031-016,hygiene,HYG.FIL01,2026-10-31 09:04,AN1,,,,,HYG.FIL01,equipment
+S261031-017,filtration and bright beer,FIL.OUT01,2026-10-31 09:05,AN3,Kestrel Lager,F07-26-032,,,,derived
+S261031-018,maturation,CEL.FV08,2026-10-31 14:23,AN1,Kestrel Lager,F08-26-033,,,,derived
+S261031-019,sensory,QA.PANEL,2026-10-31 14:23,AN1,Kestrel Lager,,,L261031-C1-1,,typed
+S261031-020,hygiene,HYG.FIL08,2026-10-31 14:44,AN1,,,,,HYG.FIL08,equipment
+S261031-021,process micro,BBT.BT03,2026-10-31 14:49,AN1,Kestrel Lager,F07-26-033,,,,derived
+S261031-022,process micro,BBT.BT05,2026-10-31 16:00,AN2,Kestrel Lager,F07-26-032,,,,derived
+S261031-023,fermentation,CEL.FV03,2026-10-31 16:02,AN2,Kestrel Pale Ale,F03-26-032,,,,derived
+S261031-024,hygiene,HYG.FIL05,2026-10-31 16:55,AN2,,,,,HYG.FIL05,equipment
+S261031-025,water,BRW.LIQ01,2026-10-31 17:36,AN2,,,,,BRW.LIQ01,equipment
+S261031-026,hygiene,HYG.FIL04,2026-10-31 17:47,AN2,,,,,HYG.FIL04,equipment
+S261031-027,sensory,QA.COMPLAINT,2026-10-31 17:52,AN2,Kestrel Pale Ale,,,L261031-C1-2,,typed
+S261031-028,process micro,CEL.INLET,2026-10-31 17:57,AN2,Kestrel Lager,,,,,none
+S261031-029,water,BRW.LIQ01,2026-10-31 18:14,AN2,,,,,BRW.LIQ01,equipment
+S261031-030,fermentation,CEL.FV01,2026-10-31 18:30,AN2,Kestrel Lager,F01-26-033,,,,typed
+S261031-031,process micro,CEL.FV03,2026-10-31 18:48,AN2,Kestrel Lager,F03-26-031,,,,typed
+S261031-032,wort,BRW.KET01,2026-10-31 19:26,AN2,Kestrel Lager,,B26-0064,,,typed
+S261031-033,process micro,CEL.FV03,2026-10-31 19:31,AN2,Kestrel Lager,F03-26-033,,,,typed
+S261031-034,water,DAW.TK01,2026-10-31 19:46,AN2,,,,,DAW.TK01,equipment
+S261031-035,process micro,PKG.C1,2026-10-31 20:02,AN2,Kestrel Lager,,,L261031-B1-1,,typed
+S261031-036,yeast,YST.TK01,2026-10-31 20:17,AN2,Kestrel Lager,F07-26-034,,,,typed
+S261031-037,hygiene,HYG.FIL10,2026-10-31 20:18,AN2,,,,,HYG.FIL10,equipment
+S261031-038,hygiene,HYG.FIL03,2026-10-31 20:36,AN2,,,,,HYG.FIL03,equipment
+S261031-039,hygiene,HYG.FIL02,2026-10-31 20:53,AN2,,,,,HYG.FIL02,equipment
+S261031-040,raw material,RAW.MALT,2026-10-31 20:57,AN2,,,,M-26-0183,,typed
+S261031-041,packaging,PKG.B1,2026-10-31 21:03,AN2,Kestrel Pale Ale,,,L261031-B1-2,,typed
+S261031-042,process micro,BBT.BT05,2026-10-31 21:07,AN2,Kestrel Lager,F07-26-034,,,,derived
+S261031-043,packaging,PKG.B1,2026-10-31 21:09,AN2,Kestrel Stout,,,L261031-B1-1,,typed
+S261031-044,shelf life,QA.RETAIN,2026-10-31 21:14,AN2,Kestrel Pale Ale,,,L261031-C1-2,,typed
+S261031-045,process micro,PKG.C1,2026-10-31 21:15,AN2,Kestrel Pale Ale,,,L261031-C1-1,,typed
+S261031-046,packaging,PKG.C1,2026-10-31 21:51,AN2,Kestrel Stout,,,L261031-C1-2,,typed
+S261031-047,packaging,PKG.C1,2026-10-31 22:03,AN2,Kestrel Lager,,,L261031-B1-1,,derived
+S261031-048,wort,CEL.INLET,2026-10-31 22:16,AN2,Kestrel Lager,,B26-0064,,,typed
+S261031-049,water,UTL.CO2,2026-11-01 00:24,AN4,,,,,UTL.CO2,equipment
+S261031-050,maturation,CEL.FV09,2026-11-01 01:08,AN4,Kestrel Lager,F09-26-032,,,,typed
+S261031-051,fermentation,CEL.FV02,2026-11-01 01:26,AN4,Kestrel Lager,F02-26-034,,,,typed
+S261031-052,packaging,PKG.C1,2026-11-01 02:32,AN4,Kestrel Lager,,,L261031-B1-2,,typed
+S261031-053,packaging,PKG.C1,2026-11-01 02:36,AN4,Kestrel Lager,,,L261031-C1-1,,typed
+S261031-054,fermentation,CEL.FV06,2026-11-01 02:42,AN4,Kestrel Lager,F06-26-034,,,,typed
+S261031-055,shelf life,QA.RETAIN,2026-11-01 03:10,AN4,Kestrel Stout,,,L261031-B1-2,,derived
+S261031-056,maturation,CEL.FV07,2026-11-01 03:21,AN4,Kestrel Lager,F07-26-032,,,,typed
+S261031-057,filtration and bright beer,FIL.OUT01,2026-11-01 04:14,AN4,Kestrel Lager,F07-26-032,,,,derived
+S261031-058,fermentation,CEL.FV05,2026-11-01 05:02,AN4,Kestrel Pale Ale,F05-26-032,,,,typed
+S261031-059,packaging,PKG.B1,2026-11-01 05:27,AN4,Kestrel Lager,,,L261031-B1-1,,typed
+S261031-060,fermentation,CEL.FV04,2026-11-01 05:27,AN4,Kestrel Pale Ale,F04-26-032,,,,typed
+S261101-001,water,DAW.TK01,2026-11-01 06:03,AN1,,,,,DAW.TK01,equipment
+S261101-002,sensory,QA.COMPLAINT,2026-11-01 06:34,AN1,Kestrel Lager,,,L261101-C1-2,,typed
+S261101-003,hygiene,HYG.FIL05,2026-11-01 06:44,AN1,,,,,HYG.FIL05,equipment
+S261101-004,process micro,CEL.INLET,2026-11-01 07:46,AN1,Kestrel Pale Ale,,,,,none
+S261101-005,process micro,CEL.INLET,2026-11-01 07:50,AN1,Kestrel Pale Ale,,,,,none
+S261101-006,hygiene,HYG.FIL07,2026-11-01 09:47,AN2,,,,,HYG.FIL07,equipment
+S261101-007,hygiene,HYG.FIL01,2026-11-01 10:03,AN2,,,,,HYG.FIL01,equipment
+S261101-008,fermentation,CEL.FV01,2026-11-01 10:24,AN2,Kestrel Stout,F01-26-035,,,,typed
+S261101-009,hygiene,HYG.FIL10,2026-11-01 10:36,AN2,,,,,HYG.FIL10,equipment
+S261101-010,hygiene,CIP.RINSE01,2026-11-01 11:05,AN2,,,,,CIP.RINSE01,equipment
+S261101-011,filtration and bright beer,BBT.BT05,2026-11-01 11:29,AN2,Kestrel Lager,F07-26-035,,,,derived
+S261101-012,maturation,CEL.FV07,2026-11-01 11:33,AN2,Kestrel Lager,F07-26-030,,,,typed
+S261101-013,hygiene,HYG.FIL06,2026-11-01 11:51,AN2,,,,,HYG.FIL06,equipment
+S261101-014,packaging,PKG.B1,2026-11-01 11:56,AN2,Kestrel Lager,,,L261101-B1-1,,typed
+S261101-015,hygiene,HYG.FIL04,2026-11-01 12:10,AN2,,,,,HYG.FIL04,equipment
+S261101-016,fermentation,CEL.FV03,2026-11-01 12:11,AN2,Kestrel Lager,F03-26-031,,,,typed
+S261101-017,process micro,CEL.FV03,2026-11-01 12:15,AN2,Kestrel Lager,F03-26-033,,,,typed
+S261101-018,hygiene,CIP.RINSE04,2026-11-01 13:00,AN2,,,,,CIP.RINSE04,equipment
+S261101-019,process micro,CEL.FV03,2026-11-01 13:06,AN2,Kestrel Lager,F03-26-035,,,,typed
+S261101-020,shelf life,QA.RETAIN,2026-11-01 13:25,AN2,Kestrel Lager,,,L261101-C1-2,,typed
+S261101-021,process micro,BBT.BT03,2026-11-01 13:33,AN2,Kestrel Lager,F07-26-030,,,,derived
+S261101-022,hygiene,HYG.FIL08,2026-11-01 14:10,AN2,,,,,HYG.FIL08,equipment
+S261101-023,process micro,BBT.BT05,2026-11-01 15:03,AN2,Kestrel Lager,F07-26-034,,,,derived
+S261101-024,raw material,RAW.MALT,2026-11-01 15:13,AN2,,,,M-26-0184,,typed
+S261101-025,sensory,QA.PANEL,2026-11-01 15:52,AN2,Kestrel Lager,,,L261101-B1-1,,typed
+S261101-026,maturation,CEL.FV08,2026-11-01 16:01,AN3,Kestrel Lager,F08-26-033,,,,typed
+S261101-027,hygiene,HYG.FIL09,2026-11-01 16:03,AN3,,,,,HYG.FIL09,equipment
+S261101-028,packaging,PKG.C1,2026-11-01 16:21,AN3,Kestrel Lager,,,L261101-B1-2,,derived
+S261101-029,process micro,PKG.B1,2026-11-01 17:04,AN3,Kestrel Pale Ale,,,L261101-B1-1,,derived
+S261101-030,filtration and bright beer,FIL.OUT01,2026-11-01 17:05,AN3,Kestrel Lager,F07-26-032,,,,derived
+S261101-031,filtration and bright beer,BBT.BT03,2026-11-01 17:21,AN3,Kestrel Lager,F07-26-030,,,,derived
+S261101-032,yeast,YST.TK01,2026-11-01 17:29,AN3,Kestrel Lager,F07-26-035,,,,typed
+S261101-033,fermentation,CEL.FV06,2026-11-01 17:30,AN3,Kestrel Lager,F06-26-031,,,,typed
+S261101-034,packaging,PKG.C1,2026-11-01 18:38,AN3,Kestrel Lager,,,L261101-B1-2,,typed
+S261101-035,process micro,BBT.BT05,2026-11-01 19:11,AN3,Kestrel Lager,F07-26-033,,,,derived
+S261101-036,process micro,BBT.BT03,2026-11-01 19:16,AN3,Kestrel Pale Ale,F07-26-034,,,,derived
+S261101-037,hygiene,HYG.FIL02,2026-11-01 19:19,AN3,,,,,HYG.FIL02,equipment
+S261101-038,water,BRW.LIQ01,2026-11-01 19:27,AN3,,,,,BRW.LIQ01,equipment
+S261101-039,hygiene,CIP.RINSE03,2026-11-01 20:00,AN3,,,,,CIP.RINSE03,equipment
+S261101-040,packaging,PKG.B1,2026-11-01 20:04,AN3,Kestrel Lager,,,L261101-B1-1,,typed
+S261101-041,process micro,PKG.C1,2026-11-01 20:10,AN3,Kestrel Lager,,,L261101-C1-2,,typed
+S261101-042,hygiene,CIP.RINSE02,2026-11-01 20:20,AN3,,,,,CIP.RINSE02,equipment
+S261101-043,process micro,PKG.C1,2026-11-01 20:29,AN3,Kestrel Lager,,,L261101-C1-1,,typed
+S261101-044,packaging,PKG.C1,2026-11-01 20:39,AN3,Kestrel Lager,,,L261101-C1-2,,typed
+S261101-045,process micro,PKG.B1,2026-11-01 20:57,AN3,Kestrel Lager,,,L261101-B1-1,,typed
+S261101-046,sensory,QA.PANEL,2026-11-01 21:16,AN3,Kestrel Lager,,,L261101-B1-2,,typed
+S261101-047,hygiene,HYG.FIL03,2026-11-01 21:23,AN3,,,,,HYG.FIL03,equipment
+S261101-048,packaging,PKG.B1,2026-11-01 21:24,AN3,Kestrel Lager,,,L261101-B1-1,,typed
+S261101-049,water,BRW.LIQ01,2026-11-01 22:00,AN3,,,,,BRW.LIQ01,equipment
+S261101-050,fermentation,CEL.FV02,2026-11-01 22:58,AN3,Kestrel Stout,F02-26-033,,,,typed
+S261101-051,wort,CEL.INLET,2026-11-01 23:33,AN3,Kestrel Pale Ale,,B26-0065,,,typed
+S261101-052,filtration and bright beer,FIL.OUT01,2026-11-01 23:41,AN3,Kestrel Lager,F07-26-035,,,,derived
+S261101-053,wort,BRW.KET01,2026-11-02 00:13,AN1,Kestrel Lager,,B26-0065,,,typed
+S261101-054,maturation,CEL.FV09,2026-11-02 00:35,AN1,Kestrel Lager,F09-26-030,,,,typed
+S261101-055,fermentation,CEL.FV04,2026-11-02 03:00,AN1,Kestrel Lager,F04-26-032,,,,typed
+S261101-056,packaging,PKG.B1,2026-11-02 03:24,AN1,Kestrel Lager,,,L261101-B1-2,,typed
+S261101-057,packaging,PKG.C1,2026-11-02 03:26,AN1,Kestrel Stout,,,L261101-C1-1,,typed
+S261101-058,water,UTL.CO2,2026-11-02 03:50,AN1,,,,,UTL.CO2,equipment
+S261101-059,fermentation,CEL.FV05,2026-11-02 04:31,AN1,Kestrel Lager,F05-26-031,,,,typed
+S261101-060,shelf life,QA.RETAIN,2026-11-02 05:47,AN1,Kestrel Lager,,,L261101-C1-2,,typed
+S261102-001,wort,CEL.INLET,2026-11-02 06:14,AN2,Kestrel Pale Ale,,B26-0066,,,typed
+S261102-002,process micro,PKG.B1,2026-11-02 06:35,AN2,Kestrel Lager,,,L261102-B1-1,,typed
+S261102-003,hygiene,CIP.RINSE01,2026-11-02 07:43,AN2,,,,,CIP.RINSE01,equipment
+S261102-004,packaging,PKG.B1,2026-11-02 08:10,AN3,Kestrel Pale Ale,,,L261102-B1-2,,typed
+S261102-005,water,BRW.LIQ01,2026-11-02 08:23,AN3,,,,,BRW.LIQ01,equipment
+S261102-006,packaging,PKG.C1,2026-11-02 08:50,AN3,Kestrel Lager,,,L261102-B1-1,,typed
+S261102-007,yeast,YST.TK01,2026-11-02 08:52,AN3,Kestrel Lager,F07-26-033,,,,typed
+S261102-008,hygiene,HYG.FIL05,2026-11-02 08:57,AN3,,,,,HYG.FIL05,equipment
+S261102-009,shelf life,QA.RETAIN,2026-11-02 09:16,AN3,Kestrel Lager,,,L261102-C1-2,,typed
+S261102-010,hygiene,CIP.RINSE02,2026-11-02 09:22,AN3,,,,,CIP.RINSE02,equipment
+S261102-011,process micro,CEL.FV03,2026-11-02 09:50,AN3,Kestrel Pale Ale,F03-26-033,,,,typed
+S261102-012,wort,BRW.KET01,2026-11-02 09:59,AN3,Kestrel Lager,,B26-0066,,,typed
+S261102-013,packaging,PKG.C1,2026-11-02 10:09,AN3,Kestrel Lager,,,L261102-C1-1,,typed
+S261102-014,maturation,CEL.FV07,2026-11-02 10:21,AN3,Kestrel Pale Ale,F07-26-033,,,,typed
+S261102-015,process micro,CEL.FV03,2026-11-02 10:37,AN3,Kestrel Pale Ale,F03-26-034,,,,typed
+S261102-016,sensory,QA.PANEL,2026-11-02 10:48,AN3,Kestrel Pale Ale,,,L261102-B1-2,,typed
+S261102-017,process micro,PKG.C1,2026-11-02 11:05,AN3,Kestrel Lager,,,L261102-B1-1,,typed
+S261102-018,sensory,QA.COMPLAINT,2026-11-02 11:12,AN3,Kestrel Pale Ale,,,L261102-B1-2,,typed
+S261102-019,process micro,BBT.BT05,2026-11-02 11:21,AN3,Kestrel Lager,F07-26-034,,,,derived
+S261102-020,hygiene,HYG.FIL09,2026-11-02 11:27,AN3,,,,,HYG.FIL09,equipment
+S261102-021,raw material,RAW.MALT,2026-11-02 11:49,AN3,,,,M-26-0185,,typed
+S261102-022,process micro,PKG.B1,2026-11-02 11:53,AN3,Kestrel Lager,,,L261102-B1-1,,typed
+S261102-023,hygiene,HYG.FIL10,2026-11-02 12:12,AN3,,,,,HYG.FIL10,equipment
+S261102-024,hygiene,HYG.FIL07,2026-11-02 12:30,AN3,,,,,HYG.FIL07,equipment
+S261102-025,fermentation,CEL.FV03,2026-11-02 12:57,AN3,Kestrel Lager,F03-26-032,,,,typed
+S261102-026,process micro,PKG.C1,2026-11-02 13:23,AN3,Kestrel Stout,,,L261102-C1-2,,derived
+S261102-027,process micro,CEL.INLET,2026-11-02 13:48,AN3,Kestrel Lager,,,,,none
+S261102-028,process micro,BBT.BT03,2026-11-02 14:36,AN3,Kestrel Stout,F07-26-034,,,,derived
+S261102-029,filtration and bright beer,BBT.BT05,2026-11-02 15:54,AN3,Kestrel Lager,F07-26-035,,,,derived
+S261102-030,hygiene,HYG.FIL03,2026-11-02 16:38,AN4,,,,,HYG.FIL03,equipment
+S261102-031,hygiene,HYG.FIL02,2026-11-02 16:50,AN4,,,,,HYG.FIL02,equipment
+S261102-032,hygiene,HYG.FIL06,2026-11-02 17:39,AN4,,,,,HYG.FIL06,equipment
+S261102-033,fermentation,CEL.FV04,2026-11-02 17:40,AN4,Kestrel Pale Ale,F04-26-031,,,,typed
+S261102-034,packaging,PKG.C1,2026-11-02 17:41,AN4,Kestrel Pale Ale,,,L261102-C1-1,,typed
+S261102-035,packaging,PKG.B1,2026-11-02 17:46,AN4,Kestrel Lager,,,L261102-B1-2,,derived
+S261102-036,water,UTL.CO2,2026-11-02 18:09,AN4,,,,,UTL.CO2,equipment
+S261102-037,packaging,PKG.B1,2026-11-02 18:15,AN4,Kestrel Lager,,,L261102-B1-1,,typed
+S261102-038,hygiene,HYG.FIL04,2026-11-02 18:35,AN4,,,,,HYG.FIL04,equipment
+S261102-039,hygiene,CIP.RINSE04,2026-11-02 18:36,AN4,,,,,CIP.RINSE04,equipment
+S261102-040,process micro,CEL.INLET,2026-11-02 18:48,AN4,Kestrel Lager,,,,,none
+S261102-041,process micro,BBT.BT03,2026-11-02 19:06,AN4,Kestrel Lager,F07-26-034,,,,derived
+S261102-042,hygiene,CIP.RINSE03,2026-11-02 19:20,AN4,,,,,CIP.RINSE03,equipment
+S261102-043,shelf life,QA.RETAIN,2026-11-02 20:21,AN4,Kestrel Lager,,,L261102-C1-2,,typed
+S261102-044,hygiene,HYG.FIL01,2026-11-02 20:35,AN4,,,,,HYG.FIL01,equipment
+S261102-045,sensory,QA.PANEL,2026-11-02 20:45,AN4,Kestrel Lager,,,L261102-C1-1,,typed
+S261102-046,filtration and bright beer,BBT.BT03,2026-11-02 21:18,AN4,Kestrel Pale Ale,F07-26-035,,,,derived
+S261102-047,packaging,PKG.B1,2026-11-02 21:22,AN4,Kestrel Pale Ale,,,L261102-B1-2,,typed
+S261102-048,hygiene,HYG.FIL08,2026-11-02 21:24,AN4,,,,,HYG.FIL08,equipment
+S261102-049,process micro,BBT.BT05,2026-11-02 21:25,AN4,Kestrel Pale Ale,F07-26-035,,,,derived
+S261102-050,maturation,CEL.FV09,2026-11-02 22:21,AN4,Kestrel Lager,F09-26-035,,,,typed
+S261102-051,filtration and bright beer,FIL.OUT01,2026-11-02 23:53,AN4,Kestrel Pale Ale,F07-26-030,,,,derived
+S261102-052,water,BRW.LIQ01,2026-11-03 00:17,AN2,,,,,BRW.LIQ01,equipment
+S261102-053,filtration and bright beer,FIL.OUT01,2026-11-03 02:06,AN2,Kestrel Lager,F07-26-032,,,,derived
+S261102-054,fermentation,CEL.FV06,2026-11-03 02:52,AN2,Kestrel Pale Ale,F06-26-033,,,,typed
+S261102-055,packaging,PKG.C1,2026-11-03 03:46,AN2,Kestrel Lager,,,L261102-B1-1,,typed
+S261102-056,fermentation,CEL.FV05,2026-11-03 04:07,AN2,Kestrel Pale Ale,F05-26-032,,,,typed
+S261102-057,maturation,CEL.FV08,2026-11-03 04:47,AN2,Kestrel Lager,F08-26-035,,,,typed
+S261102-058,fermentation,CEL.FV01,2026-11-03 04:57,AN2,Kestrel Pale Ale,F01-26-030,,,,typed
+S261102-059,water,DAW.TK01,2026-11-03 04:59,AN2,,,,,DAW.TK01,equipment
+S261102-060,fermentation,CEL.FV02,2026-11-03 05:08,AN2,Kestrel Pale Ale,F02-26-030,,,,typed
+S261103-001,hygiene,CIP.RINSE04,2026-11-03 06:02,AN3,,,,,CIP.RINSE04,equipment
+S261103-002,packaging,PKG.B1,2026-11-03 06:03,AN3,Kestrel Pale Ale,,,L261103-B1-2,,typed
+S261103-003,hygiene,HYG.FIL06,2026-11-03 06:04,AN3,,,,,HYG.FIL06,equipment
+S261103-004,filtration and bright beer,BBT.BT03,2026-11-03 06:05,AN3,Kestrel Lager,F07-26-034,,,,derived
+S261103-005,hygiene,HYG.FIL08,2026-11-03 07:39,AN3,,,,,HYG.FIL08,equipment
+S261103-006,hygiene,CIP.RINSE01,2026-11-03 08:09,AN4,,,,,CIP.RINSE01,equipment
+S261103-007,packaging,PKG.B1,2026-11-03 08:46,AN4,Kestrel Lager,,,L261103-B1-1,,typed
+S261103-008,process micro,BBT.BT05,2026-11-03 09:13,AN4,Kestrel Lager,F07-26-035,,,,derived
+S261103-009,hygiene,CIP.RINSE02,2026-11-03 09:28,AN4,,,,,CIP.RINSE02,equipment
+S261103-010,yeast,YST.TK01,2026-11-03 09:36,AN4,Kestrel Lager,F07-26-035,,,,typed
+S261103-011,process micro,CEL.FV03,2026-11-03 09:38,AN4,Kestrel Pale Ale,F03-26-034,,,,typed
+S261103-012,packaging,PKG.C1,2026-11-03 10:33,AN4,Kestrel Stout,,,L261103-C1-2,,typed
+S261103-013,process micro,PKG.C1,2026-11-03 10:41,AN4,Kestrel Pale Ale,,,L261103-B1-1,,typed
+S261103-014,fermentation,CEL.FV01,2026-11-03 11:23,AN4,Kestrel Lager,F01-26-031,,,,typed
+S261103-015,maturation,CEL.FV07,2026-11-03 11:31,AN4,Kestrel Lager,F07-26-031,,,,derived
+S261103-016,raw material,RAW.MALT,2026-11-03 11:50,AN4,,,,M-26-0186,,typed
+S261103-017,process micro,CEL.INLET,2026-11-03 11:51,AN4,Kestrel Lager,,,,,none
+S261103-018,filtration and bright beer,FIL.OUT01,2026-11-03 12:16,AN4,Kestrel Pale Ale,F07-26-035,,,,derived
+S261103-019,wort,BRW.KET01,2026-11-03 12:19,AN4,Kestrel Lager,,B26-0067,,,typed
+S261103-020,process micro,CEL.INLET,2026-11-03 12:54,AN4,Kestrel Lager,,,,,none
+S261103-021,process micro,PKG.B1,2026-11-03 12:55,AN4,Kestrel Pale Ale,,,L261103-B1-2,,typed
+S261103-022,hygiene,HYG.FIL04,2026-11-03 12:57,AN4,,,,,HYG.FIL04,equipment
+S261103-023,process micro,CEL.FV03,2026-11-03 13:00,AN4,Kestrel Lager,F03-26-030,,,,typed
+S261103-024,hygiene,HYG.FIL07,2026-11-03 13:12,AN4,,,,,HYG.FIL07,equipment
+S261103-025,maturation,CEL.FV08,2026-11-03 13:22,AN4,Kestrel Lager,F08-26-033,,,,typed
+S261103-026,filtration and bright beer,FIL.OUT01,2026-11-03 14:06,AN4,Kestrel Stout,F07-26-033,,,,derived
+S261103-027,fermentation,CEL.FV05,2026-11-03 14:47,AN4,Kestrel Lager,F05-26-033,,,,typed
+S261103-028,sensory,QA.PANEL,2026-11-03 14:53,AN4,Kestrel Pale Ale,,,L261103-B1-1,,typed
+S261103-029,water,BRW.LIQ01,2026-11-03 14:59,AN4,,,,,BRW.LIQ01,equipment
+S261103-030,packaging,PKG.C1,2026-11-03 15:03,AN4,Kestrel Lager,,,L261103-C1-2,,typed
+S261103-031,fermentation,CEL.FV06,2026-11-03 15:16,AN4,Kestrel Stout,F06-26-031,,,,derived
+S261103-032,packaging,PKG.B1,2026-11-03 15:51,AN4,Kestrel Lager,,,L261103-B1-1,,typed
+S261103-033,packaging,PKG.B1,2026-11-03 15:59,AN4,Kestrel Lager,,,L261103-B1-2,,typed
+S261103-034,hygiene,HYG.FIL05,2026-11-03 16:01,AN1,,,,,HYG.FIL05,equipment
+S261103-035,hygiene,HYG.FIL01,2026-11-03 16:02,AN1,,,,,HYG.FIL01,equipment
+S261103-036,hygiene,HYG.FIL10,2026-11-03 16:43,AN1,,,,,HYG.FIL10,equipment
+S261103-037,hygiene,HYG.FIL09,2026-11-03 16:47,AN1,,,,,HYG.FIL09,equipment
+S261103-038,sensory,QA.PANEL,2026-11-03 17:26,AN1,Kestrel Pale Ale,,,L261103-B1-1,,typed
+S261103-039,process micro,BBT.BT03,2026-11-03 17:34,AN1,Kestrel Lager,F07-26-035,,,,derived
+S261103-040,hygiene,HYG.FIL03,2026-11-03 17:34,AN1,,,,,HYG.FIL03,equipment
+S261103-041,process micro,PKG.B1,2026-11-03 18:07,AN1,Kestrel Lager,,,L261103-B1-2,,typed
+S261103-042,process micro,PKG.C1,2026-11-03 18:11,AN1,Kestrel Pale Ale,,,L261103-B1-1,,typed
+S261103-043,hygiene,CIP.RINSE03,2026-11-03 18:38,AN1,,,,,CIP.RINSE03,equipment
+S261103-044,sensory,QA.COMPLAINT,2026-11-03 19:09,AN1,Kestrel Lager,,,L261103-C1-2,,typed
+S261103-045,process micro,BBT.BT05,2026-11-03 19:52,AN1,Kestrel Lager,F07-26-034,,,,derived
+S261103-046,process micro,BBT.BT03,2026-11-03 20:07,AN1,Kestrel Lager,F07-26-031,,,,derived
+S261103-047,fermentation,CEL.FV03,2026-11-03 21:03,AN1,Kestrel Lager,F03-26-031,,,,typed
+S261103-048,hygiene,HYG.FIL02,2026-11-03 21:14,AN1,,,,,HYG.FIL02,equipment
+S261103-049,fermentation,CEL.FV04,2026-11-03 21:36,AN1,Kestrel Lager,F04-26-034,,,,typed
+S261103-050,packaging,PKG.C1,2026-11-03 22:06,AN1,Kestrel Lager,,,L261103-C1-1,,typed
+S261103-051,water,DAW.TK01,2026-11-03 22:44,AN1,,,,,DAW.TK01,equipment
+S261103-052,fermentation,CEL.FV02,2026-11-04 00:21,AN3,Kestrel Lager,F02-26-030,,,,typed
+S261103-053,packaging,PKG.C1,2026-11-04 01:12,AN3,Kestrel Pale Ale,,,L261103-C1-2,,typed
+S261103-054,shelf life,QA.RETAIN,2026-11-04 01:49,AN3,Kestrel Lager,,,L261103-B1-1,,typed
+S261103-055,wort,CEL.INLET,2026-11-04 02:36,AN3,Kestrel Pale Ale,,B26-0067,,,typed
+S261103-056,water,UTL.CO2,2026-11-04 02:45,AN3,,,,,UTL.CO2,equipment
+S261103-057,water,BRW.LIQ01,2026-11-04 02:54,AN3,,,,,BRW.LIQ01,equipment
+S261103-058,maturation,CEL.FV09,2026-11-04 03:38,AN3,Kestrel Lager,F09-26-034,,,,typed
+S261103-059,filtration and bright beer,BBT.BT05,2026-11-04 04:33,AN3,Kestrel Lager,F07-26-030,,,,derived
+S261103-060,shelf life,QA.RETAIN,2026-11-04 04:42,AN3,Kestrel Pale Ale,,,L261103-C1-2,,typed

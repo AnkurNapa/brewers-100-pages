@@ -1,0 +1,1016 @@
+entry_id,theme,grade,mentions_genai
+E0001,Other,not graded,False
+E0002,Quality and inspection,no AI claim,False
+E0003,"Sales, demand and pricing",no AI claim,False
+E0004,Other,no AI claim,False
+E0005,Other,no AI claim,False
+E0006,Quality and inspection,shipping,False
+E0007,Other,no AI claim,False
+E0008,GenAI and marketing,shipping,True
+E0009,Other,shipping,False
+E0010,GenAI and marketing,shipping,True
+E0011,Other,no AI claim,False
+E0012,Other,shipping,False
+E0013,Process and operations,no AI claim,False
+E0014,Agriculture and crop,no AI claim,False
+E0015,Process and operations,shipping,False
+E0016,Engineering and equipment,no AI claim,False
+E0017,"Sales, demand and pricing",shipping,False
+E0018,Process and operations,no AI claim,False
+E0019,Other,no AI claim,False
+E0020,Other,shipping,False
+E0021,Process and operations,no AI claim,False
+E0022,Process and operations,shipping,False
+E0023,Other,shipping,False
+E0024,Other,no AI claim,False
+E0025,"Sales, demand and pricing",shipping,False
+E0026,Other,shipping,False
+E0027,Process and operations,no AI claim,False
+E0028,Process and operations,pilot,False
+E0029,Other,no AI claim,False
+E0030,Other,no AI claim,False
+E0031,Other,shipping,False
+E0032,Other,shipping,False
+E0033,Agriculture and crop,shipping,False
+E0034,Process and operations,shipping,False
+E0035,Other,no AI claim,False
+E0036,Other,no AI claim,False
+E0037,Agriculture and crop,shipping,False
+E0038,Sensory and recipe,shipping,False
+E0039,Sensory and recipe,research,False
+E0040,Quality and inspection,shipping,False
+E0041,Agriculture and crop,shipping,False
+E0042,Other,no AI claim,False
+E0043,"Sales, demand and pricing",no AI claim,False
+E0044,Other,shipping,False
+E0045,Agriculture and crop,no AI claim,False
+E0046,Agriculture and crop,shipping,False
+E0047,Sensory and recipe,pilot,False
+E0048,Agriculture and crop,no AI claim,False
+E0049,Other,shipping,False
+E0050,Other,shipping,False
+E0051,Quality and inspection,shipping,False
+E0052,"Sales, demand and pricing",shipping,False
+E0053,Other,shipping,False
+E0054,Process and operations,no AI claim,False
+E0055,Process and operations,shipping,False
+E0056,Engineering and equipment,no AI claim,False
+E0057,Process and operations,no AI claim,False
+E0058,Quality and inspection,no AI claim,False
+E0059,Agriculture and crop,shipping,False
+E0060,"Sales, demand and pricing",shipping,False
+E0061,Quality and inspection,shipping,False
+E0062,Sensory and recipe,no AI claim,False
+E0063,Sensory and recipe,pilot,False
+E0064,Sensory and recipe,research,False
+E0065,"Sales, demand and pricing",shipping,False
+E0066,Other,shipping,False
+E0067,Sensory and recipe,shipping,False
+E0068,"Sales, demand and pricing",shipping,False
+E0069,Process and operations,shipping,False
+E0070,Engineering and equipment,no AI claim,False
+E0071,Agriculture and crop,shipping,False
+E0072,Other,shipping,False
+E0073,Other,shipping,False
+E0074,Agriculture and crop,pilot,False
+E0075,Process and operations,shipping,True
+E0076,Other,no AI claim,False
+E0077,Other,not graded,False
+E0078,Other,shipping,False
+E0079,Quality and inspection,shipping,False
+E0080,Quality and inspection,shipping,False
+E0081,Other,no AI claim,False
+E0082,Engineering and equipment,pilot,False
+E0083,Process and operations,research,False
+E0084,Agriculture and crop,shipping,False
+E0085,Agriculture and crop,no AI claim,False
+E0086,Process and operations,no AI claim,False
+E0087,Process and operations,shipping,False
+E0088,Process and operations,no AI claim,False
+E0089,Sensory and recipe,shipping,False
+E0090,Quality and inspection,shipping,False
+E0091,Engineering and equipment,no AI claim,False
+E0092,Process and operations,shipping,False
+E0093,Other,no AI claim,False
+E0094,Other,shipping,False
+E0095,Process and operations,pilot,False
+E0096,Process and operations,no AI claim,False
+E0097,Other,no AI claim,False
+E0098,Agriculture and crop,shipping,False
+E0099,Process and operations,no AI claim,False
+E0100,Agriculture and crop,no AI claim,False
+E0101,GenAI and marketing,no AI claim,True
+E0102,Other,no AI claim,False
+E0103,Other,no AI claim,False
+E0104,Agriculture and crop,shipping,False
+E0105,Other,no AI claim,False
+E0106,Engineering and equipment,no AI claim,False
+E0107,Other,not graded,False
+E0108,Process and operations,no AI claim,False
+E0109,"Sales, demand and pricing",no AI claim,False
+E0110,Other,not graded,False
+E0111,Sensory and recipe,pilot,False
+E0112,Process and operations,pilot,False
+E0113,Process and operations,no AI claim,False
+E0114,Process and operations,no AI claim,False
+E0115,Sensory and recipe,shipping,False
+E0116,Process and operations,no AI claim,False
+E0117,Process and operations,shipping,False
+E0118,Other,no AI claim,False
+E0119,Other,shipping,False
+E0120,Other,no AI claim,False
+E0121,Other,no AI claim,False
+E0122,Quality and inspection,shipping,False
+E0123,Process and operations,shipping,False
+E0124,"Sales, demand and pricing",shipping,False
+E0125,Sensory and recipe,shipping,False
+E0126,Sensory and recipe,pilot,False
+E0127,Agriculture and crop,no AI claim,False
+E0128,Engineering and equipment,no AI claim,False
+E0129,"Sales, demand and pricing",shipping,False
+E0130,Quality and inspection,shipping,False
+E0131,Process and operations,no AI claim,False
+E0132,Engineering and equipment,shipping,False
+E0133,Other,shipping,False
+E0134,Process and operations,shipping,False
+E0135,Process and operations,no AI claim,False
+E0136,Other,pilot,False
+E0137,Agriculture and crop,shipping,False
+E0138,"Sales, demand and pricing",shipping,False
+E0139,Quality and inspection,no AI claim,False
+E0140,Other,not graded,False
+E0141,Process and operations,shipping,False
+E0142,Sensory and recipe,shipping,False
+E0143,Process and operations,pilot,False
+E0144,Other,no AI claim,False
+E0145,"Sales, demand and pricing",no AI claim,False
+E0146,Agriculture and crop,not graded,False
+E0147,Process and operations,not graded,False
+E0148,Agriculture and crop,shipping,False
+E0149,Process and operations,pilot,False
+E0150,Agriculture and crop,shipping,False
+E0151,Process and operations,no AI claim,False
+E0152,Other,shipping,False
+E0153,"Sales, demand and pricing",shipping,False
+E0154,"Sales, demand and pricing",not graded,False
+E0155,Other,no AI claim,False
+E0156,Other,no AI claim,False
+E0157,Process and operations,shipping,False
+E0158,Other,pilot,False
+E0159,Agriculture and crop,shipping,False
+E0160,Other,no AI claim,False
+E0161,Engineering and equipment,shipping,False
+E0162,Engineering and equipment,not graded,False
+E0163,Other,no AI claim,False
+E0164,Sensory and recipe,pilot,False
+E0165,Other,shipping,False
+E0166,Process and operations,no AI claim,False
+E0167,Process and operations,no AI claim,False
+E0168,Process and operations,no AI claim,False
+E0169,Process and operations,no AI claim,False
+E0170,Sensory and recipe,shipping,False
+E0171,Other,no AI claim,False
+E0172,Process and operations,no AI claim,False
+E0173,"Sales, demand and pricing",shipping,False
+E0174,Agriculture and crop,shipping,False
+E0175,Other,no AI claim,False
+E0176,"Sales, demand and pricing",shipping,False
+E0177,Other,no AI claim,False
+E0178,Agriculture and crop,shipping,False
+E0179,Process and operations,shipping,False
+E0180,GenAI and marketing,shipping,True
+E0181,Other,pilot,False
+E0182,Other,no AI claim,False
+E0183,Agriculture and crop,shipping,False
+E0184,Other,shipping,False
+E0185,Agriculture and crop,shipping,False
+E0186,Sensory and recipe,pilot,False
+E0187,"Sales, demand and pricing",pilot,False
+E0188,Other,no AI claim,False
+E0189,Other,shipping,False
+E0190,Other,shipping,False
+E0191,Process and operations,shipping,False
+E0192,Process and operations,no AI claim,False
+E0193,Process and operations,shipping,False
+E0194,Process and operations,no AI claim,False
+E0195,Sensory and recipe,shipping,False
+E0196,Other,shipping,False
+E0197,Process and operations,no AI claim,False
+E0198,Quality and inspection,no AI claim,False
+E0199,"Sales, demand and pricing",no AI claim,False
+E0200,Quality and inspection,shipping,False
+E0201,"Sales, demand and pricing",shipping,False
+E0202,Other,no AI claim,False
+E0203,Sensory and recipe,pilot,False
+E0204,Other,shipping,False
+E0205,Other,shipping,False
+E0206,Process and operations,shipping,False
+E0207,Agriculture and crop,no AI claim,False
+E0208,Process and operations,no AI claim,False
+E0209,"Sales, demand and pricing",shipping,False
+E0210,Other,no AI claim,False
+E0211,Other,no AI claim,False
+E0212,Other,no AI claim,False
+E0213,Other,no AI claim,False
+E0214,Sensory and recipe,shipping,False
+E0215,Agriculture and crop,pilot,False
+E0216,Other,no AI claim,False
+E0217,Process and operations,no AI claim,False
+E0218,"Sales, demand and pricing",no AI claim,False
+E0219,Other,shipping,False
+E0220,Quality and inspection,no AI claim,False
+E0221,Process and operations,no AI claim,False
+E0222,Process and operations,no AI claim,False
+E0223,Agriculture and crop,shipping,False
+E0224,Agriculture and crop,research,False
+E0225,Agriculture and crop,shipping,False
+E0226,"Sales, demand and pricing",no AI claim,False
+E0227,Process and operations,shipping,False
+E0228,Other,no AI claim,False
+E0229,Sensory and recipe,no AI claim,False
+E0230,"Sales, demand and pricing",shipping,False
+E0231,Quality and inspection,shipping,False
+E0232,Process and operations,shipping,False
+E0233,Sensory and recipe,shipping,False
+E0234,Process and operations,not graded,False
+E0235,Sensory and recipe,shipping,False
+E0236,"Sales, demand and pricing",shipping,False
+E0237,Other,no AI claim,False
+E0238,Other,shipping,False
+E0239,Other,no AI claim,False
+E0240,Agriculture and crop,shipping,False
+E0241,Quality and inspection,pilot,False
+E0242,Sensory and recipe,shipping,False
+E0243,Engineering and equipment,no AI claim,False
+E0244,Agriculture and crop,no AI claim,False
+E0245,"Sales, demand and pricing",shipping,False
+E0246,Process and operations,shipping,False
+E0247,Other,shipping,False
+E0248,Process and operations,no AI claim,False
+E0249,Sensory and recipe,no AI claim,False
+E0250,"Sales, demand and pricing",no AI claim,False
+E0251,Process and operations,no AI claim,False
+E0252,Agriculture and crop,not graded,False
+E0253,Process and operations,no AI claim,False
+E0254,"Sales, demand and pricing",shipping,False
+E0255,Other,no AI claim,False
+E0256,Other,no AI claim,False
+E0257,Process and operations,no AI claim,False
+E0258,"Sales, demand and pricing",shipping,False
+E0259,Other,no AI claim,False
+E0260,Other,shipping,False
+E0261,Process and operations,shipping,False
+E0262,Sensory and recipe,shipping,False
+E0263,Other,no AI claim,False
+E0264,Quality and inspection,no AI claim,False
+E0265,Process and operations,no AI claim,False
+E0266,Other,pilot,False
+E0267,Other,not graded,False
+E0268,Quality and inspection,pilot,False
+E0269,Process and operations,no AI claim,False
+E0270,Agriculture and crop,shipping,False
+E0271,Agriculture and crop,no AI claim,False
+E0272,Agriculture and crop,no AI claim,False
+E0273,Process and operations,no AI claim,True
+E0274,GenAI and marketing,shipping,True
+E0275,Other,no AI claim,False
+E0276,Engineering and equipment,no AI claim,False
+E0277,Other,shipping,False
+E0278,Other,shipping,False
+E0279,Agriculture and crop,shipping,False
+E0280,Quality and inspection,shipping,False
+E0281,Process and operations,no AI claim,False
+E0282,Other,shipping,False
+E0283,Process and operations,shipping,False
+E0284,Agriculture and crop,no AI claim,False
+E0285,"Sales, demand and pricing",no AI claim,False
+E0286,Process and operations,shipping,False
+E0287,Process and operations,no AI claim,False
+E0288,GenAI and marketing,shipping,True
+E0289,Process and operations,not graded,False
+E0290,Process and operations,shipping,False
+E0291,Other,no AI claim,False
+E0292,Process and operations,shipping,False
+E0293,Other,no AI claim,False
+E0294,Other,no AI claim,False
+E0295,Quality and inspection,shipping,False
+E0296,Engineering and equipment,not graded,False
+E0297,Process and operations,not graded,False
+E0298,Other,no AI claim,False
+E0299,Process and operations,no AI claim,False
+E0300,Other,research,False
+E0301,Engineering and equipment,no AI claim,False
+E0302,Other,shipping,False
+E0303,GenAI and marketing,pilot,True
+E0304,Agriculture and crop,no AI claim,False
+E0305,"Sales, demand and pricing",no AI claim,False
+E0306,Sensory and recipe,pilot,False
+E0307,Process and operations,shipping,False
+E0308,Other,no AI claim,False
+E0309,Other,no AI claim,False
+E0310,Agriculture and crop,shipping,False
+E0311,Other,no AI claim,False
+E0312,Agriculture and crop,shipping,False
+E0313,Other,no AI claim,False
+E0314,Engineering and equipment,no AI claim,False
+E0315,Other,no AI claim,False
+E0316,Agriculture and crop,no AI claim,False
+E0317,Process and operations,no AI claim,False
+E0318,Process and operations,shipping,False
+E0319,Process and operations,no AI claim,False
+E0320,Process and operations,shipping,False
+E0321,Agriculture and crop,shipping,False
+E0322,Other,shipping,False
+E0323,Other,no AI claim,False
+E0324,Process and operations,not graded,False
+E0325,Engineering and equipment,no AI claim,False
+E0326,Process and operations,no AI claim,False
+E0327,Quality and inspection,shipping,False
+E0328,Quality and inspection,shipping,False
+E0329,Process and operations,no AI claim,False
+E0330,Sensory and recipe,pilot,False
+E0331,Quality and inspection,shipping,False
+E0332,"Sales, demand and pricing",shipping,False
+E0333,Other,no AI claim,False
+E0334,"Sales, demand and pricing",shipping,False
+E0335,Process and operations,no AI claim,False
+E0336,"Sales, demand and pricing",shipping,False
+E0337,Other,shipping,False
+E0338,Other,no AI claim,False
+E0339,Agriculture and crop,shipping,False
+E0340,Other,no AI claim,False
+E0341,"Sales, demand and pricing",no AI claim,False
+E0342,Quality and inspection,no AI claim,False
+E0343,Process and operations,shipping,False
+E0344,Process and operations,no AI claim,False
+E0345,Other,no AI claim,False
+E0346,Other,shipping,False
+E0347,Process and operations,no AI claim,False
+E0348,Other,no AI claim,False
+E0349,Process and operations,no AI claim,False
+E0350,Agriculture and crop,no AI claim,False
+E0351,"Sales, demand and pricing",shipping,False
+E0352,Process and operations,shipping,False
+E0353,Sensory and recipe,no AI claim,False
+E0354,Process and operations,shipping,False
+E0355,Process and operations,no AI claim,False
+E0356,Other,shipping,False
+E0357,Process and operations,shipping,False
+E0358,Sensory and recipe,shipping,False
+E0359,Other,shipping,False
+E0360,Process and operations,no AI claim,False
+E0361,Agriculture and crop,shipping,False
+E0362,Other,no AI claim,False
+E0363,Other,no AI claim,False
+E0364,Other,shipping,False
+E0365,Agriculture and crop,shipping,False
+E0366,Other,no AI claim,False
+E0367,Other,shipping,False
+E0368,"Sales, demand and pricing",shipping,False
+E0369,Engineering and equipment,no AI claim,False
+E0370,Process and operations,shipping,False
+E0371,Process and operations,pilot,False
+E0372,Other,shipping,False
+E0373,Engineering and equipment,no AI claim,False
+E0374,Other,shipping,False
+E0375,Agriculture and crop,shipping,False
+E0376,Process and operations,no AI claim,False
+E0377,Process and operations,shipping,False
+E0378,"Sales, demand and pricing",shipping,False
+E0379,Other,shipping,False
+E0380,Agriculture and crop,shipping,False
+E0381,Process and operations,no AI claim,False
+E0382,Other,no AI claim,False
+E0383,Other,shipping,False
+E0384,Sensory and recipe,shipping,False
+E0385,Process and operations,no AI claim,False
+E0386,Quality and inspection,shipping,False
+E0387,Other,shipping,False
+E0388,Other,no AI claim,False
+E0389,Other,shipping,True
+E0390,Agriculture and crop,no AI claim,False
+E0391,Process and operations,no AI claim,False
+E0392,Sensory and recipe,no AI claim,False
+E0393,Sensory and recipe,no AI claim,False
+E0394,Process and operations,no AI claim,False
+E0395,Other,shipping,False
+E0396,Process and operations,shipping,False
+E0397,Sensory and recipe,shipping,False
+E0398,Other,no AI claim,True
+E0399,Process and operations,shipping,False
+E0400,Other,no AI claim,False
+E0401,Process and operations,shipping,False
+E0402,Other,shipping,False
+E0403,Agriculture and crop,shipping,False
+E0404,"Sales, demand and pricing",shipping,False
+E0405,Agriculture and crop,shipping,False
+E0406,Quality and inspection,no AI claim,False
+E0407,Other,no AI claim,False
+E0408,Agriculture and crop,no AI claim,False
+E0409,Quality and inspection,shipping,False
+E0410,Process and operations,shipping,False
+E0411,Process and operations,no AI claim,False
+E0412,Process and operations,no AI claim,False
+E0413,Process and operations,shipping,False
+E0414,Other,not graded,False
+E0415,Other,shipping,False
+E0416,Process and operations,shipping,False
+E0417,Other,no AI claim,False
+E0418,Process and operations,no AI claim,False
+E0419,Other,shipping,False
+E0420,Other,not graded,False
+E0421,Sensory and recipe,shipping,False
+E0422,Agriculture and crop,research,False
+E0423,Process and operations,shipping,False
+E0424,Other,shipping,False
+E0425,Agriculture and crop,shipping,False
+E0426,Other,no AI claim,False
+E0427,Process and operations,pilot,False
+E0428,GenAI and marketing,no AI claim,True
+E0429,Agriculture and crop,shipping,False
+E0430,Other,shipping,False
+E0431,"Sales, demand and pricing",no AI claim,False
+E0432,Process and operations,no AI claim,False
+E0433,Sensory and recipe,no AI claim,False
+E0434,Quality and inspection,shipping,False
+E0435,Process and operations,pilot,False
+E0436,Quality and inspection,shipping,True
+E0437,"Sales, demand and pricing",shipping,False
+E0438,Process and operations,no AI claim,False
+E0439,"Sales, demand and pricing",no AI claim,False
+E0440,Process and operations,shipping,False
+E0441,Process and operations,no AI claim,False
+E0442,Quality and inspection,shipping,False
+E0443,Other,no AI claim,False
+E0444,Other,no AI claim,False
+E0445,Other,no AI claim,False
+E0446,Process and operations,shipping,False
+E0447,GenAI and marketing,shipping,True
+E0448,Process and operations,no AI claim,False
+E0449,Other,no AI claim,False
+E0450,Other,shipping,False
+E0451,Other,no AI claim,False
+E0452,Process and operations,no AI claim,False
+E0453,Process and operations,shipping,False
+E0454,Other,no AI claim,True
+E0455,Quality and inspection,no AI claim,False
+E0456,Other,pilot,False
+E0457,Process and operations,shipping,False
+E0458,Other,no AI claim,False
+E0459,Process and operations,pilot,False
+E0460,"Sales, demand and pricing",pilot,False
+E0461,Other,not graded,False
+E0462,Agriculture and crop,shipping,False
+E0463,Process and operations,no AI claim,False
+E0464,Other,not graded,False
+E0465,Sensory and recipe,shipping,False
+E0466,Other,no AI claim,False
+E0467,Agriculture and crop,no AI claim,False
+E0468,Sensory and recipe,shipping,False
+E0469,Other,no AI claim,False
+E0470,Agriculture and crop,no AI claim,False
+E0471,Quality and inspection,shipping,False
+E0472,Process and operations,shipping,False
+E0473,"Sales, demand and pricing",shipping,False
+E0474,Other,no AI claim,False
+E0475,Quality and inspection,shipping,False
+E0476,Other,shipping,False
+E0477,Sensory and recipe,shipping,False
+E0478,Quality and inspection,shipping,False
+E0479,Sensory and recipe,shipping,True
+E0480,Process and operations,no AI claim,False
+E0481,Other,shipping,False
+E0482,Other,not graded,False
+E0483,Other,no AI claim,False
+E0484,Sensory and recipe,research,False
+E0485,"Sales, demand and pricing",shipping,False
+E0486,Agriculture and crop,shipping,False
+E0487,Process and operations,no AI claim,False
+E0488,Other,no AI claim,False
+E0489,Agriculture and crop,shipping,False
+E0490,Process and operations,pilot,False
+E0491,Process and operations,research,False
+E0492,"Sales, demand and pricing",no AI claim,False
+E0493,Process and operations,no AI claim,False
+E0494,"Sales, demand and pricing",pilot,False
+E0495,Agriculture and crop,not graded,False
+E0496,Quality and inspection,shipping,False
+E0497,Other,no AI claim,False
+E0498,Other,no AI claim,False
+E0499,Other,no AI claim,False
+E0500,"Sales, demand and pricing",shipping,False
+E0501,Other,no AI claim,False
+E0502,Engineering and equipment,no AI claim,False
+E0503,Process and operations,not graded,False
+E0504,Other,no AI claim,False
+E0505,Agriculture and crop,shipping,False
+E0506,Quality and inspection,research,False
+E0507,Other,no AI claim,False
+E0508,Other,shipping,False
+E0509,Other,shipping,False
+E0510,Quality and inspection,pilot,False
+E0511,"Sales, demand and pricing",pilot,False
+E0512,Engineering and equipment,no AI claim,False
+E0513,Sensory and recipe,pilot,False
+E0514,Sensory and recipe,shipping,False
+E0515,Other,shipping,False
+E0516,Sensory and recipe,research,False
+E0517,Other,shipping,False
+E0518,Process and operations,no AI claim,False
+E0519,"Sales, demand and pricing",shipping,False
+E0520,Process and operations,shipping,False
+E0521,Sensory and recipe,shipping,False
+E0522,Sensory and recipe,shipping,False
+E0523,"Sales, demand and pricing",shipping,False
+E0524,"Sales, demand and pricing",shipping,False
+E0525,Other,shipping,False
+E0526,Agriculture and crop,no AI claim,False
+E0527,"Sales, demand and pricing",shipping,False
+E0528,Other,no AI claim,False
+E0529,Other,shipping,False
+E0530,Other,no AI claim,False
+E0531,Other,no AI claim,False
+E0532,Process and operations,no AI claim,False
+E0533,Agriculture and crop,no AI claim,False
+E0534,Process and operations,no AI claim,False
+E0535,Other,shipping,False
+E0536,Other,pilot,False
+E0537,Other,shipping,False
+E0538,Other,no AI claim,False
+E0539,Process and operations,no AI claim,False
+E0540,Other,shipping,False
+E0541,Process and operations,shipping,False
+E0542,Process and operations,not graded,False
+E0543,Other,no AI claim,False
+E0544,Process and operations,no AI claim,False
+E0545,Sensory and recipe,no AI claim,False
+E0546,"Sales, demand and pricing",no AI claim,False
+E0547,Other,no AI claim,False
+E0548,Process and operations,shipping,False
+E0549,Other,no AI claim,False
+E0550,"Sales, demand and pricing",shipping,False
+E0551,Process and operations,shipping,False
+E0552,Process and operations,no AI claim,False
+E0553,"Sales, demand and pricing",shipping,False
+E0554,Process and operations,no AI claim,False
+E0555,Process and operations,shipping,False
+E0556,Agriculture and crop,shipping,False
+E0557,Process and operations,shipping,False
+E0558,Other,shipping,False
+E0559,Other,shipping,False
+E0560,Other,shipping,False
+E0561,Process and operations,no AI claim,False
+E0562,Process and operations,no AI claim,False
+E0563,Quality and inspection,shipping,False
+E0564,Other,no AI claim,False
+E0565,Other,shipping,False
+E0566,Agriculture and crop,shipping,False
+E0567,Other,no AI claim,False
+E0568,Process and operations,no AI claim,False
+E0569,Agriculture and crop,shipping,False
+E0570,Quality and inspection,no AI claim,False
+E0571,Process and operations,shipping,False
+E0572,Other,shipping,False
+E0573,Sensory and recipe,shipping,False
+E0574,"Sales, demand and pricing",not graded,False
+E0575,Process and operations,no AI claim,False
+E0576,Other,no AI claim,False
+E0577,Other,no AI claim,False
+E0578,Other,not graded,False
+E0579,Sensory and recipe,shipping,False
+E0580,Process and operations,no AI claim,False
+E0581,Other,no AI claim,False
+E0582,Other,shipping,False
+E0583,Process and operations,shipping,False
+E0584,Process and operations,no AI claim,False
+E0585,Other,no AI claim,False
+E0586,Agriculture and crop,no AI claim,False
+E0587,Process and operations,no AI claim,False
+E0588,Quality and inspection,shipping,False
+E0589,Other,not graded,False
+E0590,"Sales, demand and pricing",no AI claim,False
+E0591,Process and operations,shipping,False
+E0592,Engineering and equipment,no AI claim,False
+E0593,Other,shipping,False
+E0594,Other,no AI claim,False
+E0595,Other,no AI claim,True
+E0596,Sensory and recipe,no AI claim,False
+E0597,Process and operations,shipping,False
+E0598,GenAI and marketing,shipping,True
+E0599,Other,no AI claim,False
+E0600,GenAI and marketing,shipping,True
+E0601,Process and operations,shipping,False
+E0602,"Sales, demand and pricing",no AI claim,False
+E0603,Process and operations,shipping,False
+E0604,Other,no AI claim,False
+E0605,Sensory and recipe,shipping,False
+E0606,Other,shipping,False
+E0607,Other,no AI claim,False
+E0608,Other,no AI claim,False
+E0609,Agriculture and crop,no AI claim,False
+E0610,Other,shipping,False
+E0611,Agriculture and crop,no AI claim,False
+E0612,Quality and inspection,research,False
+E0613,Process and operations,shipping,False
+E0614,Process and operations,no AI claim,False
+E0615,Quality and inspection,shipping,False
+E0616,Other,no AI claim,False
+E0617,Process and operations,pilot,False
+E0618,Quality and inspection,shipping,False
+E0619,Agriculture and crop,shipping,False
+E0620,"Sales, demand and pricing",shipping,True
+E0621,Process and operations,no AI claim,False
+E0622,Quality and inspection,shipping,False
+E0623,Agriculture and crop,shipping,False
+E0624,Process and operations,pilot,False
+E0625,Process and operations,no AI claim,False
+E0626,Process and operations,no AI claim,False
+E0627,Process and operations,no AI claim,False
+E0628,Other,not graded,False
+E0629,Other,no AI claim,False
+E0630,Sensory and recipe,no AI claim,False
+E0631,Sensory and recipe,shipping,False
+E0632,Agriculture and crop,no AI claim,False
+E0633,Quality and inspection,shipping,False
+E0634,Other,no AI claim,False
+E0635,Other,no AI claim,False
+E0636,Process and operations,shipping,False
+E0637,Other,shipping,False
+E0638,Process and operations,no AI claim,False
+E0639,Other,no AI claim,False
+E0640,Agriculture and crop,shipping,False
+E0641,Other,no AI claim,False
+E0642,Other,not graded,True
+E0643,Other,no AI claim,False
+E0644,Other,not graded,False
+E0645,Agriculture and crop,pilot,False
+E0646,Sensory and recipe,shipping,False
+E0647,Quality and inspection,not graded,False
+E0648,Other,no AI claim,False
+E0649,Other,no AI claim,False
+E0650,Other,no AI claim,False
+E0651,Process and operations,shipping,False
+E0652,Quality and inspection,shipping,False
+E0653,Other,no AI claim,False
+E0654,Process and operations,pilot,False
+E0655,Other,no AI claim,False
+E0656,Engineering and equipment,no AI claim,False
+E0657,"Sales, demand and pricing",no AI claim,False
+E0658,Process and operations,shipping,False
+E0659,Process and operations,shipping,False
+E0660,Process and operations,no AI claim,False
+E0661,Sensory and recipe,no AI claim,False
+E0662,Quality and inspection,shipping,False
+E0663,Other,shipping,False
+E0664,"Sales, demand and pricing",shipping,False
+E0665,Other,no AI claim,False
+E0666,Quality and inspection,shipping,False
+E0667,Agriculture and crop,shipping,False
+E0668,Agriculture and crop,no AI claim,False
+E0669,Process and operations,no AI claim,False
+E0670,Quality and inspection,no AI claim,False
+E0671,Other,shipping,False
+E0672,Process and operations,no AI claim,False
+E0673,Process and operations,shipping,False
+E0674,Other,no AI claim,False
+E0675,Other,shipping,False
+E0676,Sensory and recipe,shipping,False
+E0677,Agriculture and crop,shipping,False
+E0678,Agriculture and crop,no AI claim,False
+E0679,Other,not graded,False
+E0680,Engineering and equipment,no AI claim,False
+E0681,Other,no AI claim,False
+E0682,Quality and inspection,no AI claim,False
+E0683,Agriculture and crop,pilot,False
+E0684,Process and operations,no AI claim,False
+E0685,Process and operations,no AI claim,False
+E0686,Process and operations,no AI claim,False
+E0687,Other,pilot,False
+E0688,Other,no AI claim,False
+E0689,Agriculture and crop,shipping,False
+E0690,Sensory and recipe,pilot,False
+E0691,Other,no AI claim,False
+E0692,Agriculture and crop,shipping,False
+E0693,Other,shipping,False
+E0694,Other,shipping,False
+E0695,Agriculture and crop,shipping,False
+E0696,Quality and inspection,shipping,False
+E0697,Process and operations,shipping,False
+E0698,"Sales, demand and pricing",shipping,False
+E0699,Agriculture and crop,shipping,False
+E0700,Process and operations,shipping,False
+E0701,Agriculture and crop,shipping,False
+E0702,Quality and inspection,not graded,False
+E0703,Agriculture and crop,shipping,False
+E0704,Process and operations,no AI claim,False
+E0705,Other,shipping,False
+E0706,Engineering and equipment,no AI claim,False
+E0707,Agriculture and crop,shipping,False
+E0708,Other,no AI claim,False
+E0709,Engineering and equipment,no AI claim,False
+E0710,Other,no AI claim,False
+E0711,Process and operations,no AI claim,False
+E0712,Other,shipping,False
+E0713,Agriculture and crop,shipping,False
+E0714,Process and operations,shipping,False
+E0715,Engineering and equipment,not graded,True
+E0716,Sensory and recipe,shipping,False
+E0717,Other,no AI claim,False
+E0718,Other,shipping,False
+E0719,Process and operations,no AI claim,False
+E0720,"Sales, demand and pricing",not graded,False
+E0721,Process and operations,no AI claim,False
+E0722,Other,no AI claim,False
+E0723,Other,no AI claim,False
+E0724,"Sales, demand and pricing",shipping,False
+E0725,Agriculture and crop,no AI claim,False
+E0726,"Sales, demand and pricing",shipping,False
+E0727,Other,shipping,False
+E0728,Quality and inspection,no AI claim,False
+E0729,Agriculture and crop,pilot,False
+E0730,Other,no AI claim,False
+E0731,Other,no AI claim,False
+E0732,Process and operations,no AI claim,False
+E0733,Sensory and recipe,shipping,False
+E0734,Other,shipping,False
+E0735,Other,no AI claim,False
+E0736,Agriculture and crop,no AI claim,False
+E0737,"Sales, demand and pricing",shipping,False
+E0738,Agriculture and crop,no AI claim,False
+E0739,Engineering and equipment,not graded,False
+E0740,Quality and inspection,not graded,False
+E0741,"Sales, demand and pricing",shipping,False
+E0742,"Sales, demand and pricing",not graded,False
+E0743,Agriculture and crop,research,False
+E0744,Other,shipping,False
+E0745,Other,no AI claim,False
+E0746,Process and operations,shipping,False
+E0747,"Sales, demand and pricing",shipping,False
+E0748,Process and operations,no AI claim,False
+E0749,Quality and inspection,shipping,False
+E0750,Agriculture and crop,shipping,False
+E0751,Agriculture and crop,no AI claim,False
+E0752,Other,shipping,False
+E0753,Process and operations,shipping,False
+E0754,Process and operations,shipping,False
+E0755,Process and operations,shipping,False
+E0756,Other,no AI claim,False
+E0757,Other,no AI claim,False
+E0758,Other,no AI claim,False
+E0759,"Sales, demand and pricing",no AI claim,False
+E0760,Other,no AI claim,False
+E0761,Sensory and recipe,no AI claim,False
+E0762,Other,no AI claim,False
+E0763,Other,shipping,False
+E0764,Agriculture and crop,no AI claim,False
+E0765,"Sales, demand and pricing",shipping,False
+E0766,Sensory and recipe,shipping,False
+E0767,Other,not graded,False
+E0768,"Sales, demand and pricing",shipping,False
+E0769,Process and operations,shipping,False
+E0770,Other,shipping,False
+E0771,Other,pilot,False
+E0772,Process and operations,no AI claim,False
+E0773,Process and operations,shipping,False
+E0774,Other,no AI claim,False
+E0775,Quality and inspection,shipping,False
+E0776,Process and operations,shipping,False
+E0777,Process and operations,no AI claim,False
+E0778,GenAI and marketing,no AI claim,True
+E0779,Other,no AI claim,False
+E0780,Process and operations,pilot,False
+E0781,Other,no AI claim,False
+E0782,"Sales, demand and pricing",shipping,False
+E0783,Other,no AI claim,False
+E0784,Other,no AI claim,False
+E0785,Other,not graded,False
+E0786,Other,no AI claim,False
+E0787,Other,no AI claim,False
+E0788,Agriculture and crop,shipping,False
+E0789,Process and operations,no AI claim,False
+E0790,Agriculture and crop,no AI claim,False
+E0791,Agriculture and crop,not graded,False
+E0792,"Sales, demand and pricing",no AI claim,False
+E0793,Process and operations,no AI claim,False
+E0794,Other,shipping,False
+E0795,Process and operations,no AI claim,False
+E0796,Quality and inspection,no AI claim,False
+E0797,Other,shipping,False
+E0798,Process and operations,shipping,False
+E0799,Process and operations,no AI claim,False
+E0800,Agriculture and crop,shipping,False
+E0801,Other,shipping,False
+E0802,Process and operations,no AI claim,False
+E0803,Agriculture and crop,no AI claim,False
+E0804,Quality and inspection,not graded,False
+E0805,Quality and inspection,no AI claim,False
+E0806,Agriculture and crop,no AI claim,False
+E0807,Other,shipping,False
+E0808,Quality and inspection,shipping,False
+E0809,Other,shipping,False
+E0810,Other,no AI claim,False
+E0811,Process and operations,no AI claim,False
+E0812,"Sales, demand and pricing",pilot,False
+E0813,Process and operations,no AI claim,False
+E0814,GenAI and marketing,shipping,True
+E0815,Other,not graded,False
+E0816,Quality and inspection,pilot,False
+E0817,Agriculture and crop,shipping,False
+E0818,"Sales, demand and pricing",shipping,False
+E0819,Agriculture and crop,no AI claim,False
+E0820,Other,shipping,False
+E0821,Engineering and equipment,no AI claim,False
+E0822,Sensory and recipe,shipping,False
+E0823,Agriculture and crop,no AI claim,False
+E0824,Other,no AI claim,False
+E0825,"Sales, demand and pricing",shipping,False
+E0826,Other,no AI claim,True
+E0827,Other,shipping,False
+E0828,Other,not graded,False
+E0829,Other,shipping,False
+E0830,Other,shipping,False
+E0831,Other,shipping,False
+E0832,Sensory and recipe,no AI claim,False
+E0833,Other,shipping,False
+E0834,"Sales, demand and pricing",shipping,False
+E0835,"Sales, demand and pricing",not graded,False
+E0836,Engineering and equipment,shipping,False
+E0837,"Sales, demand and pricing",no AI claim,False
+E0838,Other,no AI claim,False
+E0839,Agriculture and crop,not graded,False
+E0840,Process and operations,shipping,False
+E0841,Other,research,True
+E0842,Quality and inspection,shipping,False
+E0843,Sensory and recipe,shipping,False
+E0844,Other,shipping,True
+E0845,Other,no AI claim,False
+E0846,Process and operations,shipping,False
+E0847,Agriculture and crop,no AI claim,False
+E0848,Process and operations,shipping,False
+E0849,"Sales, demand and pricing",no AI claim,False
+E0850,Process and operations,shipping,False
+E0851,Other,no AI claim,False
+E0852,Sensory and recipe,pilot,False
+E0853,Quality and inspection,no AI claim,False
+E0854,Other,shipping,False
+E0855,"Sales, demand and pricing",shipping,False
+E0856,"Sales, demand and pricing",shipping,False
+E0857,Other,shipping,False
+E0858,Process and operations,no AI claim,False
+E0859,Agriculture and crop,no AI claim,False
+E0860,GenAI and marketing,shipping,True
+E0861,Process and operations,no AI claim,False
+E0862,Process and operations,no AI claim,False
+E0863,"Sales, demand and pricing",shipping,False
+E0864,Process and operations,no AI claim,False
+E0865,Agriculture and crop,shipping,False
+E0866,Quality and inspection,shipping,False
+E0867,Agriculture and crop,shipping,False
+E0868,Process and operations,shipping,False
+E0869,Process and operations,shipping,False
+E0870,Other,no AI claim,False
+E0871,Other,shipping,False
+E0872,Agriculture and crop,no AI claim,False
+E0873,"Sales, demand and pricing",shipping,False
+E0874,Other,no AI claim,False
+E0875,Process and operations,research,False
+E0876,Agriculture and crop,research,False
+E0877,Process and operations,shipping,False
+E0878,Other,shipping,False
+E0879,Other,shipping,False
+E0880,Process and operations,not graded,False
+E0881,Process and operations,shipping,False
+E0882,Process and operations,shipping,False
+E0883,Quality and inspection,no AI claim,False
+E0884,Other,no AI claim,False
+E0885,Agriculture and crop,no AI claim,False
+E0886,Agriculture and crop,no AI claim,False
+E0887,Other,shipping,False
+E0888,Other,shipping,False
+E0889,Quality and inspection,shipping,False
+E0890,Quality and inspection,no AI claim,False
+E0891,Engineering and equipment,no AI claim,False
+E0892,GenAI and marketing,no AI claim,True
+E0893,Other,shipping,False
+E0894,Sensory and recipe,shipping,False
+E0895,Other,no AI claim,False
+E0896,Other,no AI claim,False
+E0897,Other,shipping,False
+E0898,Agriculture and crop,no AI claim,False
+E0899,Other,shipping,False
+E0900,Quality and inspection,not graded,False
+E0901,Process and operations,pilot,False
+E0902,Other,no AI claim,False
+E0903,Sensory and recipe,shipping,False
+E0904,Process and operations,no AI claim,False
+E0905,Other,not graded,False
+E0906,Process and operations,shipping,False
+E0907,Quality and inspection,shipping,False
+E0908,Other,shipping,False
+E0909,Other,shipping,False
+E0910,Sensory and recipe,research,False
+E0911,Quality and inspection,no AI claim,False
+E0912,GenAI and marketing,shipping,True
+E0913,Other,shipping,False
+E0914,Sensory and recipe,no AI claim,False
+E0915,Process and operations,not graded,False
+E0916,Process and operations,no AI claim,False
+E0917,Engineering and equipment,pilot,False
+E0918,Other,not graded,False
+E0919,"Sales, demand and pricing",no AI claim,False
+E0920,Other,shipping,False
+E0921,Agriculture and crop,pilot,False
+E0922,Agriculture and crop,shipping,False
+E0923,Process and operations,no AI claim,False
+E0924,Agriculture and crop,pilot,False
+E0925,Other,no AI claim,False
+E0926,Other,no AI claim,False
+E0927,Other,no AI claim,False
+E0928,Other,no AI claim,False
+E0929,Process and operations,shipping,False
+E0930,Engineering and equipment,no AI claim,False
+E0931,Process and operations,shipping,False
+E0932,"Sales, demand and pricing",not graded,False
+E0933,Other,no AI claim,False
+E0934,Other,shipping,False
+E0935,"Sales, demand and pricing",research,False
+E0936,Other,shipping,False
+E0937,Other,shipping,False
+E0938,Other,shipping,False
+E0939,Process and operations,no AI claim,False
+E0940,"Sales, demand and pricing",shipping,False
+E0941,Engineering and equipment,not graded,False
+E0942,Other,no AI claim,False
+E0943,Other,research,False
+E0944,Process and operations,shipping,False
+E0945,Engineering and equipment,no AI claim,False
+E0946,"Sales, demand and pricing",pilot,False
+E0947,Other,no AI claim,False
+E0948,Process and operations,shipping,False
+E0949,"Sales, demand and pricing",shipping,False
+E0950,Process and operations,no AI claim,False
+E0951,Process and operations,shipping,False
+E0952,GenAI and marketing,shipping,True
+E0953,Other,not graded,False
+E0954,Other,shipping,False
+E0955,Sensory and recipe,no AI claim,False
+E0956,Other,no AI claim,False
+E0957,"Sales, demand and pricing",shipping,True
+E0958,Other,pilot,False
+E0959,Process and operations,shipping,True
+E0960,Quality and inspection,no AI claim,False
+E0961,Agriculture and crop,shipping,False
+E0962,Other,no AI claim,False
+E0963,Other,no AI claim,False
+E0964,Quality and inspection,pilot,False
+E0965,Agriculture and crop,no AI claim,False
+E0966,Engineering and equipment,no AI claim,False
+E0967,Process and operations,shipping,False
+E0968,GenAI and marketing,shipping,True
+E0969,Other,shipping,False
+E0970,Agriculture and crop,no AI claim,False
+E0971,Other,no AI claim,False
+E0972,Engineering and equipment,no AI claim,False
+E0973,"Sales, demand and pricing",shipping,False
+E0974,"Sales, demand and pricing",shipping,False
+E0975,Other,shipping,False
+E0976,Process and operations,shipping,False
+E0977,"Sales, demand and pricing",no AI claim,False
+E0978,Process and operations,shipping,False
+E0979,Other,research,False
+E0980,Other,shipping,False
+E0981,Other,shipping,False
+E0982,Other,no AI claim,False
+E0983,Other,no AI claim,False
+E0984,Process and operations,no AI claim,False
+E0985,Quality and inspection,pilot,False
+E0986,Sensory and recipe,shipping,False
+E0987,Process and operations,no AI claim,False
+E0988,Agriculture and crop,pilot,False
+E0989,Agriculture and crop,no AI claim,False
+E0990,Process and operations,shipping,False
+E0991,"Sales, demand and pricing",shipping,False
+E0992,Process and operations,not graded,False
+E0993,Agriculture and crop,no AI claim,False
+E0994,Quality and inspection,no AI claim,False
+E0995,Agriculture and crop,research,False
+E0996,"Sales, demand and pricing",shipping,False
+E0997,Quality and inspection,shipping,False
+E0998,Process and operations,shipping,False
+E0999,Quality and inspection,shipping,False
+E1000,Agriculture and crop,shipping,False
+E1001,Process and operations,shipping,False
+E1002,Process and operations,shipping,False
+E1003,Other,no AI claim,False
+E1004,Other,no AI claim,False
+E1005,Quality and inspection,shipping,False
+E1006,Other,shipping,False
+E1007,Other,pilot,False
+E1008,Process and operations,no AI claim,False
+E1009,Process and operations,no AI claim,False
+E1010,Agriculture and crop,research,False
+E1011,Agriculture and crop,no AI claim,False
+E1012,Quality and inspection,no AI claim,True
+E1013,Other,not graded,False
+E1014,Process and operations,no AI claim,False
+E1015,Agriculture and crop,shipping,False

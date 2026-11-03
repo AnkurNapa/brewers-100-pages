@@ -1,0 +1,49 @@
+claim,question,text,scorer,point,source
+A,1,Baseline named and dated,owner,0,call note or web address
+A,2,Formula shown,owner,0,call note or web address
+A,3,Inputs are the buyer's own,owner,0,call note or web address
+A,4,Fee deducted,owner,0,call note or web address
+A,5,Conservative case,owner,0,call note or web address
+A,6,Ramp up modelled,owner,0,call note or web address
+A,7,Measured by someone else,owner,0,call note or web address
+A,8,Price tied to result,owner,0,call note or web address
+B,1,Baseline named and dated,owner,1,call note or web address
+B,2,Formula shown,owner,1,call note or web address
+B,3,Inputs are the buyer's own,owner,0,call note or web address
+B,4,Fee deducted,owner,0,call note or web address
+B,5,Conservative case,owner,0,call note or web address
+B,6,Ramp up modelled,owner,0,call note or web address
+B,7,Measured by someone else,owner,0,call note or web address
+B,8,Price tied to result,owner,0,call note or web address
+C,1,Baseline named and dated,owner,1,call note or web address
+C,2,Formula shown,owner,1,call note or web address
+C,3,Inputs are the buyer's own,owner,1,call note or web address
+C,4,Fee deducted,owner,1,call note or web address
+C,5,Conservative case,owner,1,call note or web address
+C,6,Ramp up modelled,owner,1,call note or web address
+C,7,Measured by someone else,owner,0,call note or web address
+C,8,Price tied to result,owner,0,call note or web address
+A,1,Baseline named and dated,head brewer,0,call note or web address
+A,2,Formula shown,head brewer,0,call note or web address
+A,3,Inputs are the buyer's own,head brewer,0,call note or web address
+A,4,Fee deducted,head brewer,0,call note or web address
+A,5,Conservative case,head brewer,0,call note or web address
+A,6,Ramp up modelled,head brewer,0,call note or web address
+A,7,Measured by someone else,head brewer,0,call note or web address
+A,8,Price tied to result,head brewer,0,call note or web address
+B,1,Baseline named and dated,head brewer,1,call note or web address
+B,2,Formula shown,head brewer,1,call note or web address
+B,3,Inputs are the buyer's own,head brewer,1,call note or web address
+B,4,Fee deducted,head brewer,0,call note or web address
+B,5,Conservative case,head brewer,0,call note or web address
+B,6,Ramp up modelled,head brewer,0,call note or web address
+B,7,Measured by someone else,head brewer,1,call note or web address
+B,8,Price tied to result,head brewer,0,call note or web address
+C,1,Baseline named and dated,head brewer,1,call note or web address
+C,2,Formula shown,head brewer,1,call note or web address
+C,3,Inputs are the buyer's own,head brewer,1,call note or web address
+C,4,Fee deducted,head brewer,1,call note or web address
+C,5,Conservative case,head brewer,1,call note or web address
+C,6,Ramp up modelled,head brewer,0,call note or web address
+C,7,Measured by someone else,head brewer,0,call note or web address
+C,8,Price tied to result,head brewer,0,call note or web address

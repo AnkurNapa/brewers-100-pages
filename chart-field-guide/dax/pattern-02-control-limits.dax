@@ -1,0 +1,14 @@
+Mean FG =
+CALCULATE (
+    AVERAGE ( Batch[FinalGravity] ),
+    REMOVEFILTERS ( Batch[FillSequence] ),
+    Batch[IsBaseline] = TRUE ()
+)
+Mean MR =
+CALCULATE (
+    AVERAGE ( Batch[MovingRange] ),
+    REMOVEFILTERS ( Batch[FillSequence] ),
+    Batch[IsBaseline] = TRUE ()
+)
+UCL = [Mean FG] + 2.66 * [Mean MR]
+LCL = [Mean FG] - 2.66 * [Mean MR]

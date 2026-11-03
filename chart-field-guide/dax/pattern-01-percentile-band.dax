@@ -1,0 +1,31 @@
+Fill Hour Gravity = AVERAGE ( HourlyGravity[Gravity] )
+Band P10 =
+CALCULATE (
+    PERCENTILEX.INC (
+        FILTER ( ALL ( Fill[FillId], Fill[IsReference] ), Fill[IsReference] = TRUE () ),
+        [Fill Hour Gravity],
+        0.1
+    ),
+    REMOVEFILTERS ( Fill ),
+    REMOVEFILTERS ( Tank )
+)
+Band P50 =
+CALCULATE (
+    PERCENTILEX.INC (
+        FILTER ( ALL ( Fill[FillId], Fill[IsReference] ), Fill[IsReference] = TRUE () ),
+        [Fill Hour Gravity],
+        0.5
+    ),
+    REMOVEFILTERS ( Fill ),
+    REMOVEFILTERS ( Tank )
+)
+Band P90 =
+CALCULATE (
+    PERCENTILEX.INC (
+        FILTER ( ALL ( Fill[FillId], Fill[IsReference] ), Fill[IsReference] = TRUE () ),
+        [Fill Hour Gravity],
+        0.9
+    ),
+    REMOVEFILTERS ( Fill ),
+    REMOVEFILTERS ( Tank )
+)

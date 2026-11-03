@@ -1,0 +1,16 @@
+Planned Min = SUM ( Run[PlannedMin] )
+Run Min = [Planned Min] - SUM ( Run[StopMin] )
+Good Cans = SUM ( Run[CansMade] ) - SUM ( Run[Rejects] )
+Availability = DIVIDE ( [Run Min], [Planned Min] )
+Performance =
+DIVIDE (
+    SUM ( Run[CansMade] ),
+    SUMX ( Run, ( Run[PlannedMin] - Run[StopMin] ) * Run[RatedCpm] )
+)
+Quality = DIVIDE ( [Good Cans], SUM ( Run[CansMade] ) )
+OEE = [Availability] * [Performance] * [Quality]
+OEE Check =
+DIVIDE (
+    [Good Cans],
+    SUMX ( Run, Run[PlannedMin] * Run[RatedCpm] )
+)

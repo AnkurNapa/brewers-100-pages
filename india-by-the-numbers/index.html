@@ -1,0 +1,150 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>No. 07 Brewing in India by the Numbers</title><style>
+body { margin: 0; font: 17px/1.55 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; color: #161616; background: #f7f4ec; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+h1, h2, h3 { font-family: 'DIN Condensed', Impact, sans-serif; letter-spacing: .5px; line-height: 1.05; }
+h1 { font-size: 46px; margin: 0 0 8px; } h2 { font-size: 28px; margin-top: 32px; }
+a { color: inherit; } code, pre { font: 14px Menlo, monospace; } pre { overflow-x: auto; background: #fff; padding: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; } th, td { border-bottom: 1px solid #ccc; padding: 6px; text-align: left; }
+.band { color: #fff; padding: 28px 20px; } .band main { padding: 0 20px; }
+.shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; padding: 0; list-style: none; }
+.shelf a { display: block; padding: 18px; min-height: 150px; text-decoration: none; color: #fff; }
+.shelf b { display: block; font: 30px/1 'DIN Condensed', Impact, sans-serif; margin: 6px 0; }
+.small { font-size: 14px; color: #555; }
+</style></head><body><div class="band" style="background:#d6246e"><main><div class="small" style="color:#fff">THE BREWER'S 100 PAGES</div><h1>No. 07 Brewing in India by the Numbers</h1></main></div><main><p><a href="../">All seven books</a> / <a href="errata.html">Errata</a> / <a href="../rates.html">Exchange rates</a> / <a href="PROMISES.md">What the book promises, file by file</a></p><h1>Brewing in India by the Numbers: companion files</h1>
+<p>The calculator, the rate table template, the synthetic Kestrel India dataset and one notebook for each With code box in the book. Every Kestrel figure is synthetic and so is State S: neither matches a real brewery or a real state. Money is in rupees with Indian digit grouping (10,00,000 is ten lakh); the book rate is USD 1 = INR 90 and the cost of capital is 12 percent.</p>
+<p>Nothing here is legal or tax advice. Confirm every rate with the state excise office before you sign a price.</p>
+<h2>Run it</h2>
+<pre><code>pip install -r requirements.txt
+python3 make_data.py        # writes data/*.csv, data/circulars/ and eval/duty-eval-20.csv from fixed seeds
+python3 make_sheets.py      # writes sheets/*.xlsx with live formulas
+python3 check_numbers.py    # runs every notebook and checks the numbers the book prints
+python3 calculator.py       # a quick self-check of the calculator
+</code></pre>
+<p>Open the notebooks from the <code>notebooks/</code> folder; they read <code>../data/</code> and import <code>../calculator.py</code>.</p>
+<h2>The core pieces</h2>
+<ul>
+<li><strong><code>calculator.py</code></strong>: the duty and MRP calculator of Appendix D. It reads a rate table, picks the row in force for a state, strength and date (and refuses when there is none, or two), returns duty for designs A, B, B2 and C and runs the walk from declared manufacturing cost to MRP. It also holds the five rate table checks of chapter 13.4.</li>
+<li><strong><code>sheets/duty-mrp-calculator.xlsx</code></strong>: the same calculator as a workbook. Yellow cells are inputs; every other cell is a formula. Sheets: Walk (rate lookup by date and strength, the walk, the waterfall, the reverse formula), Designs (A, B, B2, C and the strength cliff), DMC loop (chapter 6.5), Rates (State S).</li>
+<li><strong><code>sheets/rate-table-template.xlsx</code></strong>: the Appendix B.4 template. One row for one rule, one state, one band and one period, with the chapter 5.6 and 13.1 fields. Sheets: Template, Checks, State S (synthetic), State S with the chapter 13.1 change, Real states (as printed).</li>
+</ul>
+<h2>Chapter by chapter</h2>
+<table>
+<thead>
+<tr>
+<th>Ch.</th>
+<th>File</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1, 5, 6</td>
+<td><code>notebooks/ch05-duty-calculator.ipynb</code></td>
+<td>duty under the four designs, the floor, the strength cliff, the walk and its waterfall, a refusal</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>notebooks/ch02-volume-price-mix.ipynb</code></td>
+<td>volume and price mix by route over two years; the price bands</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>notebooks/ch03-duty-cash-by-week.ipynb</code></td>
+<td>cash tied up in duty by week at 30 and 60 days</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>notebooks/ch04-star-schema.ipynb</code></td>
+<td>the star schema; flags rows where stored duty differs from the rate table</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>notebooks/ch06-mrp-in-20-lines.ipynb</code></td>
+<td>the walk in about 20 lines, looped over DMC values</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>notebooks/ch09-cost-per-case.ipynb</code></td>
+<td>three SKU columns from five inputs, tied to ex works a hL; the malt stress</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>notebooks/ch10-brewpub.ipynb</code></td>
+<td>the brewpub P&amp;L and its break-even table, every line open to change</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>notebooks/ch11-sku-case.ipynb</code></td>
+<td>the 36 month SKU case, NPV, worst cash and the tornado</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>notebooks/ch12-price-ladder.ipynb</code></td>
+<td>the walk for each SKU, bands, contribution and trade up</td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>notebooks/ch13-rate-table-checks.ipynb</code></td>
+<td>a rule change on 1 October 2026 and the five checks on clean and broken tables</td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>notebooks/ch14-retrieval.ipynb</code></td>
+<td>five synthetic circulars split by clause; answers quote the clause or say none was found</td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>eval/duty-eval-20.csv</code>, <code>eval/score_eval.py</code></td>
+<td>the 20 question duty assistant eval with calculator answers and its scorer; not yet scored</td>
+</tr>
+</tbody>
+</table>
+<h2>The data</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>What is in it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>data/kestrel_india_params.csv</code></td>
+<td>Kestrel in INR at the book rate: costs a hL, margins, rates of the walk</td>
+</tr>
+<tr>
+<td><code>data/skus.csv</code></td>
+<td>five packs: lager in three packs, stout and pale ale in 12 x 650 ml; DMC a case</td>
+</tr>
+<tr>
+<td><code>data/rate_table_state_s.csv</code></td>
+<td>State S duty and fee rows, plus teaching rows for designs A, B and B2</td>
+</tr>
+<tr>
+<td><code>data/rate_table_state_s_oct_change.csv</code></td>
+<td>the same table with the chapter 13.1 change to 120 percent from 1 October 2026</td>
+</tr>
+<tr>
+<td><code>data/rate_table_real_states.csv</code></td>
+<td>real rates exactly as Appendix B.2 prints them, with source and date; "to verify" on every row, "not found" where the book found nothing; never used by the calculator</td>
+</tr>
+<tr>
+<td><code>data/volume_by_year.csv</code></td>
+<td>FY2026 and FY2027 volume and revenue by route and beer</td>
+</tr>
+<tr>
+<td><code>data/dispatches_state_s.csv</code></td>
+<td>136 transport passes, April to September 2026, with two planted errors</td>
+</tr>
+<tr>
+<td><code>data/dispatch_plan_weekly.csv</code></td>
+<td>a 26 week dispatch plan for SKU 1</td>
+</tr>
+<tr>
+<td><code>data/circulars/*.txt</code></td>
+<td>five synthetic State S circulars</td>
+</tr>
+</tbody>
+</table>
+<h2>Licence</h2>
+<p>Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Synthetic data only; no real brewery's numbers.</p><p class="small">Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Every figure is synthetic: Kestrel Brewing is an invented plant.</p></main></body></html>

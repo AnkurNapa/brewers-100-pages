@@ -1,0 +1,18 @@
+measurement_code,source,rank,valid_from,valid_to,signed_by
+WORT_GRAVITY,lab,1,2026-01-01,,QA lead
+WORT_GRAVITY,inline_meter,2,2026-01-01,,QA lead
+WORT_GRAVITY,brew_sheet,3,2026-01-01,,QA lead
+AE_TRANSFER,lab,1,2026-01-01,,QA lead
+AE_TRANSFER,inline_meter,2,2026-01-01,,QA lead
+TRANSFER_VOLUME,flow_meter,1,2026-01-01,,Finance controller
+TRANSFER_VOLUME,erp,2,2026-01-01,,Finance controller
+TRANSFER_VOLUME,tank_dip,3,2026-01-01,,Finance controller
+FV_TEMPERATURE,historian,1,2026-01-01,,Head brewer
+FV_TEMPERATURE,operator_log,2,2026-01-01,,Head brewer
+IBU,lab,1,2026-01-01,,QA lead
+COLOUR,lab,1,2026-01-01,,QA lead
+PH,lab,1,2026-01-01,,QA lead
+REJECT_COUNT,line_controller,1,2026-01-01,,Packaging manager
+REJECT_COUNT,erp,2,2026-01-01,,Packaging manager
+STOCK_QUANTITY,erp,1,2026-01-01,,Finance controller
+STOCK_QUANTITY,physical_count,2,2026-01-01,,Finance controller

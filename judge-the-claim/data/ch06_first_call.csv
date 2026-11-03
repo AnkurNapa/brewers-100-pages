@@ -1,0 +1,31 @@
+vendor,flag_type,flag,present
+Vendor 1,red,Percentage with no unit,1
+Vendor 1,red,Up to,1
+Vendor 1,red,Case study with no period,1
+Vendor 1,red,Case study from another industry,0
+Vendor 1,red,Potential presented as result,1
+Vendor 1,red,Benchmark from our customers,1
+Vendor 1,red,Price only after the demo,1
+Vendor 1,red,No stated data need,1
+Vendor 1,red,Trial that proves nothing,0
+Vendor 1,red,AI powered and nothing else,0
+Vendor 1,green,Open calculator,0
+Vendor 1,green,Named dated baseline,0
+Vendor 1,green,Separate count of what would have happened anyway,0
+Vendor 1,green,Study that cuts its own benefits,0
+Vendor 1,green,Money at risk,1
+Vendor 2,red,Percentage with no unit,0
+Vendor 2,red,Up to,1
+Vendor 2,red,Case study with no period,0
+Vendor 2,red,Case study from another industry,0
+Vendor 2,red,Potential presented as result,0
+Vendor 2,red,Benchmark from our customers,0
+Vendor 2,red,Price only after the demo,1
+Vendor 2,red,No stated data need,0
+Vendor 2,red,Trial that proves nothing,0
+Vendor 2,red,AI powered and nothing else,0
+Vendor 2,green,Open calculator,1
+Vendor 2,green,Named dated baseline,1
+Vendor 2,green,Separate count of what would have happened anyway,0
+Vendor 2,green,Study that cuts its own benefits,0
+Vendor 2,green,Money at risk,1

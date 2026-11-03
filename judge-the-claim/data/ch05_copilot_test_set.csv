@@ -1,0 +1,51 @@
+question_id,category,cites_document,correct
+Q01,malt certificate field,1,1
+Q02,SOP step,1,0
+Q03,spec limit,1,1
+Q04,fault code,1,1
+Q05,calculation,1,1
+Q06,malt certificate field,1,1
+Q07,SOP step,1,1
+Q08,spec limit,1,1
+Q09,fault code,0,1
+Q10,calculation,1,1
+Q11,malt certificate field,0,1
+Q12,SOP step,1,1
+Q13,spec limit,1,0
+Q14,fault code,1,0
+Q15,calculation,1,1
+Q16,malt certificate field,1,1
+Q17,SOP step,1,1
+Q18,spec limit,1,0
+Q19,fault code,1,1
+Q20,calculation,1,1
+Q21,malt certificate field,1,1
+Q22,SOP step,0,1
+Q23,spec limit,0,1
+Q24,fault code,1,1
+Q25,calculation,0,1
+Q26,malt certificate field,1,1
+Q27,SOP step,0,1
+Q28,spec limit,1,1
+Q29,fault code,1,1
+Q30,calculation,1,1
+Q31,malt certificate field,1,1
+Q32,SOP step,0,1
+Q33,spec limit,1,1
+Q34,fault code,1,0
+Q35,calculation,1,1
+Q36,malt certificate field,1,0
+Q37,SOP step,1,0
+Q38,spec limit,1,1
+Q39,fault code,1,1
+Q40,calculation,1,1
+Q41,malt certificate field,1,1
+Q42,SOP step,0,1
+Q43,spec limit,1,1
+Q44,fault code,1,0
+Q45,calculation,0,1
+Q46,malt certificate field,1,1
+Q47,SOP step,1,1
+Q48,spec limit,1,1
+Q49,fault code,1,0
+Q50,calculation,1,0

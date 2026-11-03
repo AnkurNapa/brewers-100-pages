@@ -1,0 +1,153 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>No. 02 The Money in the Tank</title><style>
+body { margin: 0; font: 17px/1.55 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; color: #161616; background: #f7f4ec; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+h1, h2, h3 { font-family: 'DIN Condensed', Impact, sans-serif; letter-spacing: .5px; line-height: 1.05; }
+h1 { font-size: 46px; margin: 0 0 8px; } h2 { font-size: 28px; margin-top: 32px; }
+a { color: inherit; } code, pre { font: 14px Menlo, monospace; } pre { overflow-x: auto; background: #fff; padding: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; } th, td { border-bottom: 1px solid #ccc; padding: 6px; text-align: left; }
+.band { color: #fff; padding: 28px 20px; } .band main { padding: 0 20px; }
+.shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; padding: 0; list-style: none; }
+.shelf a { display: block; padding: 18px; min-height: 150px; text-decoration: none; color: #fff; }
+.shelf b { display: block; font: 30px/1 'DIN Condensed', Impact, sans-serif; margin: 6px 0; }
+.small { font-size: 14px; color: #555; }
+</style></head><body><div class="band" style="background:#c8102e"><main><div class="small" style="color:#fff">THE BREWER'S 100 PAGES</div><h1>No. 02 The Money in the Tank</h1></main></div><main><p><a href="../">All seven books</a> / <a href="errata.html">Errata</a> / <a href="../rates.html">Exchange rates</a> / <a href="PROMISES.md">What the book promises, file by file</a></p><h1>The Money in the Tank: companion files</h1>
+<p>Data, notebooks and a workbook for <em>The Money in the Tank: Brewery Losses in Rupees, Dollars and Euros</em>, part of The Brewer's 100 Pages. Every file runs on Kestrel Brewing, the synthetic plant used throughout the book. The numbers the book prints come out of these files; <code>check_numbers.py</code> proves it.</p>
+<p>Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Synthetic data only; no real brewery's numbers.</p>
+<h2>How to run</h2>
+<pre><code>pip install -r requirements.txt
+python3 make_data.py          # writes every CSV in data/ from fixed seeds
+python3 check_numbers.py      # asserts the book's numbers come out of the data
+python3 sheets/make_workbook.py
+</code></pre>
+<p>Open the notebooks in Jupyter from the <code>notebooks</code> folder; they read <code>../data/</code>. Load your own rows into the same columns and each notebook runs unchanged. Point them at real plant data only after your IT team agrees what may leave the site (chapter 14.4).</p>
+<h2>Chapter by chapter</h2>
+<table>
+<thead>
+<tr>
+<th>Chapter</th>
+<th>File</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td><code>notebooks/ch03-mass-balance.ipynb</code></td>
+<td>Builds the stage table from the minimum dataset and flags any stage where the balance does not close</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>data/minimum_dataset.csv</code></td>
+<td>One row per batch per stage for one quarter: 45 fills, 26,100 hL cast</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>notebooks/ch05-extract-loss.ipynb</code></td>
+<td>Reads 60 brews, splits conversion from lauter and draws Figure 5.2</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>notebooks/ch06-cellar-loss.ipynb</code></td>
+<td>Builds the quarter vessel table and Figure 6.1</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>notebooks/ch07-giveaway.ipynb</code></td>
+<td>Reads a week of fill weights, plots mean and spread by shift and prices the giveaway</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>notebooks/ch08-cod-spikes.ipynb</code></td>
+<td>Turns a daily COD series into spike days and the beer each implies</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>notebooks/ch09-tank-days.ipynb</code></td>
+<td>Finds overlapping tank intervals and prints contribution per tank day</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>notebooks/ch10-true-cogs.ipynb</code></td>
+<td>Reads the March volumes by brand and pack with the cost ledger and draws the brand by pack grid</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>notebooks/ch11-loss-ledger.ipynb</code></td>
+<td>Builds the ledger and both waterfalls and flags any row without a sum</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>notebooks/ch12-fix-ranking.ipynb</code></td>
+<td>Ranks the fixes, reruns the order when a probability changes and draws the effort map</td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>notebooks/ch13-shocks.ipynb</code></td>
+<td>Rebuilds the shock table and draws both figures</td>
+</tr>
+<tr>
+<td>Appendix C</td>
+<td><code>sheets/kestrel-loss-workbook.xlsx</code></td>
+<td>The shared workbook, sheet by sheet, with live formulas</td>
+</tr>
+</tbody>
+</table>
+<h2>Data files</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Rows</th>
+<th>Used in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>minimum_dataset.csv</code></td>
+<td>312</td>
+<td>Chapters 3, 4, 6, 11 and the workbook</td>
+</tr>
+<tr>
+<td><code>brewhouse_brews.csv</code></td>
+<td>60</td>
+<td>Chapter 5</td>
+</tr>
+<tr>
+<td><code>fill_weights.csv</code></td>
+<td>840</td>
+<td>Chapter 7</td>
+</tr>
+<tr>
+<td><code>effluent_daily.csv</code></td>
+<td>90</td>
+<td>Chapter 8</td>
+</tr>
+<tr>
+<td><code>tank_occupancy.csv</code>, <code>beers.csv</code></td>
+<td>175, 3</td>
+<td>Chapter 9</td>
+</tr>
+<tr>
+<td><code>cost_ledger_march.csv</code>, <code>march_brands.csv</code>, <code>march_brand_pack.csv</code></td>
+<td>8, 2, 3</td>
+<td>Chapter 10</td>
+</tr>
+<tr>
+<td><code>loss_drivers.csv</code></td>
+<td>9</td>
+<td>Chapter 11</td>
+</tr>
+<tr>
+<td><code>fixes.csv</code></td>
+<td>6</td>
+<td>Chapter 12</td>
+</tr>
+<tr>
+<td><code>shock_inputs.csv</code>, <code>shock_scenarios.csv</code></td>
+<td>5, 3</td>
+<td>Chapter 13</td>
+</tr>
+</tbody>
+</table>
+<p>In the minimum dataset a month is the beer cast that month, followed to dispatch. <code>batch_id</code> is the fermenter fill; <code>brew_id</code> keeps each brew as a parent key (two brews in a fill are joined with a bar). Kestrel uses unitanks, so the heel left when a tank is emptied sits in <code>heel_hl</code> on the conditioning row. The transfer loss is the gap between the conditioning row's <code>volume_out_hl</code> and the filter row's <code>volume_in_hl</code>.</p>
+<p>Money is in US dollars at Kestrel's synthetic costs. Book rates, not market rates: USD 1 = INR 90; EUR 1 = USD 1.10. INR figures use western digit grouping, as the book does.</p><p class="small">Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Every figure is synthetic: Kestrel Brewing is an invented plant.</p></main></body></html>

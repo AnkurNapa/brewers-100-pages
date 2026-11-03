@@ -1,0 +1,38 @@
+beer,test_code,low,target,high,version,valid_from
+Kestrel Lager,OG,11.8,12.0,12.2,3,2026-01-01
+Kestrel Lager,AE,1.8,2.2,2.6,3,2026-01-01
+Kestrel Lager,ABV,5.1,5.3,5.5,3,2026-01-01
+Kestrel Lager,IBU,16.0,18.0,20.0,3,2026-01-01
+Kestrel Lager,COLOUR,6.0,7.0,8.0,3,2026-01-01
+Kestrel Lager,PH,4.2,,4.5,3,2026-01-01
+Kestrel Lager,CO2,4.8,5.0,5.2,3,2026-01-01
+Kestrel Pale Ale,OG,13.3,13.5,13.7,2,2026-01-01
+Kestrel Pale Ale,AE,2.4,2.8,3.2,2,2026-01-01
+Kestrel Pale Ale,PH,4.2,,4.5,2,2026-01-01
+Kestrel Stout,OG,13.8,14.0,14.2,2,2026-01-01
+Kestrel Stout,AE,3.2,3.6,4.0,2,2026-01-01
+Kestrel Stout,PH,4.1,,4.4,2,2026-01-01
+Kestrel Stout,CO2,4.0,4.2,4.4,2,2026-01-01
+Kestrel Pale Ale,ABV,5.6,5.8,6.0,2,2026-01-01
+Kestrel Pale Ale,IBU,34.0,,42.0,2,2026-01-01
+Kestrel Pale Ale,COLOUR,12.0,,16.0,2,2026-01-01
+Kestrel Stout,ABV,5.5,5.7,5.9,2,2026-01-01
+Kestrel Stout,IBU,28.0,,36.0,2,2026-01-01
+Kestrel Stout,COLOUR,62.0,,78.0,2,2026-01-01
+all,TEMPCHK,10.5,11.0,11.5,1,2026-01-01
+all,FILL,330.0,,,1,2026-01-01
+all,PU,15.0,,,1,2026-01-01
+all,CELLS,12.0,15.0,18.0,1,2026-01-01
+all,VIAB,90.0,,,1,2026-01-01
+all,YSUSP,,,,1,2026-01-01
+all,VDK,,0.05,0.1,2,2026-01-01
+all,DO,,30.0,50.0,2,2026-01-01
+all,TPO,,100.0,150.0,2,2026-01-01
+all,HAZE90,,0.4,0.5,2,2026-06-01
+all,HAZE25,,,0.5,2,2026-06-01
+all,FAHAZE,,,2.0,1,2026-01-01
+all,MIC_MEM,,,5.0,1,2026-01-01
+all,MIC_PLATE,,,10.0,1,2026-01-01
+all,MIC_RINSE,,,10.0,1,2026-01-01
+all,ATP,,,300.0,1,2026-01-01
+all,TTT,,,,1,2026-01-01

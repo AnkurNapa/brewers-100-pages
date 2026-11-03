@@ -1,0 +1,301 @@
+note_id,note,defect_class,split,packing_date,line
+N001,"Not like usual, night shift, beer everywhere on opening",gushing,train,2025-05-29,L3
+N002,"Half the bottle foamed out, fobbing out of the can, batch on the board",gushing,train,2025-09-04,L3
+N003,"Bottle from last week, crown rusty",packaging,train,2025-08-04,L2
+N004,"Sent photos, beer everywhere on opening",gushing,train,2025-06-01,L1
+N005,"Found a small piece of glass in the neck, bottle from last week",foreign body,train,2025-09-07,L1
+N006,"Bit of metal in the glass, keg at the bar",foreign body,train,2025-06-18,L3
+N007,"Bit of metal in the glass, found a small piece of glass in the neck, customer called",foreign body,train,2025-03-31,L2
+N008,"Fobbing out of the can, found a small piece of glass in the neck, sent photos, half the bottle foamed out",gushing,train,2025-10-01,L2
+N009,"Plastic flake floating, not like usual, six pack",foreign body,train,2025-02-14,L2
+N010,"Six pack, cip return only 68 c, rerun done, fill height outside spec on line 2",process deviation,train,2025-06-12,L3
+N011,"Can dented on arrival, bottle from last week, label skewed",packaging,train,2025-03-01,L1
+N012,"Beer everywhere on opening, customer called, foam would not stop",gushing,train,2025-05-11,L3
+N013,Plastic flake floating,foreign body,train,2025-04-09,L1
+N014,"Batch on the board, beer everywhere on opening, foamed over as soon as i opened it",gushing,train,2025-09-27,L1
+N015,"Found a small piece of glass in the neck, batch on the board",foreign body,train,2025-01-15,L2
+N016,"Not like usual, fobbing out of the can, night shift",gushing,train,2025-05-05,L2
+N017,"Fill height outside spec on line 2, tank held an extra day, not like usual, bottle from last week",process deviation,train,2025-08-28,L3
+N018,"Night shift, fill height outside spec on line 2",process deviation,train,2025-05-22,L3
+N019,"Label peeling off in the ice bucket, six pack",packaging,train,2025-10-11,L2
+N020,"Not like usual, night shift, beer everywhere on opening",gushing,train,2025-08-13,L1
+N021,"Bottle from last week, beer everywhere on opening, foam would not stop",gushing,train,2025-06-06,L1
+N022,"Tank held an extra day, cip return low, bottle from last week",process deviation,train,2025-06-22,L1
+N023,"Not like usual, something solid in the bottle, six pack",foreign body,train,2025-08-18,L3
+N024,"Plastic flake floating, not like usual, cip return only 68 c, rerun done, six pack",foreign body,train,2025-03-01,L1
+N025,"Not like usual, keg at the bar, pasteuriser units low for ten minutes",process deviation,train,2025-10-20,L1
+N026,"Night shift, tastes like popcorn butter",diacetyl,train,2025-06-05,L1
+N027,"Plastic flake floating, bottle from last week, not like usual",foreign body,train,2025-05-23,L2
+N028,"Buttery smell, bought on saturday, tank held an extra day, slick mouthfeel",diacetyl,train,2025-03-27,L3
+N029,"Something solid in the bottle, label peeling off in the ice bucket, batch on the board, not like usual",foreign body,train,2025-03-04,L1
+N030,"Swallowed a hard bit, keg at the bar, not like usual",foreign body,train,2025-04-15,L1
+N031,"Pasteuriser units low for ten minutes, bottle from last week, not like usual",gushing,train,2025-10-21,L1
+N032,"Found a small piece of glass in the neck, something solid in the bottle",foreign body,train,2025-05-18,L1
+N033,"Slick mouthfeel, bottle from last week",diacetyl,train,2025-03-25,L2
+N034,"Plastic flake floating, bottle from last week",foreign body,train,2025-05-28,L2
+N035,"Cip return only 68 c, rerun done, sent photos",process deviation,train,2025-04-01,L1
+N036,"Night shift, label skewed, can dented on arrival",packaging,train,2025-03-08,L1
+N037,"Sent photos, plastic flake floating, tastes odd",foreign body,train,2025-02-06,L3
+N038,"Label skewed, keg at the bar",packaging,train,2025-01-22,L1
+N039,"Cip return low, do at filler above limit, sent photos",process deviation,train,2025-08-21,L1
+N040,"Six pack, carton torn, label skewed",packaging,train,2025-01-06,L1
+N041,"Beer everywhere on opening, batch on the board",gushing,train,2025-07-29,L3
+N042,"Crown rusty, label peeling off in the ice bucket",packaging,train,2025-04-08,L3
+N043,"Night shift, butterscotch on the nose",diacetyl,train,2025-03-25,L1
+N044,"Sent photos, tastes odd, carton torn",packaging,train,2025-01-28,L2
+N045,"Sweet buttery finish, six pack",diacetyl,train,2025-07-03,L2
+N046,"Six pack, fill height outside spec on line 2",process deviation,train,2025-05-15,L3
+N047,"Found a small piece of glass in the neck, keg at the bar, something solid in the bottle",foreign body,train,2025-05-20,L1
+N048,"Carton torn, bottle from last week, label skewed",packaging,train,2025-01-11,L1
+N049,"Cip return only 68 c, rerun done, fill height outside spec on line 2",process deviation,train,2025-06-19,L2
+N050,"Bit of metal in the glass, night shift",foreign body,train,2025-03-22,L3
+N051,"Cip return only 68 c, rerun done, customer called",process deviation,train,2025-08-13,L1
+N052,"Keg at the bar, half the bottle foamed out, fobbing out of the can",gushing,train,2025-06-26,L1
+N053,"Cip return only 68 c, rerun done, cip return low",process deviation,train,2025-10-06,L1
+N054,"Crown rusty, label skewed, customer called",packaging,train,2025-06-26,L3
+N055,"Batch on the board, swallowed a hard bit",foreign body,train,2025-09-27,L1
+N056,"Not like usual, bottle from last week, half the bottle foamed out",gushing,train,2025-07-12,L1
+N057,"Bottle from last week, cip return low",process deviation,train,2025-05-13,L3
+N058,"Carton torn, can dented on arrival, keg at the bar",packaging,train,2025-07-27,L2
+N059,"Cip return low, tank held an extra day, batch on the board",process deviation,train,2025-04-09,L2
+N060,"Batch on the board, tank held an extra day, found a small piece of glass in the neck, plastic flake floating",foreign body,train,2025-04-19,L3
+N061,"Cip return low, foamed over as soon as i opened it, customer called",gushing,train,2025-02-21,L2
+N062,"Bought on saturday, tank held an extra day, do at filler above limit",process deviation,train,2025-10-25,L3
+N063,"Label peeling off in the ice bucket, not like usual, customer called",packaging,train,2025-10-29,L3
+N064,"Fobbing out of the can, foam would not stop, sent photos",gushing,train,2025-06-21,L1
+N065,"Carton torn, sent photos, not like usual",packaging,train,2025-03-17,L2
+N066,"Cip return only 68 c, rerun done, crown rusty, customer called",process deviation,train,2025-05-17,L2
+N067,"Plastic flake floating, found a small piece of glass in the neck, foam would not stop, keg at the bar",foreign body,train,2025-06-10,L2
+N068,"Crown rusty, label skewed, customer called",packaging,train,2025-06-27,L2
+N069,"Plastic flake floating, bottle from last week, cip return only 68 c, rerun done",process deviation,train,2025-05-02,L2
+N070,"Six pack, not like usual",gushing,train,2025-11-01,L3
+N071,"Carton torn, batch on the board",packaging,train,2025-08-30,L3
+N072,"Label skewed, bottle from last week",packaging,train,2025-01-12,L2
+N073,"Night shift, not like usual, fobbing out of the can",gushing,train,2025-02-07,L1
+N074,"Foam would not stop, batch on the board, not like usual",gushing,train,2025-06-30,L3
+N075,"Swallowed a hard bit, customer called, found a small piece of glass in the neck",foreign body,train,2025-06-05,L2
+N076,"Fobbing out of the can, a bit slick and sweet",gushing,train,2025-06-05,L1
+N077,"Buttery smell, six pack, tastes like popcorn butter",diacetyl,train,2025-10-12,L1
+N078,"Tank held an extra day, night shift",process deviation,train,2025-08-15,L3
+N079,Something solid in the bottle,foreign body,train,2025-10-17,L2
+N080,"Tastes like popcorn butter, sent photos, fobbing out of the can, half the bottle foamed out",gushing,train,2025-06-04,L1
+N081,"Sent photos, half the bottle foamed out, fobbing out of the can",gushing,train,2025-09-11,L1
+N082,"Foamed over as soon as i opened it, not like usual, sent photos",gushing,train,2025-10-02,L2
+N083,"Keg at the bar, fobbing out of the can, half the bottle foamed out",gushing,train,2025-02-08,L1
+N084,"Customer called, not like usual",diacetyl,train,2025-01-06,L2
+N085,"Sent photos, cip return only 68 c, rerun done, pasteuriser units low for ten minutes",process deviation,train,2025-06-10,L2
+N086,"Night shift, bit of metal in the glass",foreign body,train,2025-05-11,L2
+N087,"Customer called, not like usual, swallowed a hard bit",gushing,train,2025-03-30,L1
+N088,"Half the bottle foamed out, batch on the board",gushing,train,2025-07-30,L3
+N089,"Six pack, crown rusty, label skewed",packaging,train,2025-05-05,L3
+N090,"Sent photos, beer everywhere on opening",gushing,train,2025-07-23,L3
+N091,"Do at filler above limit, sent photos",process deviation,train,2025-09-17,L3
+N092,"Cip return low, not like usual",process deviation,train,2025-04-18,L2
+N093,"Butterscotch on the nose, batch on the board",diacetyl,train,2025-01-22,L1
+N094,"Half the bottle foamed out, sent photos",gushing,train,2025-09-16,L3
+N095,"Cip return low, customer called",process deviation,train,2025-10-03,L1
+N096,"Tank held an extra day, batch on the board",process deviation,train,2025-07-10,L1
+N097,"Bottle from last week, not like usual",gushing,train,2025-02-04,L1
+N098,"Bottle from last week, label peeling off in the ice bucket, label skewed",packaging,train,2025-09-01,L1
+N099,"Bottle from last week, cip return low",process deviation,train,2025-08-27,L1
+N100,"Label peeling off in the ice bucket, bought on saturday, can dented on arrival, foam would not stop",packaging,train,2025-02-06,L1
+N101,"Can dented on arrival, customer called",packaging,train,2025-03-29,L2
+N102,"Bought on saturday, can dented on arrival, bit of metal in the glass, carton torn",packaging,train,2025-04-07,L3
+N103,"Sent photos, plastic flake floating",foreign body,train,2025-02-27,L2
+N104,"Carton torn, can dented on arrival, night shift",packaging,train,2025-01-21,L2
+N105,Half the bottle foamed out,gushing,train,2025-08-01,L3
+N106,"Something solid in the bottle, bottle from last week, plastic flake floating",foreign body,train,2025-02-08,L1
+N107,"Butterscotch on the nose, keg at the bar, beer everywhere on opening",gushing,train,2025-10-30,L1
+N108,"Bought on saturday, something solid in the bottle",foreign body,train,2025-09-05,L3
+N109,"Butterscotch on the nose, night shift",diacetyl,train,2025-06-17,L1
+N110,"Keg at the bar, cip return low",process deviation,train,2025-07-05,L3
+N111,"Crown rusty, batch on the board, not like usual",foreign body,train,2025-06-15,L1
+N112,"Cip return low, bought on saturday",process deviation,train,2025-03-02,L3
+N113,"Night shift, not like usual",gushing,train,2025-06-24,L3
+N114,"Crown rusty, sent photos, not like usual",packaging,train,2025-05-13,L3
+N115,"Tastes odd, sent photos",foreign body,train,2025-02-14,L1
+N116,"Sent photos, found a small piece of glass in the neck, cip return low",process deviation,train,2025-06-10,L1
+N117,"Customer called, do at filler above limit, buttery smell, pasteuriser units low for ten minutes",process deviation,train,2025-05-14,L3
+N118,"Bought on saturday, fill height outside spec on line 2, cip return only 68 c, rerun done",process deviation,train,2025-01-25,L1
+N119,"Cip return low, tank held an extra day, night shift",process deviation,train,2025-04-04,L1
+N120,"Butterscotch on the nose, keg at the bar, something solid in the bottle",diacetyl,train,2025-07-09,L2
+N121,"Fill height outside spec on line 2, sent photos, tank held an extra day",process deviation,train,2025-04-01,L1
+N122,"Batch on the board, label peeling off in the ice bucket",packaging,train,2025-03-18,L3
+N123,"Batch on the board, fill height outside spec on line 2, cip return low",process deviation,train,2025-02-19,L3
+N124,"Fobbing out of the can, batch on the board, foamed over as soon as i opened it",gushing,train,2025-08-18,L3
+N125,"Bottle from last week, beer everywhere on opening, fobbing out of the can, carton torn",gushing,train,2025-09-07,L1
+N126,"Crown rusty, not like usual, beer everywhere on opening, night shift",packaging,train,2025-06-29,L3
+N127,Not like usual,gushing,train,2025-08-24,L2
+N128,"Swallowed a hard bit, something solid in the bottle, customer called",foreign body,train,2025-10-16,L2
+N129,"Night shift, tank held an extra day",process deviation,train,2025-01-30,L1
+N130,"Pasteuriser units low for ten minutes, batch on the board, fill height outside spec on line 2",process deviation,train,2025-04-11,L1
+N131,"Found a small piece of glass in the neck, night shift, crown rusty, carton torn",packaging,train,2025-04-02,L2
+N132,"Bought on saturday, cip return only 68 c, rerun done",process deviation,train,2025-10-30,L1
+N133,"Found a small piece of glass in the neck, bottle from last week, swallowed a hard bit",foreign body,train,2025-03-25,L1
+N134,"Six pack, cip return low, tank held an extra day",process deviation,train,2025-06-07,L1
+N135,"Beer everywhere on opening, not like usual",gushing,train,2025-10-23,L2
+N136,"Something solid in the bottle, six pack, tastes like popcorn butter, plastic flake floating",foreign body,train,2025-03-07,L2
+N137,"Keg at the bar, bit of metal in the glass",foreign body,train,2025-08-28,L2
+N138,"Swallowed a hard bit, cip return only 68 c, rerun done",foreign body,train,2025-06-19,L3
+N139,"Do at filler above limit, bottle from last week, foamed over as soon as i opened it",process deviation,train,2025-10-11,L1
+N140,"Night shift, not like usual, label peeling off in the ice bucket",packaging,train,2025-09-27,L1
+N141,"Tank held an extra day, bottle from last week, pasteuriser units low for ten minutes, can dented on arrival",process deviation,train,2025-05-30,L1
+N142,"Tank held an extra day, keg at the bar, tastes like popcorn butter",diacetyl,train,2025-07-28,L2
+N143,"Foamed over as soon as i opened it, six pack, sweet buttery finish",diacetyl,train,2025-01-13,L2
+N144,"Bottle from last week, do at filler above limit",process deviation,train,2025-10-24,L1
+N145,"Sent photos, can dented on arrival",packaging,train,2025-09-27,L3
+N146,"Six pack, plastic flake floating, not like usual",foreign body,train,2025-09-24,L2
+N147,"Batch on the board, foamed over as soon as i opened it, beer everywhere on opening",gushing,train,2025-05-05,L2
+N148,"Bottle from last week, half the bottle foamed out, label peeling off in the ice bucket, beer everywhere on opening",gushing,train,2025-10-31,L1
+N149,"Fill height outside spec on line 2, batch on the board, can dented on arrival",packaging,train,2025-06-17,L3
+N150,"Fill height outside spec on line 2, tank held an extra day",process deviation,train,2025-05-31,L2
+N151,"Not like usual, label skewed",packaging,train,2025-07-10,L1
+N152,"Plastic flake floating, can dented on arrival",packaging,train,2025-03-16,L3
+N153,"Plastic flake floating, batch on the board",foreign body,train,2025-07-09,L3
+N154,"Swallowed a hard bit, tastes odd, keg at the bar",foreign body,train,2025-01-11,L2
+N155,"Sent photos, found a small piece of glass in the neck, tank held an extra day",process deviation,train,2025-10-17,L3
+N156,"Can dented on arrival, not like usual",packaging,train,2025-07-05,L2
+N157,"Carton torn, night shift",packaging,train,2025-03-14,L1
+N158,"Do at filler above limit, batch on the board, cip return only 68 c, rerun done",process deviation,train,2025-01-30,L1
+N159,"Half the bottle foamed out, customer called, foamed over as soon as i opened it",gushing,train,2025-08-04,L1
+N160,"Night shift, tastes like popcorn butter",diacetyl,train,2025-04-17,L2
+N161,"Label skewed, label peeling off in the ice bucket, batch on the board",packaging,train,2025-03-20,L1
+N162,"Carton torn, tastes odd, label skewed, batch on the board",packaging,train,2025-01-21,L1
+N163,Not like usual,diacetyl,train,2025-05-14,L3
+N164,"Six pack, fill height outside spec on line 2, cip return low",process deviation,train,2025-09-07,L3
+N165,"Plastic flake floating, night shift, not like usual",packaging,train,2025-06-17,L1
+N166,"Crown rusty, bought on saturday",packaging,train,2025-07-16,L2
+N167,"A bit slick and sweet, sweet buttery finish, keg at the bar",diacetyl,train,2025-02-02,L3
+N168,"Six pack, not like usual, label peeling off in the ice bucket",packaging,train,2025-04-15,L2
+N169,Cip return low,process deviation,train,2025-04-07,L2
+N170,"Plastic flake floating, found a small piece of glass in the neck, bought on saturday",foreign body,train,2025-01-19,L1
+N171,"Can dented on arrival, crown rusty, bought on saturday",packaging,train,2025-08-19,L1
+N172,"Tank held an extra day, bought on saturday, cip return low",process deviation,train,2025-03-28,L2
+N173,"Found a small piece of glass in the neck, bit of metal in the glass",foreign body,train,2025-04-22,L1
+N174,"Six pack, crown rusty",packaging,train,2025-08-13,L2
+N175,"Pasteuriser units low for ten minutes, cip return only 68 c, rerun done, batch on the board",process deviation,train,2025-09-01,L1
+N176,"Can dented on arrival, batch on the board",packaging,train,2025-08-26,L3
+N177,"Plastic flake floating, fobbing out of the can, bought on saturday",gushing,train,2025-10-01,L1
+N178,"Found a small piece of glass in the neck, not like usual, bottle from last week",foreign body,train,2025-10-08,L3
+N179,"Sent photos, not like usual",gushing,train,2025-08-08,L2
+N180,"Customer called, bit of metal in the glass",foreign body,train,2025-03-19,L2
+N181,"Fobbing out of the can, half the bottle foamed out, customer called",gushing,train,2025-09-25,L3
+N182,"Not like usual, foamed over as soon as i opened it, keg at the bar",gushing,train,2025-02-19,L2
+N183,"Customer called, do at filler above limit",process deviation,train,2025-04-21,L2
+N184,"Sent photos, swallowed a hard bit",foreign body,train,2025-02-19,L2
+N185,"Bought on saturday, something solid in the bottle",foreign body,train,2025-05-11,L3
+N186,"Half the bottle foamed out, not like usual, fobbing out of the can",gushing,train,2025-07-10,L1
+N187,"Fobbing out of the can, foamed over as soon as i opened it, customer called",gushing,train,2025-09-08,L2
+N188,"Do at filler above limit, cip return low",process deviation,train,2025-09-14,L2
+N189,"Tastes odd, plastic flake floating, night shift",diacetyl,train,2025-02-13,L2
+N190,"Bought on saturday, swallowed a hard bit, half the bottle foamed out",gushing,train,2025-02-22,L1
+N191,"Cip return low, night shift, do at filler above limit, carton torn",process deviation,train,2025-03-11,L3
+N192,"Beer everywhere on opening, bought on saturday",gushing,train,2025-04-29,L3
+N193,"Can dented on arrival, carton torn, bottle from last week",packaging,train,2025-10-07,L2
+N194,"Bought on saturday, can dented on arrival",packaging,train,2025-10-17,L3
+N195,"Crown rusty, keg at the bar",packaging,train,2025-10-03,L1
+N196,"Not like usual, half the bottle foamed out, bought on saturday",gushing,train,2025-09-08,L3
+N197,"Foamed over as soon as i opened it, sweet buttery finish",gushing,train,2025-10-14,L3
+N198,"Batch on the board, something solid in the bottle",foreign body,train,2025-08-01,L3
+N199,"Tastes odd, six pack",foreign body,train,2025-05-29,L1
+N200,"Buttery smell, batch on the board, foamed over as soon as i opened it",diacetyl,train,2025-01-28,L3
+N201,"Pasteuriser units low for ten minutes, cip return only 68 c, rerun done, bought on saturday",process deviation,test,2025-06-02,L3
+N202,"Tastes odd, six pack, a bit slick and sweet",diacetyl,test,2025-10-10,L2
+N203,"Bought on saturday, bit of metal in the glass",foreign body,test,2025-01-17,L3
+N204,"Sent photos, can dented on arrival, carton torn",packaging,test,2025-09-08,L3
+N205,"Tastes odd, tastes like popcorn butter, sent photos",diacetyl,test,2025-07-01,L3
+N206,"Label skewed, customer called, label peeling off in the ice bucket",packaging,test,2025-08-06,L2
+N207,"Label skewed, do at filler above limit, can dented on arrival",packaging,test,2025-02-22,L1
+N208,"Pasteuriser units low for ten minutes, do at filler above limit, night shift",process deviation,test,2025-07-23,L2
+N209,"Cip return only 68 c, rerun done, bottle from last week, can dented on arrival",packaging,test,2025-07-25,L2
+N210,"Cip return low, six pack, cip return only 68 c, rerun done",process deviation,test,2025-03-17,L1
+N211,"Tastes odd, slick mouthfeel, bottle from last week",foreign body,test,2025-03-04,L3
+N212,"Sweet buttery finish, keg at the bar",diacetyl,test,2025-03-20,L3
+N213,"Bought on saturday, foam would not stop, half the bottle foamed out",gushing,test,2025-07-08,L2
+N214,"Not like usual, customer called",gushing,test,2025-02-03,L2
+N215,"Six pack, found a small piece of glass in the neck, tastes odd",foreign body,test,2025-04-07,L1
+N216,"Cip return only 68 c, rerun done, six pack",process deviation,test,2025-08-15,L3
+N217,"Found a small piece of glass in the neck, night shift",foreign body,test,2025-05-17,L1
+N218,"Plastic flake floating, not like usual",foreign body,test,2025-05-09,L3
+N219,"Pasteuriser units low for ten minutes, tank held an extra day, bottle from last week",process deviation,test,2025-09-23,L3
+N220,"Night shift, do at filler above limit, pasteuriser units low for ten minutes",process deviation,test,2025-08-23,L2
+N221,"Label skewed, batch on the board, can dented on arrival",packaging,test,2025-09-01,L2
+N222,Cip return low,process deviation,test,2025-02-20,L3
+N223,"Carton torn, bought on saturday",packaging,test,2025-04-01,L1
+N224,"Tastes odd, batch on the board, something solid in the bottle",foreign body,test,2025-01-27,L1
+N225,"Tank held an extra day, pasteuriser units low for ten minutes",process deviation,test,2025-02-20,L1
+N226,"Pasteuriser units low for ten minutes, foam would not stop, not like usual",gushing,test,2025-09-12,L2
+N227,"Label skewed, tastes odd, customer called",diacetyl,test,2025-04-21,L3
+N228,"Beer everywhere on opening, foam would not stop, bottle from last week",gushing,test,2025-06-05,L1
+N229,"Can dented on arrival, tank held an extra day",packaging,test,2025-08-10,L2
+N230,"Foamed over as soon as i opened it, keg at the bar",gushing,test,2025-07-14,L3
+N231,"Bottle from last week, bit of metal in the glass",foreign body,test,2025-04-03,L1
+N232,"Foamed over as soon as i opened it, not like usual, butterscotch on the nose, customer called",gushing,test,2025-03-27,L3
+N233,"Not like usual, something solid in the bottle, bottle from last week",foreign body,test,2025-08-30,L3
+N234,"Keg at the bar, not like usual, label skewed",packaging,test,2025-06-27,L2
+N235,"Batch on the board, a bit slick and sweet",diacetyl,test,2025-10-14,L3
+N236,"Customer called, not like usual",foreign body,test,2025-06-10,L3
+N237,"Beer everywhere on opening, label skewed, customer called",packaging,test,2025-07-11,L3
+N238,"Night shift, something solid in the bottle",foreign body,test,2025-07-21,L2
+N239,"Bottle from last week, fill height outside spec on line 2, do at filler above limit, carton torn",process deviation,test,2025-10-01,L2
+N240,"Six pack, bit of metal in the glass, crown rusty",packaging,test,2025-09-06,L2
+N241,"Foamed over as soon as i opened it, bottle from last week, half the bottle foamed out",gushing,test,2025-02-01,L2
+N242,"Batch on the board, tastes like popcorn butter, tastes odd",diacetyl,test,2025-02-06,L2
+N243,"Bought on saturday, not like usual, something solid in the bottle",foreign body,test,2025-03-28,L2
+N244,"Customer called, not like usual, tastes odd, bit of metal in the glass",foreign body,test,2025-05-10,L1
+N245,Tastes odd,foreign body,test,2025-07-29,L2
+N246,"Tastes odd, can dented on arrival, bottle from last week, label peeling off in the ice bucket",packaging,test,2025-08-06,L3
+N247,"Tastes odd, bottle from last week",foreign body,test,2025-01-25,L1
+N248,"Sent photos, foamed over as soon as i opened it, beer everywhere on opening",gushing,test,2025-08-20,L3
+N249,"Pasteuriser units low for ten minutes, tank held an extra day, batch on the board",process deviation,test,2025-02-27,L2
+N250,"Keg at the bar, half the bottle foamed out, cip return only 68 c, rerun done",gushing,test,2025-04-02,L2
+N251,"Foam would not stop, six pack",gushing,test,2025-09-03,L2
+N252,"Batch on the board, bit of metal in the glass, plastic flake floating",foreign body,test,2025-06-24,L2
+N253,"Bought on saturday, cip return only 68 c, rerun done",process deviation,test,2025-10-25,L1
+N254,"Fobbing out of the can, batch on the board",gushing,test,2025-08-21,L1
+N255,"Batch on the board, found a small piece of glass in the neck",foreign body,test,2025-10-18,L2
+N256,"Beer everywhere on opening, pasteuriser units low for ten minutes, batch on the board",gushing,test,2025-03-03,L3
+N257,"Keg at the bar, not like usual, a bit slick and sweet",diacetyl,test,2025-03-13,L2
+N258,"Not like usual, sent photos",packaging,test,2025-10-14,L2
+N259,"Sent photos, something solid in the bottle",foreign body,test,2025-08-19,L3
+N260,"Tastes odd, bought on saturday",foreign body,test,2025-05-26,L2
+N261,"Label peeling off in the ice bucket, tastes odd, bottle from last week",packaging,test,2025-07-10,L2
+N262,"Not like usual, tank held an extra day, batch on the board, do at filler above limit",process deviation,test,2025-08-16,L3
+N263,"Fobbing out of the can, foamed over as soon as i opened it, pasteuriser units low for ten minutes",gushing,test,2025-07-18,L3
+N264,"Foamed over as soon as i opened it, night shift, not like usual",gushing,test,2025-01-16,L1
+N265,"Bought on saturday, label skewed, butterscotch on the nose, not like usual",packaging,test,2025-01-27,L3
+N266,"Fobbing out of the can, half the bottle foamed out, batch on the board",gushing,test,2025-02-08,L1
+N267,"Can dented on arrival, label peeling off in the ice bucket, customer called",packaging,test,2025-06-17,L1
+N268,"Carton torn, bought on saturday, label peeling off in the ice bucket",packaging,test,2025-04-21,L3
+N269,"Tastes odd, plastic flake floating",foreign body,test,2025-04-18,L2
+N270,"Label skewed, customer called, crown rusty",packaging,test,2025-07-31,L2
+N271,"Pasteuriser units low for ten minutes, night shift",process deviation,test,2025-02-16,L2
+N272,"Pasteuriser units low for ten minutes, night shift, tank held an extra day",process deviation,test,2025-07-14,L1
+N273,"Sent photos, not like usual",foreign body,test,2025-07-07,L1
+N274,"Crown rusty, keg at the bar, label peeling off in the ice bucket",packaging,test,2025-01-20,L3
+N275,"Fobbing out of the can, six pack, beer everywhere on opening",gushing,test,2025-03-30,L2
+N276,"Fobbing out of the can, six pack",gushing,test,2025-09-30,L1
+N277,"Six pack, cip return low, fill height outside spec on line 2",process deviation,test,2025-01-27,L3
+N278,"Half the bottle foamed out, bought on saturday, fobbing out of the can",gushing,test,2025-09-06,L3
+N279,"Customer called, found a small piece of glass in the neck, bit of metal in the glass, buttery smell",foreign body,test,2025-05-01,L3
+N280,"Cip return only 68 c, rerun done, bought on saturday, tank held an extra day",process deviation,test,2025-03-22,L1
+N281,"Keg at the bar, swallowed a hard bit, tastes odd",foreign body,test,2025-01-25,L2
+N282,"Six pack, fill height outside spec on line 2",process deviation,test,2025-05-16,L3
+N283,"Cip return low, six pack, carton torn, cip return only 68 c, rerun done",process deviation,test,2025-05-11,L1
+N284,"Carton torn, keg at the bar",packaging,test,2025-03-17,L2
+N285,"Label skewed, crown rusty",packaging,test,2025-03-06,L2
+N286,"Cip return only 68 c, rerun done, customer called",process deviation,test,2025-06-06,L3
+N287,"Plastic flake floating, keg at the bar, sweet buttery finish",foreign body,test,2025-05-28,L3
+N288,Do at filler above limit,process deviation,test,2025-08-03,L3
+N289,"Customer called, fill height outside spec on line 2, cip return only 68 c, rerun done",process deviation,test,2025-05-24,L2
+N290,"Night shift, swallowed a hard bit, something solid in the bottle",foreign body,test,2025-03-08,L3
+N291,"Foam would not stop, bought on saturday",gushing,test,2025-01-15,L2
+N292,"Keg at the bar, label skewed, foam would not stop",packaging,test,2025-10-21,L2
+N293,"Customer called, cip return low",process deviation,test,2025-08-09,L2
+N294,"Pasteuriser units low for ten minutes, customer called, crown rusty",packaging,test,2025-10-22,L2
+N295,"Bought on saturday, tastes odd",foreign body,test,2025-07-23,L2
+N296,"Fill height outside spec on line 2, cip return low, bought on saturday",process deviation,test,2025-02-15,L3
+N297,"Can dented on arrival, crown rusty",packaging,test,2025-03-24,L3
+N298,"Sweet buttery finish, butterscotch on the nose",diacetyl,test,2025-03-31,L1
+N299,"Half the bottle foamed out, keg at the bar",gushing,test,2025-09-07,L3
+N300,"Keg at the bar, crown rusty",packaging,test,2025-05-18,L2

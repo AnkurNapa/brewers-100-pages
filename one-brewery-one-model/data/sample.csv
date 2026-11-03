@@ -1,0 +1,17 @@
+sample_key,sample_id,vessel_key,batch_key,match_method,sample_point,sampled_at_utc,sampler
+1,S260312-001,10,1,vessel_time,fermenter inlet,2026-03-12 01:30:00,AS
+2,S260312-002,10,1,vessel_time,fermenter inlet,2026-03-12 07:50:00,PM
+3,S260313-001,11,2,vessel_time,fermenter inlet,2026-03-13 01:30:00,RK
+4,S260313-002,11,2,vessel_time,fermenter inlet,2026-03-13 07:50:00,AS
+5,S260314-001,12,3,vessel_time,fermenter inlet,2026-03-14 01:30:00,PM
+6,S260315-001,12,3,vessel_time,fermenter inlet,2026-03-14 20:20:00,RK
+7,S260323-022,10,1,label,"fermenter, racking arm",2026-03-23 08:35:00,AS
+8,S260325-001,10,1,vessel_time,"fermenter, racking arm",2026-03-25 01:10:00,PM
+9,S260401-001,10,1,label,"fermenter, racking arm",2026-04-01 03:30:00,RK
+10,S260402-001,11,2,vessel_time,"fermenter, racking arm",2026-04-02 03:30:00,AS
+11,S26032-6,12,3,vessel_time,"fermenter, racking arm",2026-03-26 03:30:00,PM
+12,S260320-001,11,2,vessel_date,"fermenter, racking arm",2026-03-20 06:30:00,RK
+13,S260318-001,14,,none,"fermenter, racking arm",2026-03-18 04:30:00,AS
+14,S260410-001,21,1,vessel_time,"bright tank, release",2026-04-10 07:30:00,PM
+15,S260411-001,23,2,vessel_time,"bright tank, release",2026-04-11 07:30:00,RK
+16,S260328-001,20,3,vessel_time,"bright tank, release",2026-03-28 07:30:00,AS

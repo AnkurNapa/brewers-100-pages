@@ -1,0 +1,23 @@
+event_key,vessel_key,batch_key,event_type,start_utc,end_utc,volume_hl,temperature_c,source,rule_version
+1,10,1,fill,2026-03-12 01:10:00,2026-03-12 02:05:00,300.0,10.0,detected from tags,fill-v1
+2,10,1,fill,2026-03-12 07:30:00,2026-03-12 08:25:00,300.0,10.0,detected from tags,fill-v1
+3,10,1,fermentation end,2026-03-22 01:10:00,,600.0,12.0,typed on the cellar log,
+4,10,1,transfer out,2026-04-10 02:30:00,2026-04-10 05:50:00,585.6,0.5,typed on the transfer log,
+5,10,,CIP,2026-04-11 02:30:00,2026-04-11 04:30:00,,80.0,detected from tags,cip-v1
+6,21,1,bright fill,2026-04-10 03:00:00,2026-04-10 06:00:00,582.0,0.0,typed on the transfer log,
+7,11,2,fill,2026-03-13 01:10:00,2026-03-13 02:05:00,300.0,10.0,typed on the brew sheet,
+8,11,2,fill,2026-03-13 07:30:00,2026-03-13 08:25:00,300.0,10.0,typed on the brew sheet,
+9,11,2,fermentation end,2026-03-23 01:10:00,,600.0,12.0,typed on the cellar log,
+10,11,2,transfer out,2026-04-11 02:30:00,2026-04-11 05:30:00,585.6,0.5,typed on the transfer log,
+11,11,,CIP,2026-04-12 02:30:00,2026-04-12 04:30:00,,80.0,typed on the CIP log,
+12,23,2,bright fill,2026-04-11 03:00:00,2026-04-11 05:40:00,582.0,0.0,typed on the transfer log,
+13,12,3,fill,2026-03-14 01:10:00,2026-03-14 02:05:00,300.0,10.0,typed on the brew sheet,
+14,12,3,fill,2026-03-14 20:00:00,2026-03-14 20:55:00,300.0,10.0,typed on the brew sheet,
+15,12,3,fermentation end,2026-03-21 01:10:00,,600.0,18.0,typed on the cellar log,
+16,12,3,dry hop,2026-03-20 04:30:00,2026-03-20 05:00:00,,18.0,typed on the cellar log,
+17,12,3,transfer out,2026-03-28 02:30:00,2026-03-28 05:30:00,585.6,0.5,typed on the transfer log,
+18,12,,CIP,2026-03-29 02:30:00,2026-03-29 04:30:00,,80.0,typed on the CIP log,
+19,20,3,bright fill,2026-03-28 03:00:00,2026-03-28 05:40:00,582.0,0.0,typed on the transfer log,
+20,14,,CIP,2026-03-15 03:30:00,2026-03-15 05:30:00,,80.0,typed on the CIP log,
+21,15,,CIP,2026-03-16 03:30:00,2026-03-16 05:30:00,,80.0,typed on the CIP log,
+22,16,,CIP,2026-03-17 03:30:00,2026-03-17 05:30:00,,80.0,typed on the CIP log,

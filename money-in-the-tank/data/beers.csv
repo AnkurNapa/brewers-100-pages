@@ -1,0 +1,4 @@
+beer,dispatched_hl_month,days_in_tank,turnaround_days,net_price_usd_hl,variable_cost_usd_hl
+Lager,6100,28,2,140,70
+Pale ale,1630,14,2,180,70
+Stout,600,21,2,170,70

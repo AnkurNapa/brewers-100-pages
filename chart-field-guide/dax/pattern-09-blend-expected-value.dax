@@ -1,0 +1,10 @@
+Parent Result =
+CALCULATE (
+    AVERAGE ( Lab[Value] ),
+    TREATAS ( VALUES ( Link[ParentId] ), Lab[FillId] )
+)
+Blend Expected Value =
+IF (
+    COUNTROWS ( Link ) = COUNTROWS ( FILTER ( Link, NOT ISBLANK ( [Parent Result] ) ) ),
+    SUMX ( Link, Link[Share] * [Parent Result] )
+)

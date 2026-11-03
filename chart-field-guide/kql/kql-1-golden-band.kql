@@ -1,0 +1,13 @@
+Readings
+| where Tag == "Gravity"
+| join kind=inner (
+    Fills | where IsReference == true and Brand == "Pale Ale"
+  ) on Tank
+| where Time between (HourZero .. FillEnd)
+| extend BatchHour = toint(floor((Time - HourZero) / 1h, 1))
+| summarize HourGravity = avg(Value) by FillId, BatchHour
+| summarize p10 = percentile(HourGravity, 10),
+            p50 = percentile(HourGravity, 50),
+            p90 = percentile(HourGravity, 90)
+    by BatchHour
+| order by BatchHour asc

@@ -1,0 +1,159 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>No. 03 Judge the Claim</title><style>
+body { margin: 0; font: 17px/1.55 'Avenir Next', 'Helvetica Neue', Arial, sans-serif; color: #161616; background: #f7f4ec; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+h1, h2, h3 { font-family: 'DIN Condensed', Impact, sans-serif; letter-spacing: .5px; line-height: 1.05; }
+h1 { font-size: 46px; margin: 0 0 8px; } h2 { font-size: 28px; margin-top: 32px; }
+a { color: inherit; } code, pre { font: 14px Menlo, monospace; } pre { overflow-x: auto; background: #fff; padding: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; } th, td { border-bottom: 1px solid #ccc; padding: 6px; text-align: left; }
+.band { color: #fff; padding: 28px 20px; } .band main { padding: 0 20px; }
+.shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; padding: 0; list-style: none; }
+.shelf a { display: block; padding: 18px; min-height: 150px; text-decoration: none; color: #fff; }
+.shelf b { display: block; font: 30px/1 'DIN Condensed', Impact, sans-serif; margin: 6px 0; }
+.small { font-size: 14px; color: #555; }
+</style></head><body><div class="band" style="background:#5b2a86"><main><div class="small" style="color:#fff">THE BREWER'S 100 PAGES</div><h1>No. 03 Judge the Claim</h1></main></div><main><p><a href="../">All seven books</a> / <a href="errata.html">Errata</a> / <a href="../rates.html">Exchange rates</a> / <a href="PROMISES.md">What the book promises, file by file</a></p><h1>Judge the Claim: companion files</h1>
+<p>The working files for <em>Judge the Claim: Buying AI for a Brewery</em>. Every figure is Kestrel Brewing, the synthetic brewery of the series. No real plant numbers and no vendor names appear.</p>
+<h2>How to run it</h2>
+<pre><code>pip install -r requirements.txt
+python3 make_data.py
+python3 make_sheets.py
+python3 check_numbers.py
+</code></pre>
+<p><code>make_data.py</code> writes every CSV in <code>data/</code> from fixed seeds. <code>make_sheets.py</code> writes the three workbooks in <code>sheets/</code> with live formulas. <code>check_numbers.py</code> asserts the numbers the book prints.</p>
+<p>Open the notebooks in Jupyter from the <code>notebooks/</code> folder; they read <code>../data/</code>.</p>
+<h2>Chapter by chapter</h2>
+<table>
+<thead>
+<tr>
+<th>Chapter</th>
+<th>File</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 and 2</td>
+<td><code>notebooks/ch02-claim-parts.ipynb</code></td>
+<td>Reads a pasted claim, flags the five words and prints the five part table with "missing" rows</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>notebooks/ch03-count-table.ipynb</code></td>
+<td>The anonymised count table, Figure 3.2 and a place for your own shortlist</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>notebooks/ch04-score-sheet.ipynb</code></td>
+<td>Reads two scorers' points and flags claims whose totals differ by more than one point</td>
+</tr>
+<tr>
+<td>4, Appendix A</td>
+<td><code>sheets/working-score-sheet.xlsx</code></td>
+<td>The Working Score with the total and the band as formulas</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>notebooks/ch05-test-templates.ipynb</code></td>
+<td>Seeded packs, coded stops, a fifty question set and a held out period</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>notebooks/ch06-flag-count.ipynb</code></td>
+<td>Turns first call answers into a red and green flag count for each vendor</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>notebooks/ch07-claim-rebuild.ipynb</code></td>
+<td><code>claim-rebuild</code>: the sums on the loss CSV, three currencies and the waterfall</td>
+</tr>
+<tr>
+<td>7 to 10, Appendix B</td>
+<td><code>sheets/claim-rebuild-template.xlsx</code></td>
+<td>Cells B1 to B29 as printed, the check values and the chapter 10 pricing</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>notebooks/ch08-scenarios.ipynb</code></td>
+<td><code>scenarios</code>: the monthly model, payback months, Figures 8.1 and 8.2 plus the 8.5 table</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>notebooks/ch09-whole-cost.ipynb</code></td>
+<td><code>whole-cost</code>: adds the years and the exit</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>notebooks/ch10-pricing.ipynb</code></td>
+<td>Prices one quote fixed and outcome linked; Figure 10.1</td>
+</tr>
+<tr>
+<td>11, Appendix C</td>
+<td><code>notebooks/ch11-pilot.ipynb</code>, <code>sheets/pilot-lines.xlsx</code></td>
+<td>Break even, kill line, noise margin, pass line and sample size</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>notebooks/ch12-decide.ipynb</code></td>
+<td>Reads the pilot against the lines, simulates how often the rule errs and tracks the two monthly lines</td>
+</tr>
+</tbody>
+</table>
+<h2>The data</h2>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>What it holds</th>
+<th>Seed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kestrel_inputs.csv</code></td>
+<td>The vendor case inputs of Appendix B</td>
+<td>fixed</td>
+</tr>
+<tr>
+<td><code>kestrel_monthly_loss.csv</code></td>
+<td>Twelve months of cellar loss to October 2026: 104,500 hL cast at 2.4 percent</td>
+<td>fixed</td>
+</tr>
+<tr>
+<td><code>weekly_loss_sheet.csv</code></td>
+<td>The same year by week, with the 3.6 percent bad week</td>
+<td>2401</td>
+</tr>
+<tr>
+<td><code>fill_records.csv</code></td>
+<td>144 lager fills on twelve 600 hL fermenters in six matched pairs</td>
+<td>32</td>
+</tr>
+<tr>
+<td><code>pilot_pair_gaps.csv</code></td>
+<td>The chapter 12 pilot: 12 pair gaps at the first look then 12 more</td>
+<td>1105</td>
+</tr>
+<tr>
+<td><code>vendor_counts.csv</code></td>
+<td>Counts only from the author's review of 116 vendors, 24 September 2026</td>
+<td>none</td>
+</tr>
+<tr>
+<td><code>ch04_scores.csv</code></td>
+<td>Claims A to C scored by two people</td>
+<td>fixed</td>
+</tr>
+<tr>
+<td><code>ch05_*.csv</code></td>
+<td>The four test templates</td>
+<td>505</td>
+</tr>
+<tr>
+<td><code>ch06_first_call.csv</code></td>
+<td>Two constructed vendors' first call answers</td>
+<td>fixed</td>
+</tr>
+</tbody>
+</table>
+<p>The 2.4 percent is a share of wort cast. The book applies it to the 100,000 hL dispatched to keep the sums round, as chapter 7.2 says.</p>
+<h2>Licence</h2>
+<p>Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Synthetic data only; no real brewery's numbers.</p><p class="small">Copyright 2026 Ankur Napa. All rights reserved. You may use these files for your own learning; do not republish or redistribute them. Every figure is synthetic: Kestrel Brewing is an invented plant.</p></main></body></html>

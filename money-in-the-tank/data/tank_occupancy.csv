@@ -1,0 +1,176 @@
+batch_code,tank,beer,occupied_from,occupied_to,days,planned_days,overrun_reason
+F05-26-001,FV05,Lager,2026-01-02,2026-02-01,30,28,slow fermentation
+F10-26-002,FV10,Lager,2026-01-02,2026-02-01,30,28,waiting for a filling slot
+F11-26-003,FV11,Lager,2026-01-02,2026-02-01,30,28,waiting for a bright tank
+F04-26-004,FV04,Lager,2026-01-03,2026-02-02,30,28,waiting for a filling slot
+F14-26-005,FV14,Lager,2026-01-03,2026-02-02,30,28,diacetyl rest ran long
+F03-26-006,FV03,Lager,2026-01-05,2026-02-04,30,28,waiting for a bright tank
+F08-26-007,FV08,Lager,2026-01-05,2026-02-04,30,28,slow fermentation
+F12-26-008,FV12,Lager,2026-01-07,2026-02-06,30,28,waiting for a bright tank
+F01-26-009,FV01,Lager,2026-01-08,2026-02-07,30,28,waiting for a bright tank
+F13-26-010,FV13,Lager,2026-01-08,2026-02-07,30,28,waiting for a bright tank
+F02-26-011,FV02,Lager,2026-01-09,2026-02-08,30,28,waiting for a bright tank
+F07-26-012,FV07,Lager,2026-01-09,2026-02-08,30,28,lab hold
+F06-26-013,FV06,Lager,2026-01-12,2026-02-11,30,28,waiting for a filling slot
+F09-26-014,FV09,Lager,2026-01-12,2026-02-11,30,28,slow fermentation
+F15-26-015,FV15,Lager,2026-01-12,2026-02-11,30,28,waiting for a bright tank
+F10-26-016,FV10,Lager,2026-02-01,2026-03-03,30,28,slow fermentation
+F05-26-017,FV05,Stout,2026-02-02,2026-02-25,23,22,waiting for a filling slot
+F14-26-018,FV14,Lager,2026-02-02,2026-03-04,30,28,slow fermentation
+F04-26-019,FV04,Pale ale,2026-02-03,2026-02-19,16,15,waiting for a bright tank
+F11-26-020,FV11,Pale ale,2026-02-03,2026-02-19,16,15,waiting for a filling slot
+F08-26-021,FV08,Lager,2026-02-04,2026-03-06,30,28,slow fermentation
+F03-26-022,FV03,Pale ale,2026-02-05,2026-02-21,16,15,slow fermentation
+F01-26-023,FV01,Lager,2026-02-07,2026-03-09,30,28,slow fermentation
+F13-26-024,FV13,Lager,2026-02-07,2026-03-09,30,28,waiting for a bright tank
+F02-26-025,FV02,Lager,2026-02-08,2026-03-10,30,28,waiting for a filling slot
+F07-26-026,FV07,Lager,2026-02-09,2026-03-11,30,28,waiting for a bright tank
+F12-26-027,FV12,Lager,2026-02-09,2026-03-11,30,28,waiting for a bright tank
+F15-26-028,FV15,Pale ale,2026-02-11,2026-02-27,16,15,waiting for a bright tank
+F09-26-029,FV09,Lager,2026-02-12,2026-03-14,30,28,waiting for a bright tank
+F06-26-030,FV06,Stout,2026-02-13,2026-03-08,23,22,lab hold
+F11-26-031,FV11,Pale ale,2026-02-20,2026-03-08,16,15,waiting for a bright tank
+F04-26-032,FV04,Lager,2026-02-21,2026-03-23,30,28,waiting for a bright tank
+F03-26-033,FV03,Pale ale,2026-02-23,2026-03-11,16,15,waiting for a filling slot
+F05-26-034,FV05,Lager,2026-02-26,2026-03-28,30,28,diacetyl rest ran long
+F15-26-035,FV15,Lager,2026-02-27,2026-03-29,30,28,lab hold
+F10-26-036,FV10,Lager,2026-03-04,2026-04-03,30,28,diacetyl rest ran long
+F14-26-037,FV14,Lager,2026-03-04,2026-04-03,30,28,waiting for a filling slot
+F08-26-038,FV08,Lager,2026-03-07,2026-04-06,30,28,lab hold
+F06-26-039,FV06,Lager,2026-03-09,2026-04-08,30,28,waiting for a bright tank
+F11-26-040,FV11,Lager,2026-03-09,2026-04-08,30,28,waiting for a filling slot
+F03-26-041,FV03,Lager,2026-03-11,2026-04-10,30,28,waiting for a filling slot
+F07-26-042,FV07,Lager,2026-03-11,2026-04-10,30,28,diacetyl rest ran long
+F01-26-043,FV01,Lager,2026-03-12,2026-04-11,30,28,waiting for a filling slot
+F02-26-044,FV02,Lager,2026-03-12,2026-04-11,30,28,waiting for a bright tank
+F13-26-045,FV13,Lager,2026-03-12,2026-04-11,30,28,waiting for a bright tank
+F12-26-046,FV12,Pale ale,2026-03-14,2026-03-30,16,15,waiting for a bright tank
+F09-26-047,FV09,Pale ale,2026-03-17,2026-04-02,16,15,waiting for a bright tank
+F04-26-048,FV04,Lager,2026-03-26,2026-04-25,30,28,diacetyl rest ran long
+F05-26-049,FV05,Stout,2026-03-28,2026-04-20,23,22,lab hold
+F15-26-050,FV15,Lager,2026-03-29,2026-04-28,30,28,slow fermentation
+F12-26-051,FV12,Lager,2026-03-30,2026-04-29,30,28,waiting for a bright tank
+F09-26-052,FV09,Lager,2026-04-02,2026-05-02,30,28,waiting for a bright tank
+F14-26-053,FV14,Lager,2026-04-05,2026-05-05,30,28,waiting for a bright tank
+F08-26-054,FV08,Pale ale,2026-04-06,2026-04-22,16,15,waiting for a bright tank
+F10-26-055,FV10,Pale ale,2026-04-06,2026-04-22,16,16,
+F11-26-056,FV11,Pale ale,2026-04-08,2026-04-24,16,15,waiting for a filling slot
+F03-26-057,FV03,Lager,2026-04-10,2026-05-10,30,28,diacetyl rest ran long
+F06-26-058,FV06,Lager,2026-04-10,2026-05-10,30,28,waiting for a bright tank
+F01-26-059,FV01,Stout,2026-04-11,2026-05-04,23,22,diacetyl rest ran long
+F02-26-060,FV02,Lager,2026-04-11,2026-05-11,30,28,waiting for a bright tank
+F07-26-061,FV07,Lager,2026-04-11,2026-05-11,30,28,waiting for a bright tank
+F13-26-062,FV13,Lager,2026-04-13,2026-05-13,30,28,waiting for a bright tank
+F05-26-063,FV05,Pale ale,2026-04-22,2026-05-08,16,15,waiting for a bright tank
+F08-26-064,FV08,Lager,2026-04-23,2026-05-23,30,28,waiting for a bright tank
+F10-26-065,FV10,Lager,2026-04-23,2026-05-23,30,28,waiting for a bright tank
+F11-26-066,FV11,Lager,2026-04-24,2026-05-24,30,28,waiting for a bright tank
+F04-26-067,FV04,Pale ale,2026-04-27,2026-05-13,16,15,waiting for a bright tank
+F15-26-068,FV15,Pale ale,2026-04-29,2026-05-15,16,15,slow fermentation
+F12-26-069,FV12,Stout,2026-05-02,2026-05-25,23,23,
+F09-26-070,FV09,Lager,2026-05-03,2026-06-02,30,28,waiting for a bright tank
+F14-26-071,FV14,Lager,2026-05-06,2026-06-05,30,28,waiting for a bright tank
+F01-26-072,FV01,Lager,2026-05-07,2026-06-06,30,28,slow fermentation
+F05-26-073,FV05,Lager,2026-05-08,2026-06-07,30,28,waiting for a bright tank
+F06-26-074,FV06,Lager,2026-05-10,2026-06-09,30,28,lab hold
+F03-26-075,FV03,Lager,2026-05-11,2026-06-10,30,28,waiting for a filling slot
+F07-26-076,FV07,Pale ale,2026-05-11,2026-05-27,16,15,waiting for a bright tank
+F02-26-077,FV02,Stout,2026-05-12,2026-06-04,23,22,diacetyl rest ran long
+F13-26-078,FV13,Stout,2026-05-13,2026-06-05,23,22,waiting for a bright tank
+F04-26-079,FV04,Pale ale,2026-05-14,2026-05-30,16,15,diacetyl rest ran long
+F15-26-080,FV15,Lager,2026-05-15,2026-06-14,30,28,waiting for a bright tank
+F08-26-081,FV08,Lager,2026-05-23,2026-06-22,30,28,waiting for a bright tank
+F10-26-082,FV10,Lager,2026-05-24,2026-06-23,30,28,waiting for a bright tank
+F12-26-083,FV12,Stout,2026-05-26,2026-06-18,23,22,waiting for a bright tank
+F11-26-084,FV11,Lager,2026-05-27,2026-06-26,30,28,waiting for a bright tank
+F07-26-085,FV07,Lager,2026-05-29,2026-06-28,30,28,diacetyl rest ran long
+F04-26-086,FV04,Pale ale,2026-06-01,2026-06-17,16,15,waiting for a bright tank
+F09-26-087,FV09,Lager,2026-06-02,2026-07-02,30,28,waiting for a bright tank
+F02-26-088,FV02,Lager,2026-06-04,2026-07-04,30,28,lab hold
+F13-26-089,FV13,Lager,2026-06-06,2026-07-06,30,28,diacetyl rest ran long
+F14-26-090,FV14,Lager,2026-06-06,2026-07-06,30,28,diacetyl rest ran long
+F05-26-091,FV05,Pale ale,2026-06-07,2026-06-23,16,15,waiting for a filling slot
+F01-26-092,FV01,Lager,2026-06-09,2026-07-09,30,28,diacetyl rest ran long
+F03-26-093,FV03,Stout,2026-06-10,2026-07-03,23,23,
+F06-26-094,FV06,Lager,2026-06-10,2026-07-10,30,28,waiting for a bright tank
+F04-26-095,FV04,Pale ale,2026-06-17,2026-07-03,16,15,waiting for a bright tank
+F15-26-096,FV15,Lager,2026-06-17,2026-07-17,30,28,lab hold
+F12-26-097,FV12,Lager,2026-06-18,2026-07-18,30,28,waiting for a filling slot
+F10-26-098,FV10,Lager,2026-06-23,2026-07-23,30,28,lab hold
+F05-26-099,FV05,Lager,2026-06-24,2026-07-24,30,28,waiting for a bright tank
+F08-26-100,FV08,Pale ale,2026-06-25,2026-07-11,16,15,diacetyl rest ran long
+F11-26-101,FV11,Lager,2026-06-27,2026-07-27,30,28,diacetyl rest ran long
+F07-26-102,FV07,Pale ale,2026-06-28,2026-07-14,16,15,waiting for a bright tank
+F03-26-103,FV03,Lager,2026-07-03,2026-08-02,30,28,slow fermentation
+F09-26-104,FV09,Lager,2026-07-03,2026-08-02,30,28,waiting for a bright tank
+F02-26-105,FV02,Lager,2026-07-04,2026-08-03,30,28,diacetyl rest ran long
+F04-26-106,FV04,Lager,2026-07-04,2026-08-03,30,28,waiting for a bright tank
+F14-26-107,FV14,Lager,2026-07-07,2026-08-06,30,28,waiting for a bright tank
+F13-26-108,FV13,Lager,2026-07-08,2026-08-07,30,28,lab hold
+F01-26-109,FV01,Lager,2026-07-10,2026-08-09,30,28,waiting for a filling slot
+F06-26-110,FV06,Pale ale,2026-07-11,2026-07-27,16,16,
+F08-26-111,FV08,Pale ale,2026-07-11,2026-07-27,16,15,diacetyl rest ran long
+F07-26-112,FV07,Lager,2026-07-15,2026-08-14,30,28,slow fermentation
+F12-26-113,FV12,Lager,2026-07-19,2026-08-18,30,28,waiting for a bright tank
+F15-26-114,FV15,Lager,2026-07-19,2026-08-18,30,28,slow fermentation
+F10-26-115,FV10,Lager,2026-07-24,2026-08-23,30,28,lab hold
+F05-26-116,FV05,Pale ale,2026-07-25,2026-08-10,16,15,diacetyl rest ran long
+F08-26-117,FV08,Pale ale,2026-07-27,2026-08-12,16,16,
+F11-26-118,FV11,Lager,2026-07-27,2026-08-26,30,28,waiting for a bright tank
+F06-26-119,FV06,Lager,2026-07-30,2026-08-29,30,28,waiting for a bright tank
+F03-26-120,FV03,Lager,2026-08-02,2026-09-01,30,28,slow fermentation
+F09-26-121,FV09,Pale ale,2026-08-02,2026-08-18,16,15,waiting for a bright tank
+F02-26-122,FV02,Pale ale,2026-08-06,2026-08-22,16,16,
+F04-26-123,FV04,Lager,2026-08-06,2026-09-05,30,28,diacetyl rest ran long
+F14-26-124,FV14,Lager,2026-08-07,2026-09-06,30,28,waiting for a bright tank
+F13-26-125,FV13,Lager,2026-08-09,2026-09-08,30,28,diacetyl rest ran long
+F01-26-126,FV01,Lager,2026-08-12,2026-09-11,30,28,waiting for a bright tank
+F05-26-127,FV05,Lager,2026-08-12,2026-09-11,30,28,diacetyl rest ran long
+F08-26-128,FV08,Stout,2026-08-14,2026-09-06,23,23,
+F07-26-129,FV07,Lager,2026-08-15,2026-09-14,30,28,diacetyl rest ran long
+F09-26-130,FV09,Lager,2026-08-18,2026-09-17,30,28,slow fermentation
+F12-26-131,FV12,Lager,2026-08-18,2026-09-17,30,28,slow fermentation
+F15-26-132,FV15,Lager,2026-08-19,2026-09-18,30,28,diacetyl rest ran long
+F02-26-133,FV02,Stout,2026-08-22,2026-09-14,23,22,waiting for a bright tank
+F10-26-134,FV10,Lager,2026-08-23,2026-09-22,30,28,diacetyl rest ran long
+F11-26-135,FV11,Lager,2026-08-27,2026-09-26,30,28,waiting for a filling slot
+F06-26-136,FV06,Lager,2026-08-30,2026-09-29,30,28,waiting for a filling slot
+F03-26-137,FV03,Lager,2026-09-01,2026-10-01,30,28,waiting for a filling slot
+F04-26-138,FV04,Lager,2026-09-05,2026-10-05,30,28,waiting for a bright tank
+F14-26-139,FV14,Lager,2026-09-06,2026-10-06,30,28,waiting for a bright tank
+F08-26-140,FV08,Stout,2026-09-07,2026-09-30,23,23,
+F13-26-141,FV13,Lager,2026-09-08,2026-10-08,30,28,slow fermentation
+F01-26-142,FV01,Lager,2026-09-13,2026-10-13,30,28,diacetyl rest ran long
+F02-26-143,FV02,Lager,2026-09-14,2026-10-14,30,28,waiting for a bright tank
+F05-26-144,FV05,Lager,2026-09-14,2026-10-14,30,28,waiting for a bright tank
+F07-26-145,FV07,Lager,2026-09-16,2026-10-16,30,28,lab hold
+F09-26-146,FV09,Lager,2026-09-17,2026-10-17,30,28,waiting for a bright tank
+F15-26-147,FV15,Lager,2026-09-19,2026-10-19,30,28,diacetyl rest ran long
+F12-26-148,FV12,Lager,2026-09-20,2026-10-20,30,28,diacetyl rest ran long
+F10-26-149,FV10,Pale ale,2026-09-23,2026-10-09,16,15,waiting for a filling slot
+F11-26-150,FV11,Lager,2026-09-26,2026-10-26,30,28,slow fermentation
+F06-26-151,FV06,Lager,2026-09-29,2026-10-29,30,28,diacetyl rest ran long
+F03-26-152,FV03,Lager,2026-10-01,2026-10-31,30,28,waiting for a filling slot
+F08-26-153,FV08,Lager,2026-10-01,2026-10-31,30,28,slow fermentation
+F04-26-154,FV04,Pale ale,2026-10-06,2026-10-22,16,16,
+F14-26-155,FV14,Lager,2026-10-07,2026-11-06,30,28,lab hold
+F10-26-156,FV10,Lager,2026-10-09,2026-11-08,30,28,diacetyl rest ran long
+F13-26-157,FV13,Lager,2026-10-11,2026-11-10,30,28,slow fermentation
+F01-26-158,FV01,Lager,2026-10-13,2026-11-12,30,28,diacetyl rest ran long
+F02-26-159,FV02,Lager,2026-10-15,2026-11-14,30,28,slow fermentation
+F05-26-160,FV05,Lager,2026-10-16,2026-11-15,30,28,waiting for a filling slot
+F07-26-161,FV07,Pale ale,2026-10-17,2026-11-02,16,16,
+F09-26-162,FV09,Pale ale,2026-10-17,2026-11-02,16,15,slow fermentation
+F15-26-163,FV15,Lager,2026-10-19,2026-11-18,30,28,diacetyl rest ran long
+F04-26-164,FV04,Lager,2026-10-22,2026-11-21,30,28,diacetyl rest ran long
+F12-26-165,FV12,Pale ale,2026-10-23,2026-11-08,16,15,diacetyl rest ran long
+F11-26-166,FV11,Stout,2026-10-27,2026-11-19,23,23,
+F06-26-167,FV06,Pale ale,2026-10-29,2026-11-14,16,15,diacetyl rest ran long
+F03-26-168,FV03,Lager,2026-10-31,2026-11-30,30,28,waiting for a bright tank
+F07-26-169,FV07,Lager,2026-11-02,2026-12-02,30,28,waiting for a bright tank
+F09-26-170,FV09,Lager,2026-11-02,2026-12-02,30,28,waiting for a filling slot
+F08-26-171,FV08,Lager,2026-11-03,2026-12-03,30,28,diacetyl rest ran long
+F14-26-172,FV14,Lager,2026-11-06,2026-12-06,30,28,waiting for a bright tank
+F10-26-173,FV10,Lager,2026-11-08,2026-12-08,30,28,slow fermentation
+F12-26-174,FV12,Pale ale,2026-11-09,2026-11-25,16,16,
+F13-26-175,FV13,Lager,2026-11-10,2026-12-10,30,28,waiting for a bright tank

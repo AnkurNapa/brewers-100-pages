@@ -1,0 +1,5 @@
+Yield =
+DIVIDE (
+    SUM ( Brew[ExtractKg] ),
+    SUM ( Brew[TheoreticalKg] )
+)

@@ -1,0 +1,7 @@
+fix,name,what_changes,value_usd,upper_bound_value_usd,probability,cost_usd,data_ready,change_load,blast_radius,this_quarter
+A,Cellar,"Heel and cone dump SOP, a flow meter on transfers",15000,55000,0.6,6000,"Yes, minimum dataset",One SOP,Low,Yes
+B,Giveaway,"Fill target cut by 2 ml, weigh checks",6784,23744,0.7,2500,"Yes, check weigher",One SOP,Low,Yes
+C,Water,"Conductivity sensor and valve on CIP pushes, ratio 4.5 to 4.0",13200,13200,0.45,18000,"Partly, no meter on pushes",One instrument,Low,Next quarter
+D,Line minutes,"Stop counter, reason codes, link to the plant system",6000,6000,0.35,40000,"No, stops are not coded","Three: counter, plant link, reason screen",Medium,No
+E,Waiting days,Book the bright tank and the diacetyl check ahead,59752,59752,0.4,3000,"Yes, occupancy table and brew plan",One schedule rule,"Low, the beer is unchanged",Yes
+F,Lager price,Raise lager by USD 1.00 a hL,73200,73200,0.3,3000,Yes,None,"High, customers",Owner's call

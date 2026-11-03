@@ -1,0 +1,17 @@
+sample_id,vessel_code,label_id,sampled_date_ist,sampled_time_ist,sample_point,sampler
+S260312-001,FV07,B26-0068,2026-03-12,07:00,fermenter inlet,AS
+S260312-002,FV07,B26-0069,2026-03-12,13:20,fermenter inlet,PM
+S260313-001,FV08,B26-0070,2026-03-13,07:00,fermenter inlet,RK
+S260313-002,FV08,B26-0071,2026-03-13,13:20,fermenter inlet,AS
+S260314-001,FV09,B26-0072,2026-03-14,07:00,fermenter inlet,PM
+S260315-001,FV09,B26-0073,2026-03-15,01:50,fermenter inlet,RK
+S260323-022,FV07,F07-26-034,2026-03-23,14:05,"fermenter, racking arm",AS
+S260325-001,FV07,,2026-03-25,06:40,"fermenter, racking arm",PM
+S260401-001,FV07,F07-26-034,2026-04-01,09:00,"fermenter, racking arm",RK
+S260402-001,FV08,,2026-04-02,09:00,"fermenter, racking arm",AS
+S26032-6,FV09,,2026-03-26,09:00,"fermenter, racking arm",PM
+S260320-001,FV08,,2026-03-20,,"fermenter, racking arm",RK
+S260318-001,FV10,,2026-03-18,10:00,"fermenter, racking arm",AS
+S260410-001,BT02,BT02-26-031,2026-04-10,13:00,"bright tank, release",PM
+S260411-001,BT04,BT04-26-032,2026-04-11,13:00,"bright tank, release",RK
+S260328-001,BT01,BT01-26-026,2026-03-28,13:00,"bright tank, release",AS

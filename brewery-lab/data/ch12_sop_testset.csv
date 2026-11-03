@@ -1,0 +1,11 @@
+question,answer_doc,answer_rev,cited_doc,cited_rev,answered
+What is the DO limit for bright beer?,SPEC-REL-004,rev 6,SPEC-REL-004,rev 6,yes
+How long are aerobic plates incubated?,SOP-MIC-012,rev 3,SOP-MIC-012,rev 3,yes
+What haze limit applies at 25 degrees?,SPEC-REL-004,rev 6,SPEC-REL-004,rev 5,yes
+How many buffers calibrate the pH meter?,SOP-CHE-031,rev 2,SOP-CHE-031,rev 2,yes
+Who signs a pack lot to dispatch?,SOP-QA-001,rev 9,SOP-QA-001,rev 9,yes
+What is the chill haze limit?,SPEC-REL-004,rev 6,,,yes
+How is a positive anaerobic plate handled after dispatch?,SOP-QA-017,rev 4,SOP-QA-017,rev 4,yes
+What ATP reading triggers action?,SOP-HYG-008,rev 2,SOP-HYG-008,rev 2,yes
+What is the forced ageing cycle?,SOP-CHE-044,rev 1,,,no
+What is the TPO limit for cans?,SPEC-REL-004,rev 6,SPEC-REL-004,rev 6,yes

@@ -1,0 +1,4 @@
+batch_key,batch_id,vessel_key,item_key,fill_start_utc,empty_utc,closed_flag,close_reason_code,source_system
+1,F07-26-034,10,1060,2026-03-12 01:10:00,2026-04-10 05:50:00,1,TRANSFERRED,cellar_log
+2,F08-26-035,11,1060,2026-03-13 01:10:00,2026-04-11 05:30:00,1,TRANSFERRED,cellar_log
+3,F09-26-036,12,1061,2026-03-14 01:10:00,2026-03-28 05:30:00,1,TRANSFERRED,cellar_log

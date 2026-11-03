@@ -1,0 +1,6 @@
+Loss Percent =
+DIVIDE (
+    SUM ( Volume[CastHL] ) - SUM ( Volume[DispatchedHL] ),
+    SUM ( Volume[CastHL] )
+)
+Loss hL = SUM ( Stage[LossHL] )

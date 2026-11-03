@@ -1,0 +1,24 @@
+vessel_key,vessel_code,vessel_type,capacity_hl,normal_loss_pct,site_key,valid_from,valid_to,source_system
+1,MT01,mash tun,330,,1,2020-01-01,,erp
+2,KT01,kettle,330,,1,2020-01-01,,erp
+3,WP01,whirlpool,330,,1,2020-01-01,,erp
+4,FV01,fermenter,600,1.9,1,2020-01-01,,erp
+5,FV02,fermenter,600,1.9,1,2020-01-01,,erp
+6,FV03,fermenter,600,1.9,1,2020-01-01,,erp
+7,FV04,fermenter,600,1.9,1,2020-01-01,,erp
+8,FV05,fermenter,600,1.9,1,2020-01-01,,erp
+9,FV06,fermenter,600,1.9,1,2020-01-01,,erp
+10,FV07,fermenter,600,1.9,1,2020-01-01,,erp
+11,FV08,fermenter,600,1.9,1,2020-01-01,,erp
+12,FV09,fermenter,600,1.9,1,2020-01-01,,erp
+13,FV10,fermenter,600,1.9,1,2020-01-01,2025-06-30,erp
+14,FV10,fermenter,600,1.9,1,2025-07-01,,erp
+15,FV11,fermenter,600,1.9,1,2020-01-01,,erp
+16,FV12,fermenter,600,1.9,1,2020-01-01,,erp
+17,FV13,fermenter,600,1.9,1,2020-01-01,,erp
+18,FV14,fermenter,600,1.9,1,2020-01-01,,erp
+19,FV15,fermenter,600,1.9,1,2020-01-01,,erp
+20,BT01,bright beer tank,600,0.6,1,2020-01-01,,erp
+21,BT02,bright beer tank,600,0.6,1,2020-01-01,,erp
+22,BT03,bright beer tank,600,0.6,1,2020-01-01,,erp
+23,BT04,bright beer tank,600,0.6,1,2020-01-01,,erp

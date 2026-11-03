@@ -1,0 +1,20 @@
+item_key,item_code,item_name,item_type,base_unit,fill_volume_hl,valid_from,valid_to,source_system
+1001,PILS-MALT,Pilsner malt,malt,kg,,2024-01-01,,erp
+1002,PALE-MALT,Pale ale malt,malt,kg,,2024-01-01,,erp
+1003,CRYS-MALT,Crystal malt,malt,kg,,2024-01-01,,erp
+1010,HOP-BITTER,Bittering hop pellets,hops,kg,,2024-01-01,,erp
+1011,HOP-AROMA,Aroma hop pellets,hops,kg,,2024-01-01,,erp
+1020,YEAST-LAG,Lager yeast slurry,yeast,kg,,2024-01-01,,erp
+1021,YEAST-ALE,Ale yeast slurry,yeast,kg,,2024-01-01,,erp
+1030,CO2,Carbon dioxide,co2,kg,,2024-01-01,,erp
+1040,CAN-330,Empty can 330 ml,can,each,0.0033,2024-01-01,,erp
+1041,BTL-330,Empty bottle 330 ml,bottle,each,0.0033,2024-01-01,,erp
+1042,CROWN,Crown cork,crown,each,,2024-01-01,,erp
+1043,LABEL-LAG,Lager bottle label,label,each,,2024-01-01,,erp
+1050,WORT-LAG,Lager wort,wort,hL,,2024-01-01,,erp
+1051,WORT-PA,Pale ale wort,wort,hL,,2024-01-01,,erp
+1060,BEER-LAG,"Kestrel Lager, beer",beer,hL,,2024-01-01,,erp
+1061,BEER-PA,"Kestrel Pale Ale, beer",beer,hL,,2024-01-01,,erp
+1070,SKU-LAG-CAN,Kestrel Lager 330 ml can,product,hL,0.0033,2024-01-01,,erp
+1071,SKU-LAG-BTL,Kestrel Lager 330 ml bottle,product,hL,0.0033,2024-01-01,,erp
+1072,SKU-PA-CAN,Kestrel Pale Ale 330 ml can,product,hL,0.0033,2024-01-01,,erp

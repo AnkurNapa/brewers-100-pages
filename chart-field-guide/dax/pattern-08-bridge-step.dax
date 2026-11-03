@@ -1,0 +1,27 @@
+Volume hL = SUM ( Sales[VolumeHL] )
+Contribution = SUM ( Sales[NetRevenue] ) - SUM ( Sales[VariableCost] )
+Net Price per hL = DIVIDE ( SUM ( Sales[NetRevenue] ), [Volume hL] )
+Variable Cost per hL = DIVIDE ( SUM ( Sales[VariableCost] ), [Volume hL] )
+Prior Volume hL = CALCULATE ( [Volume hL], DATEADD ( 'Date'[Date], -1, MONTH ) )
+Prior Contribution = CALCULATE ( [Contribution], DATEADD ( 'Date'[Date], -1, MONTH ) )
+Prior Price per hL = CALCULATE ( [Net Price per hL], DATEADD ( 'Date'[Date], -1, MONTH ) )
+Prior Cost per hL = CALCULATE ( [Variable Cost per hL], DATEADD ( 'Date'[Date], -1, MONTH ) )
+Prior Unit Contribution = DIVIDE ( [Prior Contribution], [Prior Volume hL] )
+Volume Effect =
+( [Volume hL] - [Prior Volume hL] ) * [Prior Unit Contribution]
+Mix Effect =
+SUMX ( VALUES ( Sku[Brand] ), [Volume hL] * [Prior Unit Contribution] )
+    - [Volume hL] * [Prior Unit Contribution]
+Price Effect =
+SUMX (
+    VALUES ( Sku[Brand] ),
+    ( [Net Price per hL] - [Prior Price per hL] ) * [Volume hL]
+)
+Cost Effect =
+SUMX (
+    VALUES ( Sku[Brand] ),
+    ( [Prior Cost per hL] - [Variable Cost per hL] ) * [Volume hL]
+)
+Bridge Check =
+[Contribution] - [Prior Contribution]
+    - ( [Volume Effect] + [Mix Effect] + [Price Effect] + [Cost Effect] )

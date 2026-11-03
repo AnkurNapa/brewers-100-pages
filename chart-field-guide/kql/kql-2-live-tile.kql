@@ -1,0 +1,3 @@
+Readings
+| where Tag == "Temp" and Time > ago(15m)
+| summarize arg_max(Time, Value) by Tank
