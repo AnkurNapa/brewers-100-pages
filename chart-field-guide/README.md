@@ -10,7 +10,7 @@ python3 make_data.py
 python3 check_numbers.py
 ```
 
-`make_data.py` writes every CSV in `data/` from fixed seeds. `check_numbers.py` asserts the numbers the book prints from this data (110 checks); it also rebuilds the DAX known answers of Appendix B and the KQL golden band in pandas.
+`make_data.py` writes every CSV in `data/` from fixed seeds. `check_numbers.py` asserts the numbers the book prints from this data (116 checks); it also rebuilds in pandas the known answers of all ten DAX patterns and both KQL queries in Appendix B.
 
 Open the notebooks in Jupyter from the `notebooks/` folder; they read `../data/`.
 

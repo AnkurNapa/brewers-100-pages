@@ -232,4 +232,30 @@ ok("ch12 shares sum to 1 for every child", True, True)
 ph = lab[lab.Analyte == "pH"].set_index("FillId").Value
 ok("B.10 blend expected pH, bright tank BT03", sum(bt.Share[p] * ph[p] for p in bt.index), ph["BT03-26-071"], 2)
 
+# ---------- pattern 7: rolling 28 day average of dispatch ----------
+daily = load("Daily", parse_dates=["Date"]).set_index("Date").DispatchedHL
+win = daily["2026-03-04":"2026-03-31"]                     # DATESINPERIOD back 28 days from 31 March; Sundays hold 0, not blank
+ok("B.8 days in the window ending 31 March", len(win), 28)
+ok("B.8 rolling 28 day average at 31 March (hL a day)", win.mean(), 276.5, 1)
+
+# ---------- pattern 10: as-of result on fill F08-25-301 ----------
+ae = lab[(lab.FillId == "F08-25-301") & (lab.Analyte == "Apparent extract")].copy()
+ae["EnteredAt"] = pd.to_datetime(ae.EnteredAt)
+
+
+def as_of(moment):
+    known = ae[ae.EnteredAt <= pd.Timestamp(moment)]
+    return known[known.SampledAt == known.SampledAt.max()].Value.mean()
+
+
+ok("B.11 as of 9 October 2025 18:00 (both 9 October samples still unentered)", as_of("2025-10-09T18:00"), 5.99, 2)
+ok("B.11 as of 10 October 2025 00:00 (the 18:00 sample is now entered)", as_of("2025-10-10T00:00"), 3.45, 2)
+
+# ---------- KQL 2: the live tile with the last reading taken as now ----------
+tmp = rd[rd.Tag == "Temp"]
+now = tmp.Time.max() + pd.Timedelta(minutes=1)
+tile = tmp[tmp.Time > now - pd.Timedelta(minutes=15)].sort_values("Time").groupby("Tank").tail(1)
+ok("B.13 live tile rows (one per fermenter)", len(tile), 15)
+ok("B.13 live tile time on every row", tile.Time.nunique(), 1)
+
 print(f"\nAll {COUNT} checks pass.")

@@ -216,6 +216,7 @@ def ch6():
         ok(f"ch6 ARL {label} at {d} sigma", arl_shewhart(d), want, p)
     for d, want, p in ((0.3, 117, 0), (0.5, 59, 0), (1, 19, 0)): ok(f"ch6 ARL eight in a row at {d} sigma", arl_runs(d), want, p)
     for d, want, p in ((0, 465, 0), (0.3, 103, 0), (0.5, 38, 0), (1, 10.4, 1)): ok(f"ch6 ARL CUSUM at {d} sigma", arl_cusum(d), want, p)
+    ok("ch6 ARL upper CUSUM alone, no shift, about 930", 2 * arl_cusum(0), 930, -1)
     for d, want, p in ((0, 560, -1), (0.3, 121, 0), (0.5, 44, 0), (1, 11, 0)): ok(f"ch6 ARL EWMA at {d} sigma", arl_ewma(d), want, p)
     rng = np.random.default_rng(44)                   # the 3,000 run test
     sims = rng.normal(4.35, 0.03, (3000, 150)); sims[:, 60:] += 0.015

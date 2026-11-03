@@ -146,9 +146,18 @@ def real_state_rows():
             source_fetch_date="2026-11-03",
             note=("paid by the brewery before removal; a standard case is 12 x 650 ml, "
                   "24 x 325 ml bottles or 24 cans of 500 ml"), **real),
-        row(row_id="TN-BEER-DUTY", state="Tamil Nadu", kind="duty", item="beer excise", band="beer",
+        row(row_id="TN-DRAUGHT-2024-06", state="Tamil Nadu", kind="duty", item="draught beer",
+            band="draught beer", design="B", rate_per_bl=42.60, effective_from="2024-06-10",
+            notification=("G.O. Ms. No. 26, Home, Prohibition and Excise (III-2), notification "
+                          "No. II(1)/HOPE/10(r)/2024, Gazette Extraordinary No. 186 of 10 June 2024, "
+                          "amending notification No. II(1)/PE/239(d)/81 under section 18-B"),
+            link="stationeryprinting.tn.gov.in/extraordinary/2024/186_Ex_II_1_2024.pdf",
+            source_fetch_date="2026-11-03",
+            note=("up from INR 13.10; draught only, not bottled beer; no later amendment found; "
+                  "effective date taken as the gazette date"), **real),
+        row(row_id="TN-BEER-DUTY", state="Tamil Nadu", kind="duty", item="bottled beer excise", band="beer",
             notification=None, source_fetch_date="2026-11-03", checked_by=None, checked_on=None,
-            status="not found", note="basis and rate not found in a public source"),
+            status="not found", note="basis and rate for bottled or canned beer not found in a public source"),
         row(row_id="HR-FEE-BOTTLING-2024-25", state="Haryana", kind="fee", item="bottling fee",
             band="beer", fee_amount=12.0, fee_unit="INR a bulk litre",
             notification="Food Business Middle East and Africa, 23 May 2024 (trade press)",

@@ -20,7 +20,7 @@ Every place *The Brewer's Chart Field Guide* says a file sits on the companion s
 | 14 | Ch 15, 15.4 With code | A notebook that runs the four Kestrel checks and prints pass or fail | `notebooks/ch15-trust-checks.ipynb` | built; the sensor check fails on purpose for the F11 dropout |
 | 15 | Ch 15 footnote 1 | Kestrel synthetic dataset for the chapter | `data/Readings.csv`, `data/Fill.csv` | built |
 | 16 | Appendix B, B.2 to B.11 | Ten DAX patterns, ready to copy | `dax/pattern-01-*.dax` to `dax/pattern-10-*.dax` | built with a note: text exactly as printed; not run in Power BI here, known answers checked in pandas |
-| 17 | Appendix B, B.12 and B.13 | Two KQL queries | `kql/kql-1-golden-band.kql`, `kql/kql-2-live-tile.kql` | built with a note: text exactly as printed; not run in an Eventhouse here, the band is checked in pandas |
+| 17 | Appendix B, B.12 and B.13 | Two KQL queries | `kql/kql-1-golden-band.kql`, `kql/kql-2-live-tile.kql` | built with a note: text exactly as printed; not run in an Eventhouse here, the band and the live tile are checked in pandas |
 | 18 | Appendix B, B.1 | The Kestrel model uses these table and column names | `data/*.csv` | built; B.1 now lists the Brew table pattern 4 needs |
 | 19 | Preface | No downloadable Power BI template is promised | none | not built: a PBIX or PBIP file cannot be built here; `README.md` says how to load the CSVs, DAX and KQL |
 | 20 | Ch 6 and 13 | A Fabric notebook or Eventhouse item | none | not built: Fabric items cannot be built here; the README covers loading the CSVs into a lakehouse and an Eventhouse |
@@ -29,9 +29,11 @@ Every place *The Brewer's Chart Field Guide* says a file sits on the companion s
 
 - Preface, The companion site: the list of notebooks now includes chapter 7 (the stage table, waterfall and reconcile check).
 - Appendix B.1: adds the Brew table that pattern 4 reads.
+- Appendix B.8, B.11 and B.13: known answers added for the rolling average, the as-of result and the live tile (close-out, 3 November 2026).
+- Appendix B.1: adds the AsOf table that pattern 10 reads.
 - Appendix B.4: the known answer now says Cpk is about 1.01 from the unrounded moving range, 1.02 with sigma rounded to 0.129 as in chapter 6. The DAX does not round.
 
 ## Tests run
 
-- `python3 make_data.py` then `python3 check_numbers.py`: 110 checks pass.
+- `python3 make_data.py` then `python3 check_numbers.py`: 116 checks pass.
 - Every notebook run top to bottom as a script with `MPLBACKEND=Agg`: all eight pass.

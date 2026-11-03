@@ -191,6 +191,31 @@ fc = k.load("bronze_linectl_fill_check")
 cans = fc[fc.pack_lot_id.str.contains("-C1-")]
 check("D15 fill giveaway ml", (cans.measured_ml - cans.declared_ml).mean(), 4, 0)
 check("D15 fill giveaway percent", pct(4, 330), 1.2, 1)
+# entries 11, 14, 16, 18 and 19: companion slice values
+oee = [ls[ls.kpi_name == n] for n in ("OEE availability", "OEE performance", "OEE quality")]
+oee = [x.numerator.sum() / x.denominator.sum() for x in oee]
+check("D11 OEE availability", 100 * oee[0], 78.5, 1)
+check("D11 OEE performance", 100 * oee[1], 86.4, 1)
+check("D11 OEE quality", 100 * oee[2], 99.7, 1)
+check("D11 OEE", 100 * oee[0] * oee[1] * oee[2], 67.6, 1)
+rj = kpi["kpi_pack_lot"][kpi["kpi_pack_lot"].kpi_name == "Reject rate"]
+check("D14 rejected packs", rj.numerator.sum(), 774, 0)
+check("D14 packs filled", rj.denominator.sum(), 284454, 0)
+check("D14 reject rate", pct(rj.numerator.sum(), rj.denominator.sum()), 0.27, 2)
+res = k.q(con, """SELECT s.batch_key, r.test_code, r.in_spec_flag, r.is_current, r.entered_at_utc
+    FROM result r JOIN sample s USING (sample_key) WHERE r.spec_key IS NOT NULL""")
+rft = res.sort_values("entered_at_utc").groupby(["batch_key", "test_code"]).first().groupby("batch_key").in_spec_flag.min()
+check("D16 fills right first time", rft.sum(), 2, 0)
+check("D16 right first time", pct(rft.sum(), len(rft)), 66.7, 1)
+cur = res[res.is_current == 1]
+check("D18 current results", len(cur), 26, 0)
+check("D18 spec compliance", pct(cur.in_spec_flag.sum(), len(cur)), 100.0, 1)
+shipped = k.q(con, """SELECT SUM(p.unit_count) AS packs FROM movement m
+    JOIN package_unit p ON p.package_unit_key = m.from_node_key
+    WHERE m.movement_type = 'ship' AND m.posted_utc LIKE '2026-04%'""").packs[0]
+complaints = (k.load("bronze_qa_complaint").received_date.str[:7] == "2026-04").sum()
+check("D19 packs dispatched April", shipped, 183840, 0)
+check("D19 complaints per million packs", complaints / shipped * 1_000_000, 5.44, 2)
 check("11.3 dispatch yield", pct(march.dispatched_hl, march.cast_hl), 95.7, 1)
 check("11.4 pooled rate", pct(80, 3000), 2.67, 2)
 

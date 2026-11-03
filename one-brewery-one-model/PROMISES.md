@@ -1,7 +1,7 @@
 # Promises the book makes about companion files
 
 Status: built, built with a note or not built. Tested on 3 November 2026: `make_data.py`, `check_numbers.py`
-(112 printed numbers), `pipeline.py` (run twice) and all 14 notebooks run top to bottom.
+(125 printed numbers), `pipeline.py` (run twice) and all 14 notebooks run top to bottom.
 
 | Where | Promise | File | Status |
 |---|---|---|---|
@@ -20,7 +20,7 @@ Status: built, built with a note or not built. Tested on 3 November 2026: `make_
 | 8.6 | Builds all 14 tables from the Kestrel extract; runs the share check | `notebooks/ch08-model-tables.ipynb` | Built |
 | 9.5.1 | The CTE run on SQLite returns 23 pallets at 0.783; the loop gives the same; backward gives 0.783 and 0.217 | `sql/lineage_forward.sql`, `sql/lineage_backward.sql`, `check_numbers.py` | Built |
 | 10.5 | Builds the stage table from vessel events; prints the closure gap per month | `notebooks/ch10-mass-balance.ipynb` | Built with a note: the year is held as vessel event volumes summed by month and stage, not one row per event |
-| 11.5; 14.2 | Each entry reproduces its check value on the synthetic dataset | `check_numbers.py`, `notebooks/ch14-measures.ipynb` | Built: all 13 stated check values pass |
+| 11.5; 14.2 | Each entry reproduces its check value on the synthetic dataset | `check_numbers.py`, `notebooks/ch14-measures.ipynb` | Built: all 18 stated check values pass; 17 and 20 wait for a hold record and the drill log |
 | 11.6 | Reads a dictionary CSV; fails a missing field, a formula naming a column the model lacks, a blank owner | `notebooks/ch11-dictionary-check.ipynb` | Built with a note: names in backticks in the formula or source fields are checked; Appendix D formulas are prose, so the notebook breaks a copy to show the failure |
 | 12.4 | Runs the five checks on the Kestrel week; writes a quarantine table | `notebooks/ch12-quality-checks.ipynb` | Built: 7 rows, one or more per check |
 | 13.3 | Builds `silver_vessel_event` for the slice; prints the quarantine table | `notebooks/ch13-silver-vessel-event.ipynb` | Built with a note: only FV07 has a historian trace in the slice; other fills come from typed logs |
@@ -32,8 +32,8 @@ Status: built, built with a note or not built. Tested on 3 November 2026: `make_
 | Appendix C.3 | A small drill log that QA fills in | `data/drill_log.csv` | Built: header only |
 | Appendix C.5 | The lineage query and the WHILE loop | `sql/` | Built: character for character |
 
-## Values the slice gives for entries set "on the first load"
+## Slice values printed in Appendix D
 
 OEE 67.6 percent over all line shifts; reject rate 0.27 percent; right first time 66.7 percent (F08-26-035 failed
 bitterness on first test); spec compliance 100.0 percent on current results; complaints per million packs 5.44
-for April 2026. These are teaching values from a three day slice, not plant figures.
+for April 2026. Appendix D prints these five as check values, labelled as slice values. They are teaching values from a three day slice, not plant figures.
